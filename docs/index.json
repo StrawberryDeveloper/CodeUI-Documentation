@@ -1,4 +1,9 @@
 {
+  "README.html": {
+    "href": "README.html",
+    "title": "CodeUI-Documentation | CodeUI Documentation",
+    "keywords": "CodeUI-Documentation"
+  },
   "api/CodeUI.BaseUI.html": {
     "href": "api/CodeUI.BaseUI.html",
     "title": "Class BaseUI | CodeUI Documentation",

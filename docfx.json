@@ -40,7 +40,7 @@
         ]
       }
     ],
-    "output": "_site",
+    "output": "docs",
     "globalMetadata": {
       "_appTitle": "CodeUI Documentation",
       "_appFooter": "CodeUI — Fluent & Declarative Framework for Unity UI Toolkit",

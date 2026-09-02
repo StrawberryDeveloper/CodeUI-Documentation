@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>CodeUI Documentation | CodeUI Documentation </title>
+      <title>CodeUI-Documentation | CodeUI Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="CodeUI Documentation | CodeUI Documentation ">
+      <meta name="title" content="CodeUI-Documentation | CodeUI Documentation ">
       
       
       <link rel="icon" href="images/favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="">
       
       
-      
+      <meta name="docfx:docurl" content="https://github.com/StrawberryDeveloper/CodeUI-Documentation/blob/main/README.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -71,57 +71,13 @@
         </div>
 
         <article data-uid="">
-<h1 id="codeui-documentation">CodeUI Documentation</h1>
+<h1 id="codeui-documentation">CodeUI-Documentation</h1>
 
-<p>CodeUI is a fluent, declarative C# framework for building user interfaces with Unity UI Toolkit (UIElements). It removes the boilerplate associated with UXML and USS by enabling full layout, styling, event binding, and state transitions directly in code.</p>
-<hr>
-<h2 id="features">Features</h2>
-<ul>
-<li><strong>Fluent API</strong>: Chain extension methods to style, layout, and position visual elements directly in C#.</li>
-<li><strong>Design Tokens</strong>: Standardized constants for spacing (<code>Spacing</code>), font sizes (<code>FontSize</code>), and corner radii (<code>Radius</code>).</li>
-<li><strong>Unity Data Binding</strong>: Declarative wrappers for binding properties to Unity Data Sources via <code>BindText</code> and <code>BindValue</code>.</li>
-<li><strong>Type-Safe Transitions</strong>: Animate CSS properties cleanly using the <code>TransitionProperty</code> enum.</li>
-<li><strong>Zero External Dependencies</strong>: Built natively on top of <code>UnityEngine.UIElements</code>.</li>
-</ul>
-<hr>
-<h2 id="quick-example">Quick Example</h2>
-<p>Inherit from <code>BaseUI</code> to define your component hierarchy:</p>
-<pre><code class="lang-csharp">using CodeUI;
-using CodeUI.Extensions;
-using CodeUI.Tokens;
-using UnityEngine;
-using UnityEngine.UIElements;
-
-public class MainMenuUI : BaseUI
-{
-    protected override void Generate(VisualElement root)
-    {
-        root.Column()
-            .Center()
-            .Padding(Spacing.LG)
-            .WithChildren(
-                new Label(&quot;Main Menu&quot;)
-                    .FontSize(FontSize.XL)
-                    .Margin(bottom: Spacing.MD),
-
-                new Button(() =&gt; Debug.Log(&quot;Start Game&quot;))
-                    .SetText(&quot;Play&quot;)
-                    .Padding(Spacing.SM, Spacing.MD)
-                    .BorderRadius(Radius.MD)
-            );
-    }
-}
-</code></pre>
-<hr>
-<h2 id="documentation">Documentation</h2>
-<ul>
-<li><a href="articles/getting-started.html">Getting Started Guide</a></li>
-<li><a href="api/CodeUI.html">API Reference</a></li>
-</ul>
 
 </article>
 
         <div class="contribution d-print-none">
+          <a href="https://github.com/StrawberryDeveloper/CodeUI-Documentation/blob/main/README.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
