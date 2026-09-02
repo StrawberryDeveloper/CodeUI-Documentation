@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Components.Spacer
+  commentId: T:CodeUI.Components.Spacer
+  id: Spacer
+  parent: CodeUI.Components
+  children:
+  - CodeUI.Components.Spacer.#ctor(System.Single,System.Single)
+  - CodeUI.Components.Spacer.Horizontal(System.Single)
+  - CodeUI.Components.Spacer.Vertical(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: Spacer
+  nameWithType: Spacer
+  fullName: CodeUI.Components.Spacer
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Components
+  syntax:
+    content: 'public class Spacer : VisualElement'
+    content.vb: Public Class Spacer Inherits VisualElement
+  inheritance:
+  - System.Object
+- uid: CodeUI.Components.Spacer.#ctor(System.Single,System.Single)
+  commentId: M:CodeUI.Components.Spacer.#ctor(System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single)'
+  parent: CodeUI.Components.Spacer
+  langs:
+  - csharp
+  - vb
+  name: Spacer(float, float)
+  nameWithType: Spacer.Spacer(float, float)
+  fullName: CodeUI.Components.Spacer.Spacer(float, float)
+  type: Constructor
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Components
+  syntax:
+    content: public Spacer(float width, float height = 0)
+    parameters:
+    - id: width
+      type: System.Single
+    - id: height
+      type: System.Single
+    content.vb: Public Sub New(width As Single, height As Single = 0)
+  overload: CodeUI.Components.Spacer.#ctor*
+  nameWithType.vb: Spacer.New(Single, Single)
+  fullName.vb: CodeUI.Components.Spacer.New(Single, Single)
+  name.vb: New(Single, Single)
+- uid: CodeUI.Components.Spacer.Horizontal(System.Single)
+  commentId: M:CodeUI.Components.Spacer.Horizontal(System.Single)
+  id: Horizontal(System.Single)
+  parent: CodeUI.Components.Spacer
+  langs:
+  - csharp
+  - vb
+  name: Horizontal(float)
+  nameWithType: Spacer.Horizontal(float)
+  fullName: CodeUI.Components.Spacer.Horizontal(float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Components
+  syntax:
+    content: public static Spacer Horizontal(float width)
+    parameters:
+    - id: width
+      type: System.Single
+    return:
+      type: CodeUI.Components.Spacer
+    content.vb: Public Shared Function Horizontal(width As Single) As Spacer
+  overload: CodeUI.Components.Spacer.Horizontal*
+  nameWithType.vb: Spacer.Horizontal(Single)
+  fullName.vb: CodeUI.Components.Spacer.Horizontal(Single)
+  name.vb: Horizontal(Single)
+- uid: CodeUI.Components.Spacer.Vertical(System.Single)
+  commentId: M:CodeUI.Components.Spacer.Vertical(System.Single)
+  id: Vertical(System.Single)
+  parent: CodeUI.Components.Spacer
+  langs:
+  - csharp
+  - vb
+  name: Vertical(float)
+  nameWithType: Spacer.Vertical(float)
+  fullName: CodeUI.Components.Spacer.Vertical(float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Components
+  syntax:
+    content: public static Spacer Vertical(float height)
+    parameters:
+    - id: height
+      type: System.Single
+    return:
+      type: CodeUI.Components.Spacer
+    content.vb: Public Shared Function Vertical(height As Single) As Spacer
+  overload: CodeUI.Components.Spacer.Vertical*
+  nameWithType.vb: Spacer.Vertical(Single)
+  fullName.vb: CodeUI.Components.Spacer.Vertical(Single)
+  name.vb: Vertical(Single)
+references:
+- uid: CodeUI.Components
+  commentId: N:CodeUI.Components
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Components
+  nameWithType: CodeUI.Components
+  fullName: CodeUI.Components
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Components
+    name: Components
+    isExternal: true
+    href: CodeUI.Components.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Components
+    name: Components
+    isExternal: true
+    href: CodeUI.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.Components.Spacer.#ctor*
+  commentId: Overload:CodeUI.Components.Spacer.#ctor
+  isExternal: true
+  href: CodeUI.Components.Spacer.html#CodeUI_Components_Spacer__ctor_System_Single_System_Single_
+  name: Spacer
+  nameWithType: Spacer.Spacer
+  fullName: CodeUI.Components.Spacer.Spacer
+  nameWithType.vb: Spacer.New
+  fullName.vb: CodeUI.Components.Spacer.New
+  name.vb: New
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: CodeUI.Components.Spacer.Horizontal*
+  commentId: Overload:CodeUI.Components.Spacer.Horizontal
+  isExternal: true
+  href: CodeUI.Components.Spacer.html#CodeUI_Components_Spacer_Horizontal_System_Single_
+  name: Horizontal
+  nameWithType: Spacer.Horizontal
+  fullName: CodeUI.Components.Spacer.Horizontal
+- uid: CodeUI.Components.Spacer
+  commentId: T:CodeUI.Components.Spacer
+  parent: CodeUI.Components
+  isExternal: true
+  href: CodeUI.Components.Spacer.html
+  name: Spacer
+  nameWithType: Spacer
+  fullName: CodeUI.Components.Spacer
+- uid: CodeUI.Components.Spacer.Vertical*
+  commentId: Overload:CodeUI.Components.Spacer.Vertical
+  isExternal: true
+  href: CodeUI.Components.Spacer.html#CodeUI_Components_Spacer_Vertical_System_Single_
+  name: Vertical
+  nameWithType: Spacer.Vertical
+  fullName: CodeUI.Components.Spacer.Vertical

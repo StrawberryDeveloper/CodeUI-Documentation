@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Components
+  commentId: N:CodeUI.Components
+  id: CodeUI.Components
+  children:
+  - CodeUI.Components.Divider
+  - CodeUI.Components.Spacer
+  langs:
+  - csharp
+  - vb
+  name: CodeUI.Components
+  nameWithType: CodeUI.Components
+  fullName: CodeUI.Components
+  type: Namespace
+  assemblies:
+  - CodeUI
+references:
+- uid: CodeUI.Components.Divider
+  commentId: T:CodeUI.Components.Divider
+  isExternal: true
+  href: CodeUI.Components.Divider.html
+  name: Divider
+  nameWithType: Divider
+  fullName: CodeUI.Components.Divider
+- uid: CodeUI.Components.Spacer
+  commentId: T:CodeUI.Components.Spacer
+  parent: CodeUI.Components
+  isExternal: true
+  href: CodeUI.Components.Spacer.html
+  name: Spacer
+  nameWithType: Spacer
+  fullName: CodeUI.Components.Spacer
+- uid: CodeUI.Components
+  commentId: N:CodeUI.Components
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Components
+  nameWithType: CodeUI.Components
+  fullName: CodeUI.Components
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Components
+    name: Components
+    isExternal: true
+    href: CodeUI.Components.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Components
+    name: Components
+    isExternal: true
+    href: CodeUI.Components.html

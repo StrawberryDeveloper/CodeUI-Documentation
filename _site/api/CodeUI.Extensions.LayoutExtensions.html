@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class LayoutExtensions | CodeUI Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class LayoutExtensions | CodeUI Documentation ">
+      
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="CodeUI.Extensions.LayoutExtensions">
+
+
+
+  <h1 id="CodeUI_Extensions_LayoutExtensions" data-uid="CodeUI.Extensions.LayoutExtensions" class="text-break">
+Class LayoutExtensions  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="CodeUI.html">CodeUI</a>.<a class="xref" href="CodeUI.Extensions.html">Extensions</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>CodeUI.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class LayoutExtensions</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">LayoutExtensions</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Absolute_" data-uid="CodeUI.Extensions.LayoutExtensions.Absolute*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Absolute__1___0_" data-uid="CodeUI.Extensions.LayoutExtensions.Absolute``1(``0)">
+  Absolute&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Absolute&lt;T&gt;(this T element) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_AlignItems_" data-uid="CodeUI.Extensions.LayoutExtensions.AlignItems*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_AlignItems__1___0_UnityEngine_UIElements_Align_" data-uid="CodeUI.Extensions.LayoutExtensions.AlignItems``1(``0,UnityEngine.UIElements.Align)">
+  AlignItems&lt;T&gt;(T, Align)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T AlignItems&lt;T&gt;(this T element, Align align) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>align</code> <span class="xref">Align</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_AlignSelf_" data-uid="CodeUI.Extensions.LayoutExtensions.AlignSelf*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_AlignSelf__1___0_UnityEngine_UIElements_Align_" data-uid="CodeUI.Extensions.LayoutExtensions.AlignSelf``1(``0,UnityEngine.UIElements.Align)">
+  AlignSelf&lt;T&gt;(T, Align)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T AlignSelf&lt;T&gt;(this T element, Align align) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>align</code> <span class="xref">Align</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Bottom_" data-uid="CodeUI.Extensions.LayoutExtensions.Bottom*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Bottom__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.Bottom``1(``0,UnityEngine.UIElements.Length)">
+  Bottom&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Bottom&lt;T&gt;(this T element, Length bottom) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>bottom</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Center_" data-uid="CodeUI.Extensions.LayoutExtensions.Center*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Center__1___0_" data-uid="CodeUI.Extensions.LayoutExtensions.Center``1(``0)">
+  Center&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Center&lt;T&gt;(this T element) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Column_" data-uid="CodeUI.Extensions.LayoutExtensions.Column*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Column__1___0_" data-uid="CodeUI.Extensions.LayoutExtensions.Column``1(``0)">
+  Column&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Column&lt;T&gt;(this T element) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_FlexBasis_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexBasis*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_FlexBasis__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexBasis``1(``0,UnityEngine.UIElements.Length)">
+  FlexBasis&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T FlexBasis&lt;T&gt;(this T element, Length basis) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>basis</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_FlexDirection_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexDirection*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_FlexDirection__1___0_UnityEngine_UIElements_FlexDirection_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexDirection``1(``0,UnityEngine.UIElements.FlexDirection)">
+  FlexDirection&lt;T&gt;(T, FlexDirection)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T FlexDirection&lt;T&gt;(this T element, FlexDirection direction) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>direction</code> <span class="xref">FlexDirection</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_FlexGrow_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexGrow*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_FlexGrow__1___0_System_Single_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexGrow``1(``0,System.Single)">
+  FlexGrow&lt;T&gt;(T, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T FlexGrow&lt;T&gt;(this T element, float grow) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>grow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_FlexShrink_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexShrink*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_FlexShrink__1___0_System_Single_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexShrink``1(``0,System.Single)">
+  FlexShrink&lt;T&gt;(T, float)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T FlexShrink&lt;T&gt;(this T element, float shrink) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>shrink</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_FlexSize_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexSize*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_FlexSize__1___0_System_Single_System_Single_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexSize``1(``0,System.Single,System.Single,UnityEngine.UIElements.Length)">
+  FlexSize&lt;T&gt;(T, float, float, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T FlexSize&lt;T&gt;(this T element, float grow, float shrink, Length basis) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>grow</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>shrink</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></dt>
+    <dd></dd>
+    <dt><code>basis</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_FlexWrap_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexWrap*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_FlexWrap__1___0_UnityEngine_UIElements_Wrap_" data-uid="CodeUI.Extensions.LayoutExtensions.FlexWrap``1(``0,UnityEngine.UIElements.Wrap)">
+  FlexWrap&lt;T&gt;(T, Wrap)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T FlexWrap&lt;T&gt;(this T element, Wrap wrap) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>wrap</code> <span class="xref">Wrap</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Height_" data-uid="CodeUI.Extensions.LayoutExtensions.Height*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Height__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.Height``1(``0,UnityEngine.UIElements.Length)">
+  Height&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Height&lt;T&gt;(this T element, Length height) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>height</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_JustifyContent_" data-uid="CodeUI.Extensions.LayoutExtensions.JustifyContent*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_JustifyContent__1___0_UnityEngine_UIElements_Justify_" data-uid="CodeUI.Extensions.LayoutExtensions.JustifyContent``1(``0,UnityEngine.UIElements.Justify)">
+  JustifyContent&lt;T&gt;(T, Justify)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T JustifyContent&lt;T&gt;(this T element, Justify justify) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>justify</code> <span class="xref">Justify</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Left_" data-uid="CodeUI.Extensions.LayoutExtensions.Left*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Left__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.Left``1(``0,UnityEngine.UIElements.Length)">
+  Left&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Left&lt;T&gt;(this T element, Length left) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>left</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_MaxHeight_" data-uid="CodeUI.Extensions.LayoutExtensions.MaxHeight*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_MaxHeight__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.MaxHeight``1(``0,UnityEngine.UIElements.Length)">
+  MaxHeight&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MaxHeight&lt;T&gt;(this T element, Length height) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>height</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_MaxWidth_" data-uid="CodeUI.Extensions.LayoutExtensions.MaxWidth*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_MaxWidth__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.MaxWidth``1(``0,UnityEngine.UIElements.Length)">
+  MaxWidth&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MaxWidth&lt;T&gt;(this T element, Length width) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>width</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_MinHeight_" data-uid="CodeUI.Extensions.LayoutExtensions.MinHeight*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_MinHeight__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.MinHeight``1(``0,UnityEngine.UIElements.Length)">
+  MinHeight&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MinHeight&lt;T&gt;(this T element, Length height) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>height</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_MinMaxHeight_" data-uid="CodeUI.Extensions.LayoutExtensions.MinMaxHeight*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_MinMaxHeight__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.MinMaxHeight``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)">
+  MinMaxHeight&lt;T&gt;(T, Length, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MinMaxHeight&lt;T&gt;(this T element, Length min, Length max) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>min</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+    <dt><code>max</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_MinMaxWidth_" data-uid="CodeUI.Extensions.LayoutExtensions.MinMaxWidth*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_MinMaxWidth__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.MinMaxWidth``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)">
+  MinMaxWidth&lt;T&gt;(T, Length, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MinMaxWidth&lt;T&gt;(this T element, Length min, Length max) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>min</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+    <dt><code>max</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_MinWidth_" data-uid="CodeUI.Extensions.LayoutExtensions.MinWidth*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_MinWidth__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.MinWidth``1(``0,UnityEngine.UIElements.Length)">
+  MinWidth&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T MinWidth&lt;T&gt;(this T element, Length width) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>width</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Relative_" data-uid="CodeUI.Extensions.LayoutExtensions.Relative*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Relative__1___0_" data-uid="CodeUI.Extensions.LayoutExtensions.Relative``1(``0)">
+  Relative&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Relative&lt;T&gt;(this T element) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Right_" data-uid="CodeUI.Extensions.LayoutExtensions.Right*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Right__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.Right``1(``0,UnityEngine.UIElements.Length)">
+  Right&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Right&lt;T&gt;(this T element, Length right) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>right</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Row_" data-uid="CodeUI.Extensions.LayoutExtensions.Row*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Row__1___0_" data-uid="CodeUI.Extensions.LayoutExtensions.Row``1(``0)">
+  Row&lt;T&gt;(T)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Row&lt;T&gt;(this T element) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_SetDisplay_" data-uid="CodeUI.Extensions.LayoutExtensions.SetDisplay*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_SetDisplay__1___0_UnityEngine_UIElements_DisplayStyle_" data-uid="CodeUI.Extensions.LayoutExtensions.SetDisplay``1(``0,UnityEngine.UIElements.DisplayStyle)">
+  SetDisplay&lt;T&gt;(T, DisplayStyle)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T SetDisplay&lt;T&gt;(this T element, DisplayStyle display) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>display</code> <span class="xref">DisplayStyle</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_SetPositionMode_" data-uid="CodeUI.Extensions.LayoutExtensions.SetPositionMode*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_SetPositionMode__1___0_UnityEngine_UIElements_Position_" data-uid="CodeUI.Extensions.LayoutExtensions.SetPositionMode``1(``0,UnityEngine.UIElements.Position)">
+  SetPositionMode&lt;T&gt;(T, Position)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T SetPositionMode&lt;T&gt;(this T element, Position positionMode) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>positionMode</code> <span class="xref">Position</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_SetPosition_" data-uid="CodeUI.Extensions.LayoutExtensions.SetPosition*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_SetPosition__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.SetPosition``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)">
+  SetPosition&lt;T&gt;(T, Length, Length, Length, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T SetPosition&lt;T&gt;(this T element, Length top, Length right, Length bottom, Length left) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>top</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+    <dt><code>right</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+    <dt><code>bottom</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+    <dt><code>left</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_SetVisibility_" data-uid="CodeUI.Extensions.LayoutExtensions.SetVisibility*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_SetVisibility__1___0_UnityEngine_UIElements_Visibility_" data-uid="CodeUI.Extensions.LayoutExtensions.SetVisibility``1(``0,UnityEngine.UIElements.Visibility)">
+  SetVisibility&lt;T&gt;(T, Visibility)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T SetVisibility&lt;T&gt;(this T element, Visibility visibility) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>visibility</code> <span class="xref">Visibility</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Size_" data-uid="CodeUI.Extensions.LayoutExtensions.Size*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Size__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length)">
+  Size&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Size&lt;T&gt;(this T element, Length squareSize) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>squareSize</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Size_" data-uid="CodeUI.Extensions.LayoutExtensions.Size*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Size__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)">
+  Size&lt;T&gt;(T, Length, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Size&lt;T&gt;(this T element, Length width, Length height) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>width</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+    <dt><code>height</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Top_" data-uid="CodeUI.Extensions.LayoutExtensions.Top*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Top__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.Top``1(``0,UnityEngine.UIElements.Length)">
+  Top&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Top&lt;T&gt;(this T element, Length top) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>top</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <a id="CodeUI_Extensions_LayoutExtensions_Width_" data-uid="CodeUI.Extensions.LayoutExtensions.Width*"></a>
+
+  <h3 id="CodeUI_Extensions_LayoutExtensions_Width__1___0_UnityEngine_UIElements_Length_" data-uid="CodeUI.Extensions.LayoutExtensions.Width``1(``0,UnityEngine.UIElements.Length)">
+  Width&lt;T&gt;(T, Length)
+  
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Width&lt;T&gt;(this T element, Length width) where T : VisualElement</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>element</code> <span class="xref">T</span></dt>
+    <dd></dd>
+    <dt><code>width</code> <span class="xref">Length</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">T</span></dt>
+    <dd></dd>
+  </dl>
+
+  <h4 class="section">Type Parameters</h4>
+  <dl class="parameters">
+    <dt><code>T</code></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          CodeUI — Fluent & Declarative Framework for Unity UI Toolkit
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

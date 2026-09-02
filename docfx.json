@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "Library/ScriptAssemblies/CodeUI.dll"
+          ],
+          "src": "S:/Unity/Automatica"
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "Template/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "globalMetadata": {
+      "_appTitle": "CodeUI Documentation",
+      "_appFooter": "CodeUI — Fluent & Declarative Framework for Unity UI Toolkit",
+      "_appLogoPath": "images/logo.png",
+      "_appFaviconPath": "images/favicon.ico",
+      "_enableSearch": true
+    },
+    "template": [
+      "default",
+      "modern",
+      "Template"
+    ]
+  }
+}

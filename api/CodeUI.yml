@@ -1,0 +1,32 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI
+  commentId: N:CodeUI
+  id: CodeUI
+  children:
+  - CodeUI.BaseUI
+  - CodeUI.BaseUIEditor
+  langs:
+  - csharp
+  - vb
+  name: CodeUI
+  nameWithType: CodeUI
+  fullName: CodeUI
+  type: Namespace
+  assemblies:
+  - CodeUI
+references:
+- uid: CodeUI.BaseUI
+  commentId: T:CodeUI.BaseUI
+  isExternal: true
+  href: CodeUI.BaseUI.html
+  name: BaseUI
+  nameWithType: BaseUI
+  fullName: CodeUI.BaseUI
+- uid: CodeUI.BaseUIEditor
+  commentId: T:CodeUI.BaseUIEditor
+  isExternal: true
+  href: CodeUI.BaseUIEditor.html
+  name: BaseUIEditor
+  nameWithType: BaseUIEditor
+  fullName: CodeUI.BaseUIEditor

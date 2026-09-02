@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Components.Divider
+  commentId: T:CodeUI.Components.Divider
+  id: Divider
+  parent: CodeUI.Components
+  children:
+  - CodeUI.Components.Divider.#ctor(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: Divider
+  nameWithType: Divider
+  fullName: CodeUI.Components.Divider
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Components
+  syntax:
+    content: 'public class Divider : VisualElement'
+    content.vb: Public Class Divider Inherits VisualElement
+  inheritance:
+  - System.Object
+- uid: CodeUI.Components.Divider.#ctor(System.Boolean)
+  commentId: M:CodeUI.Components.Divider.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: CodeUI.Components.Divider
+  langs:
+  - csharp
+  - vb
+  name: Divider(bool)
+  nameWithType: Divider.Divider(bool)
+  fullName: CodeUI.Components.Divider.Divider(bool)
+  type: Constructor
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Components
+  syntax:
+    content: public Divider(bool horizontal = true)
+    parameters:
+    - id: horizontal
+      type: System.Boolean
+    content.vb: Public Sub New(horizontal As Boolean = True)
+  overload: CodeUI.Components.Divider.#ctor*
+  nameWithType.vb: Divider.New(Boolean)
+  fullName.vb: CodeUI.Components.Divider.New(Boolean)
+  name.vb: New(Boolean)
+references:
+- uid: CodeUI.Components
+  commentId: N:CodeUI.Components
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Components
+  nameWithType: CodeUI.Components
+  fullName: CodeUI.Components
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Components
+    name: Components
+    isExternal: true
+    href: CodeUI.Components.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Components
+    name: Components
+    isExternal: true
+    href: CodeUI.Components.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.Components.Divider.#ctor*
+  commentId: Overload:CodeUI.Components.Divider.#ctor
+  isExternal: true
+  href: CodeUI.Components.Divider.html#CodeUI_Components_Divider__ctor_System_Boolean_
+  name: Divider
+  nameWithType: Divider.Divider
+  fullName: CodeUI.Components.Divider.Divider
+  nameWithType.vb: Divider.New
+  fullName.vb: CodeUI.Components.Divider.New
+  name.vb: New
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

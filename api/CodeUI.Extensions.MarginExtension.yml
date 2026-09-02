@@ -1,0 +1,421 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Extensions.MarginExtension
+  commentId: T:CodeUI.Extensions.MarginExtension
+  id: MarginExtension
+  parent: CodeUI.Extensions
+  children:
+  - CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  langs:
+  - csharp
+  - vb
+  name: MarginExtension
+  nameWithType: MarginExtension
+  fullName: CodeUI.Extensions.MarginExtension
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: public static class MarginExtension
+    content.vb: Public Module MarginExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  id: Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.MarginExtension
+  langs:
+  - csharp
+  - vb
+  name: Margin<T>(T, Length, Length, Length, Length)
+  nameWithType: MarginExtension.Margin<T>(T, Length, Length, Length, Length)
+  fullName: CodeUI.Extensions.MarginExtension.Margin<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Margin<T>(this T element, Length top, Length right, Length bottom, Length left) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: top
+      type: UnityEngine.UIElements.Length
+    - id: right
+      type: UnityEngine.UIElements.Length
+    - id: bottom
+      type: UnityEngine.UIElements.Length
+    - id: left
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Margin(Of T As VisualElement)(element As T, top As Length, right As Length, bottom As Length, left As Length) As T
+  overload: CodeUI.Extensions.MarginExtension.Margin*
+  nameWithType.vb: MarginExtension.Margin(Of T)(T, Length, Length, Length, Length)
+  fullName.vb: CodeUI.Extensions.MarginExtension.Margin(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  name.vb: Margin(Of T)(T, Length, Length, Length, Length)
+- uid: CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  id: Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.MarginExtension
+  langs:
+  - csharp
+  - vb
+  name: Margin<T>(T, Length, Length)
+  nameWithType: MarginExtension.Margin<T>(T, Length, Length)
+  fullName: CodeUI.Extensions.MarginExtension.Margin<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Margin<T>(this T element, Length vertical, Length horizontal) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: vertical
+      type: UnityEngine.UIElements.Length
+    - id: horizontal
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Margin(Of T As VisualElement)(element As T, vertical As Length, horizontal As Length) As T
+  overload: CodeUI.Extensions.MarginExtension.Margin*
+  nameWithType.vb: MarginExtension.Margin(Of T)(T, Length, Length)
+  fullName.vb: CodeUI.Extensions.MarginExtension.Margin(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  name.vb: Margin(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length)
+  id: Margin``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.MarginExtension
+  langs:
+  - csharp
+  - vb
+  name: Margin<T>(T, Length)
+  nameWithType: MarginExtension.Margin<T>(T, Length)
+  fullName: CodeUI.Extensions.MarginExtension.Margin<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Margin<T>(this T element, Length all) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: all
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Margin(Of T As VisualElement)(element As T, all As Length) As T
+  overload: CodeUI.Extensions.MarginExtension.Margin*
+  nameWithType.vb: MarginExtension.Margin(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.MarginExtension.Margin(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: Margin(Of T)(T, Length)
+references:
+- uid: CodeUI.Extensions
+  commentId: N:CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Extensions
+  nameWithType: CodeUI.Extensions
+  fullName: CodeUI.Extensions
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.Extensions.MarginExtension.Margin*
+  commentId: Overload:CodeUI.Extensions.MarginExtension.Margin
+  isExternal: true
+  href: CodeUI.Extensions.MarginExtension.html#CodeUI_Extensions_MarginExtension_Margin__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  name: Margin
+  nameWithType: MarginExtension.Margin
+  fullName: CodeUI.Extensions.MarginExtension.Margin
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.UIElements.Length
+  isExternal: true
+  name: Length
+  nameWithType: Length
+  fullName: UnityEngine.UIElements.Length
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

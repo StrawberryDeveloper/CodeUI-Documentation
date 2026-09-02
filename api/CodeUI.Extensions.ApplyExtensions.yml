@@ -1,0 +1,848 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Extensions.ApplyExtensions
+  commentId: T:CodeUI.Extensions.ApplyExtensions
+  id: ApplyExtensions
+  parent: CodeUI.Extensions
+  children:
+  - CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``1(``0,System.Func{UnityEngine.UIElements.VisualElement,System.Boolean},System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  - CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``2(``0,System.Func{``1,System.Boolean},System.String,System.String,System.Action{``1})
+  - CodeUI.Extensions.ApplyExtensions.ApplyQForEach``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  - CodeUI.Extensions.ApplyExtensions.ApplyQForEach``2(``0,System.String,System.String,System.Action{``1})
+  - CodeUI.Extensions.ApplyExtensions.ApplyQ``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  - CodeUI.Extensions.ApplyExtensions.ApplyQ``2(``0,System.String,System.String,System.Action{``1})
+  - CodeUI.Extensions.ApplyExtensions.Apply``1(``0,System.Action{``0})
+  langs:
+  - csharp
+  - vb
+  name: ApplyExtensions
+  nameWithType: ApplyExtensions
+  fullName: CodeUI.Extensions.ApplyExtensions
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: public static class ApplyExtensions
+    content.vb: Public Module ApplyExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CodeUI.Extensions.ApplyExtensions.Apply``1(``0,System.Action{``0})
+  commentId: M:CodeUI.Extensions.ApplyExtensions.Apply``1(``0,System.Action{``0})
+  id: Apply``1(``0,System.Action{``0})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.ApplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: Apply<T>(T, Action<T>)
+  nameWithType: ApplyExtensions.Apply<T>(T, Action<T>)
+  fullName: CodeUI.Extensions.ApplyExtensions.Apply<T>(T, System.Action<T>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Apply<T>(this T element, Action<T> action) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: action
+      type: System.Action{{T}}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Apply(Of T As VisualElement)(element As T, action As Action(Of T)) As T
+  overload: CodeUI.Extensions.ApplyExtensions.Apply*
+  nameWithType.vb: ApplyExtensions.Apply(Of T)(T, Action(Of T))
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.Apply(Of T)(T, System.Action(Of T))
+  name.vb: Apply(Of T)(T, Action(Of T))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQ``2(``0,System.String,System.String,System.Action{``1})
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQ``2(``0,System.String,System.String,System.Action{``1})
+  id: ApplyQ``2(``0,System.String,System.String,System.Action{``1})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.ApplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ApplyQ<TRoot, TChild>(TRoot, string, string, Action<TChild>)
+  nameWithType: ApplyExtensions.ApplyQ<TRoot, TChild>(TRoot, string, string, Action<TChild>)
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQ<TRoot, TChild>(TRoot, string, string, System.Action<TChild>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static TRoot ApplyQ<TRoot, TChild>(this TRoot element, string name = null, string className = null, Action<TChild> action = null) where TRoot : VisualElement where TChild : VisualElement'
+    parameters:
+    - id: element
+      type: '{TRoot}'
+    - id: name
+      type: System.String
+    - id: className
+      type: System.String
+    - id: action
+      type: System.Action{{TChild}}
+    typeParameters:
+    - id: TRoot
+    - id: TChild
+    return:
+      type: '{TRoot}'
+    content.vb: Public Shared Function ApplyQ(Of TRoot As VisualElement, TChild As VisualElement)(element As TRoot, name As String = Nothing, className As String = Nothing, action As Action(Of TChild) = Nothing) As TRoot
+  overload: CodeUI.Extensions.ApplyExtensions.ApplyQ*
+  nameWithType.vb: ApplyExtensions.ApplyQ(Of TRoot, TChild)(TRoot, String, String, Action(Of TChild))
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQ(Of TRoot, TChild)(TRoot, String, String, System.Action(Of TChild))
+  name.vb: ApplyQ(Of TRoot, TChild)(TRoot, String, String, Action(Of TChild))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQ``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQ``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  id: ApplyQ``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.ApplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ApplyQ<TRoot>(TRoot, string, string, Action<VisualElement>)
+  nameWithType: ApplyExtensions.ApplyQ<TRoot>(TRoot, string, string, Action<VisualElement>)
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQ<TRoot>(TRoot, string, string, System.Action<UnityEngine.UIElements.VisualElement>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static TRoot ApplyQ<TRoot>(this TRoot element, string name = null, string className = null, Action<VisualElement> action = null) where TRoot : VisualElement'
+    parameters:
+    - id: element
+      type: '{TRoot}'
+    - id: name
+      type: System.String
+    - id: className
+      type: System.String
+    - id: action
+      type: System.Action{UnityEngine.UIElements.VisualElement}
+    typeParameters:
+    - id: TRoot
+    return:
+      type: '{TRoot}'
+    content.vb: Public Shared Function ApplyQ(Of TRoot As VisualElement)(element As TRoot, name As String = Nothing, className As String = Nothing, action As Action(Of VisualElement) = Nothing) As TRoot
+  overload: CodeUI.Extensions.ApplyExtensions.ApplyQ*
+  nameWithType.vb: ApplyExtensions.ApplyQ(Of TRoot)(TRoot, String, String, Action(Of VisualElement))
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQ(Of TRoot)(TRoot, String, String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  name.vb: ApplyQ(Of TRoot)(TRoot, String, String, Action(Of VisualElement))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEach``2(``0,System.String,System.String,System.Action{``1})
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQForEach``2(``0,System.String,System.String,System.Action{``1})
+  id: ApplyQForEach``2(``0,System.String,System.String,System.Action{``1})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.ApplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ApplyQForEach<TRoot, TChild>(TRoot, string, string, Action<TChild>)
+  nameWithType: ApplyExtensions.ApplyQForEach<TRoot, TChild>(TRoot, string, string, Action<TChild>)
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEach<TRoot, TChild>(TRoot, string, string, System.Action<TChild>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static TRoot ApplyQForEach<TRoot, TChild>(this TRoot element, string name = null, string className = null, Action<TChild> action = null) where TRoot : VisualElement where TChild : VisualElement'
+    parameters:
+    - id: element
+      type: '{TRoot}'
+    - id: name
+      type: System.String
+    - id: className
+      type: System.String
+    - id: action
+      type: System.Action{{TChild}}
+    typeParameters:
+    - id: TRoot
+    - id: TChild
+    return:
+      type: '{TRoot}'
+    content.vb: Public Shared Function ApplyQForEach(Of TRoot As VisualElement, TChild As VisualElement)(element As TRoot, name As String = Nothing, className As String = Nothing, action As Action(Of TChild) = Nothing) As TRoot
+  overload: CodeUI.Extensions.ApplyExtensions.ApplyQForEach*
+  nameWithType.vb: ApplyExtensions.ApplyQForEach(Of TRoot, TChild)(TRoot, String, String, Action(Of TChild))
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQForEach(Of TRoot, TChild)(TRoot, String, String, System.Action(Of TChild))
+  name.vb: ApplyQForEach(Of TRoot, TChild)(TRoot, String, String, Action(Of TChild))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEach``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQForEach``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  id: ApplyQForEach``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.ApplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ApplyQForEach<TRoot>(TRoot, string, string, Action<VisualElement>)
+  nameWithType: ApplyExtensions.ApplyQForEach<TRoot>(TRoot, string, string, Action<VisualElement>)
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEach<TRoot>(TRoot, string, string, System.Action<UnityEngine.UIElements.VisualElement>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static TRoot ApplyQForEach<TRoot>(this TRoot element, string name = null, string className = null, Action<VisualElement> action = null) where TRoot : VisualElement'
+    parameters:
+    - id: element
+      type: '{TRoot}'
+    - id: name
+      type: System.String
+    - id: className
+      type: System.String
+    - id: action
+      type: System.Action{UnityEngine.UIElements.VisualElement}
+    typeParameters:
+    - id: TRoot
+    return:
+      type: '{TRoot}'
+    content.vb: Public Shared Function ApplyQForEach(Of TRoot As VisualElement)(element As TRoot, name As String = Nothing, className As String = Nothing, action As Action(Of VisualElement) = Nothing) As TRoot
+  overload: CodeUI.Extensions.ApplyExtensions.ApplyQForEach*
+  nameWithType.vb: ApplyExtensions.ApplyQForEach(Of TRoot)(TRoot, String, String, Action(Of VisualElement))
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQForEach(Of TRoot)(TRoot, String, String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  name.vb: ApplyQForEach(Of TRoot)(TRoot, String, String, Action(Of VisualElement))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``2(``0,System.Func{``1,System.Boolean},System.String,System.String,System.Action{``1})
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``2(``0,System.Func{``1,System.Boolean},System.String,System.String,System.Action{``1})
+  id: ApplyQForEachWhere``2(``0,System.Func{``1,System.Boolean},System.String,System.String,System.Action{``1})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.ApplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ApplyQForEachWhere<TRoot, TChild>(TRoot, Func<TChild, bool>, string, string, Action<TChild>)
+  nameWithType: ApplyExtensions.ApplyQForEachWhere<TRoot, TChild>(TRoot, Func<TChild, bool>, string, string, Action<TChild>)
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere<TRoot, TChild>(TRoot, System.Func<TChild, bool>, string, string, System.Action<TChild>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static TRoot ApplyQForEachWhere<TRoot, TChild>(this TRoot element, Func<TChild, bool> predicate, string name = null, string className = null, Action<TChild> action = null) where TRoot : VisualElement where TChild : VisualElement'
+    parameters:
+    - id: element
+      type: '{TRoot}'
+    - id: predicate
+      type: System.Func{{TChild},System.Boolean}
+    - id: name
+      type: System.String
+    - id: className
+      type: System.String
+    - id: action
+      type: System.Action{{TChild}}
+    typeParameters:
+    - id: TRoot
+    - id: TChild
+    return:
+      type: '{TRoot}'
+    content.vb: Public Shared Function ApplyQForEachWhere(Of TRoot As VisualElement, TChild As VisualElement)(element As TRoot, predicate As Func(Of TChild, Boolean), name As String = Nothing, className As String = Nothing, action As Action(Of TChild) = Nothing) As TRoot
+  overload: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere*
+  nameWithType.vb: ApplyExtensions.ApplyQForEachWhere(Of TRoot, TChild)(TRoot, Func(Of TChild, Boolean), String, String, Action(Of TChild))
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere(Of TRoot, TChild)(TRoot, System.Func(Of TChild, Boolean), String, String, System.Action(Of TChild))
+  name.vb: ApplyQForEachWhere(Of TRoot, TChild)(TRoot, Func(Of TChild, Boolean), String, String, Action(Of TChild))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``1(``0,System.Func{UnityEngine.UIElements.VisualElement,System.Boolean},System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``1(``0,System.Func{UnityEngine.UIElements.VisualElement,System.Boolean},System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  id: ApplyQForEachWhere``1(``0,System.Func{UnityEngine.UIElements.VisualElement,System.Boolean},System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.ApplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ApplyQForEachWhere<TRoot>(TRoot, Func<VisualElement, bool>, string, string, Action<VisualElement>)
+  nameWithType: ApplyExtensions.ApplyQForEachWhere<TRoot>(TRoot, Func<VisualElement, bool>, string, string, Action<VisualElement>)
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere<TRoot>(TRoot, System.Func<UnityEngine.UIElements.VisualElement, bool>, string, string, System.Action<UnityEngine.UIElements.VisualElement>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static TRoot ApplyQForEachWhere<TRoot>(this TRoot element, Func<VisualElement, bool> predicate, string name = null, string className = null, Action<VisualElement> action = null) where TRoot : VisualElement'
+    parameters:
+    - id: element
+      type: '{TRoot}'
+    - id: predicate
+      type: System.Func{UnityEngine.UIElements.VisualElement,System.Boolean}
+    - id: name
+      type: System.String
+    - id: className
+      type: System.String
+    - id: action
+      type: System.Action{UnityEngine.UIElements.VisualElement}
+    typeParameters:
+    - id: TRoot
+    return:
+      type: '{TRoot}'
+    content.vb: Public Shared Function ApplyQForEachWhere(Of TRoot As VisualElement)(element As TRoot, predicate As Func(Of VisualElement, Boolean), name As String = Nothing, className As String = Nothing, action As Action(Of VisualElement) = Nothing) As TRoot
+  overload: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere*
+  nameWithType.vb: ApplyExtensions.ApplyQForEachWhere(Of TRoot)(TRoot, Func(Of VisualElement, Boolean), String, String, Action(Of VisualElement))
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere(Of TRoot)(TRoot, System.Func(Of UnityEngine.UIElements.VisualElement, Boolean), String, String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  name.vb: ApplyQForEachWhere(Of TRoot)(TRoot, Func(Of VisualElement, Boolean), String, String, Action(Of VisualElement))
+references:
+- uid: CodeUI.Extensions
+  commentId: N:CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Extensions
+  nameWithType: CodeUI.Extensions
+  fullName: CodeUI.Extensions
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.Extensions.ApplyExtensions.Apply*
+  commentId: Overload:CodeUI.Extensions.ApplyExtensions.Apply
+  isExternal: true
+  href: CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_Apply__1___0_System_Action___0__
+  name: Apply
+  nameWithType: ApplyExtensions.Apply
+  fullName: CodeUI.Extensions.ApplyExtensions.Apply
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQ*
+  commentId: Overload:CodeUI.Extensions.ApplyExtensions.ApplyQ
+  isExternal: true
+  href: CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQ__2___0_System_String_System_String_System_Action___1__
+  name: ApplyQ
+  nameWithType: ApplyExtensions.ApplyQ
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQ
+- uid: '{TRoot}'
+  commentId: '!:TRoot'
+  definition: TRoot
+  name: TRoot
+  nameWithType: TRoot
+  fullName: TRoot
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Action{{TChild}}
+  commentId: T:System.Action{``1}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<TChild>
+  nameWithType: Action<TChild>
+  fullName: System.Action<TChild>
+  nameWithType.vb: Action(Of TChild)
+  fullName.vb: System.Action(Of TChild)
+  name.vb: Action(Of TChild)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: TChild
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TChild
+  - name: )
+- uid: TRoot
+  name: TRoot
+  nameWithType: TRoot
+  fullName: TRoot
+- uid: System.Action{UnityEngine.UIElements.VisualElement}
+  commentId: T:System.Action{UnityEngine.UIElements.VisualElement}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<VisualElement>
+  nameWithType: Action<VisualElement>
+  fullName: System.Action<UnityEngine.UIElements.VisualElement>
+  nameWithType.vb: Action(Of VisualElement)
+  fullName.vb: System.Action(Of UnityEngine.UIElements.VisualElement)
+  name.vb: Action(Of VisualElement)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: )
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEach*
+  commentId: Overload:CodeUI.Extensions.ApplyExtensions.ApplyQForEach
+  isExternal: true
+  href: CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQForEach__2___0_System_String_System_String_System_Action___1__
+  name: ApplyQForEach
+  nameWithType: ApplyExtensions.ApplyQForEach
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEach
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere*
+  commentId: Overload:CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere
+  isExternal: true
+  href: CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQForEachWhere__2___0_System_Func___1_System_Boolean__System_String_System_String_System_Action___1__
+  name: ApplyQForEachWhere
+  nameWithType: ApplyExtensions.ApplyQForEachWhere
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere
+- uid: System.Func{{TChild},System.Boolean}
+  commentId: T:System.Func{``1,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<TChild, bool>
+  nameWithType: Func<TChild, bool>
+  fullName: System.Func<TChild, bool>
+  nameWithType.vb: Func(Of TChild, Boolean)
+  fullName.vb: System.Func(Of TChild, Boolean)
+  name.vb: Func(Of TChild, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: TChild
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TChild
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Func{UnityEngine.UIElements.VisualElement,System.Boolean}
+  commentId: T:System.Func{UnityEngine.UIElements.VisualElement,System.Boolean}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<VisualElement, bool>
+  nameWithType: Func<VisualElement, bool>
+  fullName: System.Func<UnityEngine.UIElements.VisualElement, bool>
+  nameWithType.vb: Func(Of VisualElement, Boolean)
+  fullName.vb: System.Func(Of UnityEngine.UIElements.VisualElement, Boolean)
+  name.vb: Func(Of VisualElement, Boolean)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.VisualElement
+    name: VisualElement
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )

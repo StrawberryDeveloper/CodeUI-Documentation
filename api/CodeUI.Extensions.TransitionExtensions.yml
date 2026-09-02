@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Extensions.TransitionExtensions
+  commentId: T:CodeUI.Extensions.TransitionExtensions
+  id: TransitionExtensions
+  parent: CodeUI.Extensions
+  children:
+  - CodeUI.Extensions.TransitionExtensions.ClearTransitions``1(``0)
+  - CodeUI.Extensions.TransitionExtensions.TransitionAll``1(``0,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  - CodeUI.Extensions.TransitionExtensions.Transition``1(``0,CodeUI.Extensions.TransitionProperty,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  - CodeUI.Extensions.TransitionExtensions.Transition``1(``0,System.String,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  - CodeUI.Extensions.TransitionExtensions.Transition``1(``0,UnityEngine.UIElements.StylePropertyName,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  - CodeUI.Extensions.TransitionExtensions.Transitions``1(``0,CodeUI.Extensions.TransitionProperty[],System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: TransitionExtensions
+  nameWithType: TransitionExtensions
+  fullName: CodeUI.Extensions.TransitionExtensions
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: public static class TransitionExtensions
+    content.vb: Public Module TransitionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CodeUI.Extensions.TransitionExtensions.Transition``1(``0,CodeUI.Extensions.TransitionProperty,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  commentId: M:CodeUI.Extensions.TransitionExtensions.Transition``1(``0,CodeUI.Extensions.TransitionProperty,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  id: Transition``1(``0,CodeUI.Extensions.TransitionProperty,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransitionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Transition<T>(T, TransitionProperty, float, EasingMode, float)
+  nameWithType: TransitionExtensions.Transition<T>(T, TransitionProperty, float, EasingMode, float)
+  fullName: CodeUI.Extensions.TransitionExtensions.Transition<T>(T, CodeUI.Extensions.TransitionProperty, float, UnityEngine.UIElements.EasingMode, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Transition<T>(this T element, TransitionProperty property, float durationSeconds, EasingMode easing = 0, float delaySeconds = 0) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: property
+      type: CodeUI.Extensions.TransitionProperty
+    - id: durationSeconds
+      type: System.Single
+    - id: easing
+      type: UnityEngine.UIElements.EasingMode
+    - id: delaySeconds
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Transition(Of T As VisualElement)(element As T, [property] As TransitionProperty, durationSeconds As Single, easing As EasingMode = 0, delaySeconds As Single = 0) As T
+  overload: CodeUI.Extensions.TransitionExtensions.Transition*
+  nameWithType.vb: TransitionExtensions.Transition(Of T)(T, TransitionProperty, Single, EasingMode, Single)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.Transition(Of T)(T, CodeUI.Extensions.TransitionProperty, Single, UnityEngine.UIElements.EasingMode, Single)
+  name.vb: Transition(Of T)(T, TransitionProperty, Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.Transitions``1(``0,CodeUI.Extensions.TransitionProperty[],System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  commentId: M:CodeUI.Extensions.TransitionExtensions.Transitions``1(``0,CodeUI.Extensions.TransitionProperty[],System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  id: Transitions``1(``0,CodeUI.Extensions.TransitionProperty[],System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransitionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Transitions<T>(T, TransitionProperty[], float, EasingMode, float)
+  nameWithType: TransitionExtensions.Transitions<T>(T, TransitionProperty[], float, EasingMode, float)
+  fullName: CodeUI.Extensions.TransitionExtensions.Transitions<T>(T, CodeUI.Extensions.TransitionProperty[], float, UnityEngine.UIElements.EasingMode, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Transitions<T>(this T element, TransitionProperty[] properties, float durationSeconds, EasingMode easing = 0, float delaySeconds = 0) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: properties
+      type: CodeUI.Extensions.TransitionProperty[]
+    - id: durationSeconds
+      type: System.Single
+    - id: easing
+      type: UnityEngine.UIElements.EasingMode
+    - id: delaySeconds
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Transitions(Of T As VisualElement)(element As T, properties As TransitionProperty(), durationSeconds As Single, easing As EasingMode = 0, delaySeconds As Single = 0) As T
+  overload: CodeUI.Extensions.TransitionExtensions.Transitions*
+  nameWithType.vb: TransitionExtensions.Transitions(Of T)(T, TransitionProperty(), Single, EasingMode, Single)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.Transitions(Of T)(T, CodeUI.Extensions.TransitionProperty(), Single, UnityEngine.UIElements.EasingMode, Single)
+  name.vb: Transitions(Of T)(T, TransitionProperty(), Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.Transition``1(``0,UnityEngine.UIElements.StylePropertyName,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  commentId: M:CodeUI.Extensions.TransitionExtensions.Transition``1(``0,UnityEngine.UIElements.StylePropertyName,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  id: Transition``1(``0,UnityEngine.UIElements.StylePropertyName,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransitionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Transition<T>(T, StylePropertyName, float, EasingMode, float)
+  nameWithType: TransitionExtensions.Transition<T>(T, StylePropertyName, float, EasingMode, float)
+  fullName: CodeUI.Extensions.TransitionExtensions.Transition<T>(T, UnityEngine.UIElements.StylePropertyName, float, UnityEngine.UIElements.EasingMode, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Transition<T>(this T element, StylePropertyName propertyName, float durationSeconds, EasingMode easing = 0, float delaySeconds = 0) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: propertyName
+      type: UnityEngine.UIElements.StylePropertyName
+    - id: durationSeconds
+      type: System.Single
+    - id: easing
+      type: UnityEngine.UIElements.EasingMode
+    - id: delaySeconds
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Transition(Of T As VisualElement)(element As T, propertyName As StylePropertyName, durationSeconds As Single, easing As EasingMode = 0, delaySeconds As Single = 0) As T
+  overload: CodeUI.Extensions.TransitionExtensions.Transition*
+  nameWithType.vb: TransitionExtensions.Transition(Of T)(T, StylePropertyName, Single, EasingMode, Single)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.Transition(Of T)(T, UnityEngine.UIElements.StylePropertyName, Single, UnityEngine.UIElements.EasingMode, Single)
+  name.vb: Transition(Of T)(T, StylePropertyName, Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.Transition``1(``0,System.String,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  commentId: M:CodeUI.Extensions.TransitionExtensions.Transition``1(``0,System.String,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  id: Transition``1(``0,System.String,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransitionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Transition<T>(T, string, float, EasingMode, float)
+  nameWithType: TransitionExtensions.Transition<T>(T, string, float, EasingMode, float)
+  fullName: CodeUI.Extensions.TransitionExtensions.Transition<T>(T, string, float, UnityEngine.UIElements.EasingMode, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: >-
+      [Obsolete("Use Transition(TransitionProperty, float, EasingMode, float) for type safety")]
+
+      public static T Transition<T>(this T element, string propertyName, float durationSeconds, EasingMode easing = 0, float delaySeconds = 0) where T : VisualElement
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: propertyName
+      type: System.String
+    - id: durationSeconds
+      type: System.Single
+    - id: easing
+      type: UnityEngine.UIElements.EasingMode
+    - id: delaySeconds
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <Obsolete("Use Transition(TransitionProperty, float, EasingMode, float) for type safety")>
+
+      Public Shared Function Transition(Of T As VisualElement)(element As T, propertyName As String, durationSeconds As Single, easing As EasingMode = 0, delaySeconds As Single = 0) As T
+  overload: CodeUI.Extensions.TransitionExtensions.Transition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Use Transition(TransitionProperty, float, EasingMode, float) for type safety
+  nameWithType.vb: TransitionExtensions.Transition(Of T)(T, String, Single, EasingMode, Single)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.Transition(Of T)(T, String, Single, UnityEngine.UIElements.EasingMode, Single)
+  name.vb: Transition(Of T)(T, String, Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.TransitionAll``1(``0,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  commentId: M:CodeUI.Extensions.TransitionExtensions.TransitionAll``1(``0,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  id: TransitionAll``1(``0,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransitionExtensions
+  langs:
+  - csharp
+  - vb
+  name: TransitionAll<T>(T, float, EasingMode, float)
+  nameWithType: TransitionExtensions.TransitionAll<T>(T, float, EasingMode, float)
+  fullName: CodeUI.Extensions.TransitionExtensions.TransitionAll<T>(T, float, UnityEngine.UIElements.EasingMode, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T TransitionAll<T>(this T element, float durationSeconds, EasingMode easing = 0, float delaySeconds = 0) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: durationSeconds
+      type: System.Single
+    - id: easing
+      type: UnityEngine.UIElements.EasingMode
+    - id: delaySeconds
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function TransitionAll(Of T As VisualElement)(element As T, durationSeconds As Single, easing As EasingMode = 0, delaySeconds As Single = 0) As T
+  overload: CodeUI.Extensions.TransitionExtensions.TransitionAll*
+  nameWithType.vb: TransitionExtensions.TransitionAll(Of T)(T, Single, EasingMode, Single)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.TransitionAll(Of T)(T, Single, UnityEngine.UIElements.EasingMode, Single)
+  name.vb: TransitionAll(Of T)(T, Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.ClearTransitions``1(``0)
+  commentId: M:CodeUI.Extensions.TransitionExtensions.ClearTransitions``1(``0)
+  id: ClearTransitions``1(``0)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransitionExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClearTransitions<T>(T)
+  nameWithType: TransitionExtensions.ClearTransitions<T>(T)
+  fullName: CodeUI.Extensions.TransitionExtensions.ClearTransitions<T>(T)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T ClearTransitions<T>(this T element) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function ClearTransitions(Of T As VisualElement)(element As T) As T
+  overload: CodeUI.Extensions.TransitionExtensions.ClearTransitions*
+  nameWithType.vb: TransitionExtensions.ClearTransitions(Of T)(T)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.ClearTransitions(Of T)(T)
+  name.vb: ClearTransitions(Of T)(T)
+references:
+- uid: CodeUI.Extensions
+  commentId: N:CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Extensions
+  nameWithType: CodeUI.Extensions
+  fullName: CodeUI.Extensions
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.Extensions.TransitionExtensions.Transition*
+  commentId: Overload:CodeUI.Extensions.TransitionExtensions.Transition
+  isExternal: true
+  href: CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_Transition__1___0_CodeUI_Extensions_TransitionProperty_System_Single_UnityEngine_UIElements_EasingMode_System_Single_
+  name: Transition
+  nameWithType: TransitionExtensions.Transition
+  fullName: CodeUI.Extensions.TransitionExtensions.Transition
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CodeUI.Extensions.TransitionProperty
+  commentId: T:CodeUI.Extensions.TransitionProperty
+  parent: CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.Extensions.TransitionProperty.html
+  name: TransitionProperty
+  nameWithType: TransitionProperty
+  fullName: CodeUI.Extensions.TransitionProperty
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine.UIElements.EasingMode
+  isExternal: true
+  name: EasingMode
+  nameWithType: EasingMode
+  fullName: UnityEngine.UIElements.EasingMode
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CodeUI.Extensions.TransitionExtensions.Transitions*
+  commentId: Overload:CodeUI.Extensions.TransitionExtensions.Transitions
+  isExternal: true
+  href: CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_Transitions__1___0_CodeUI_Extensions_TransitionProperty___System_Single_UnityEngine_UIElements_EasingMode_System_Single_
+  name: Transitions
+  nameWithType: TransitionExtensions.Transitions
+  fullName: CodeUI.Extensions.TransitionExtensions.Transitions
+- uid: CodeUI.Extensions.TransitionProperty[]
+  isExternal: true
+  href: CodeUI.Extensions.TransitionProperty.html
+  name: TransitionProperty[]
+  nameWithType: TransitionProperty[]
+  fullName: CodeUI.Extensions.TransitionProperty[]
+  nameWithType.vb: TransitionProperty()
+  fullName.vb: CodeUI.Extensions.TransitionProperty()
+  name.vb: TransitionProperty()
+  spec.csharp:
+  - uid: CodeUI.Extensions.TransitionProperty
+    name: TransitionProperty
+    isExternal: true
+    href: CodeUI.Extensions.TransitionProperty.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: CodeUI.Extensions.TransitionProperty
+    name: TransitionProperty
+    isExternal: true
+    href: CodeUI.Extensions.TransitionProperty.html
+  - name: (
+  - name: )
+- uid: UnityEngine.UIElements.StylePropertyName
+  commentId: '!:UnityEngine.UIElements.StylePropertyName'
+  isExternal: true
+  name: StylePropertyName
+  nameWithType: StylePropertyName
+  fullName: UnityEngine.UIElements.StylePropertyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: CodeUI.Extensions.TransitionExtensions.TransitionAll*
+  commentId: Overload:CodeUI.Extensions.TransitionExtensions.TransitionAll
+  isExternal: true
+  href: CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_TransitionAll__1___0_System_Single_UnityEngine_UIElements_EasingMode_System_Single_
+  name: TransitionAll
+  nameWithType: TransitionExtensions.TransitionAll
+  fullName: CodeUI.Extensions.TransitionExtensions.TransitionAll
+- uid: CodeUI.Extensions.TransitionExtensions.ClearTransitions*
+  commentId: Overload:CodeUI.Extensions.TransitionExtensions.ClearTransitions
+  isExternal: true
+  href: CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_ClearTransitions__1___0_
+  name: ClearTransitions
+  nameWithType: TransitionExtensions.ClearTransitions
+  fullName: CodeUI.Extensions.TransitionExtensions.ClearTransitions

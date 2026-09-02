@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.BaseUI
+  commentId: T:CodeUI.BaseUI
+  id: BaseUI
+  parent: CodeUI
+  children:
+  - CodeUI.BaseUI.#ctor
+  - CodeUI.BaseUI.Awake
+  - CodeUI.BaseUI.Generate(UnityEngine.UIElements.VisualElement)
+  - CodeUI.BaseUI.OnEnable
+  - CodeUI.BaseUI.RebuildUI
+  - CodeUI.BaseUI.Root
+  langs:
+  - csharp
+  - vb
+  name: BaseUI
+  nameWithType: BaseUI
+  fullName: CodeUI.BaseUI
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: 'public abstract class BaseUI : MonoBehaviour'
+    content.vb: Public MustInherit Class BaseUI Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+- uid: CodeUI.BaseUI.Awake
+  commentId: M:CodeUI.BaseUI.Awake
+  id: Awake
+  parent: CodeUI.BaseUI
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: BaseUI.Awake()
+  fullName: CodeUI.BaseUI.Awake()
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake()
+  overload: CodeUI.BaseUI.Awake*
+- uid: CodeUI.BaseUI.OnEnable
+  commentId: M:CodeUI.BaseUI.OnEnable
+  id: OnEnable
+  parent: CodeUI.BaseUI
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: BaseUI.OnEnable()
+  fullName: CodeUI.BaseUI.OnEnable()
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: protected virtual void OnEnable()
+    content.vb: Protected Overridable Sub OnEnable()
+  overload: CodeUI.BaseUI.OnEnable*
+- uid: CodeUI.BaseUI.RebuildUI
+  commentId: M:CodeUI.BaseUI.RebuildUI
+  id: RebuildUI
+  parent: CodeUI.BaseUI
+  langs:
+  - csharp
+  - vb
+  name: RebuildUI()
+  nameWithType: BaseUI.RebuildUI()
+  fullName: CodeUI.BaseUI.RebuildUI()
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: public void RebuildUI()
+    content.vb: Public Sub RebuildUI()
+  overload: CodeUI.BaseUI.RebuildUI*
+- uid: CodeUI.BaseUI.Generate(UnityEngine.UIElements.VisualElement)
+  commentId: M:CodeUI.BaseUI.Generate(UnityEngine.UIElements.VisualElement)
+  id: Generate(UnityEngine.UIElements.VisualElement)
+  parent: CodeUI.BaseUI
+  langs:
+  - csharp
+  - vb
+  name: Generate(VisualElement)
+  nameWithType: BaseUI.Generate(VisualElement)
+  fullName: CodeUI.BaseUI.Generate(UnityEngine.UIElements.VisualElement)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: protected abstract void Generate(VisualElement root)
+    parameters:
+    - id: root
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Protected MustOverride Sub Generate(root As VisualElement)
+  overload: CodeUI.BaseUI.Generate*
+- uid: CodeUI.BaseUI.#ctor
+  commentId: M:CodeUI.BaseUI.#ctor
+  id: '#ctor'
+  parent: CodeUI.BaseUI
+  langs:
+  - csharp
+  - vb
+  name: BaseUI()
+  nameWithType: BaseUI.BaseUI()
+  fullName: CodeUI.BaseUI.BaseUI()
+  type: Constructor
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: protected BaseUI()
+    content.vb: Protected Sub New()
+  overload: CodeUI.BaseUI.#ctor*
+  nameWithType.vb: BaseUI.New()
+  fullName.vb: CodeUI.BaseUI.New()
+  name.vb: New()
+- uid: CodeUI.BaseUI.Root
+  commentId: P:CodeUI.BaseUI.Root
+  id: Root
+  parent: CodeUI.BaseUI
+  langs:
+  - csharp
+  - vb
+  name: Root
+  nameWithType: BaseUI.Root
+  fullName: CodeUI.BaseUI.Root
+  type: Property
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: protected VisualElement Root { get; }
+    parameters: []
+    return:
+      type: UnityEngine.UIElements.VisualElement
+    content.vb: Protected ReadOnly Property Root As VisualElement
+  overload: CodeUI.BaseUI.Root*
+references:
+- uid: CodeUI
+  commentId: N:CodeUI
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI
+  nameWithType: CodeUI
+  fullName: CodeUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.BaseUI.Awake*
+  commentId: Overload:CodeUI.BaseUI.Awake
+  isExternal: true
+  href: CodeUI.BaseUI.html#CodeUI_BaseUI_Awake
+  name: Awake
+  nameWithType: BaseUI.Awake
+  fullName: CodeUI.BaseUI.Awake
+- uid: CodeUI.BaseUI.OnEnable*
+  commentId: Overload:CodeUI.BaseUI.OnEnable
+  isExternal: true
+  href: CodeUI.BaseUI.html#CodeUI_BaseUI_OnEnable
+  name: OnEnable
+  nameWithType: BaseUI.OnEnable
+  fullName: CodeUI.BaseUI.OnEnable
+- uid: CodeUI.BaseUI.RebuildUI*
+  commentId: Overload:CodeUI.BaseUI.RebuildUI
+  isExternal: true
+  href: CodeUI.BaseUI.html#CodeUI_BaseUI_RebuildUI
+  name: RebuildUI
+  nameWithType: BaseUI.RebuildUI
+  fullName: CodeUI.BaseUI.RebuildUI
+- uid: CodeUI.BaseUI.Generate*
+  commentId: Overload:CodeUI.BaseUI.Generate
+  isExternal: true
+  href: CodeUI.BaseUI.html#CodeUI_BaseUI_Generate_UnityEngine_UIElements_VisualElement_
+  name: Generate
+  nameWithType: BaseUI.Generate
+  fullName: CodeUI.BaseUI.Generate
+- uid: UnityEngine.UIElements.VisualElement
+  isExternal: true
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: UnityEngine.UIElements.VisualElement
+- uid: CodeUI.BaseUI.#ctor*
+  commentId: Overload:CodeUI.BaseUI.#ctor
+  isExternal: true
+  href: CodeUI.BaseUI.html#CodeUI_BaseUI__ctor
+  name: BaseUI
+  nameWithType: BaseUI.BaseUI
+  fullName: CodeUI.BaseUI.BaseUI
+  nameWithType.vb: BaseUI.New
+  fullName.vb: CodeUI.BaseUI.New
+  name.vb: New
+- uid: CodeUI.BaseUI.Root*
+  commentId: Overload:CodeUI.BaseUI.Root
+  isExternal: true
+  href: CodeUI.BaseUI.html#CodeUI_BaseUI_Root
+  name: Root
+  nameWithType: BaseUI.Root
+  fullName: CodeUI.BaseUI.Root

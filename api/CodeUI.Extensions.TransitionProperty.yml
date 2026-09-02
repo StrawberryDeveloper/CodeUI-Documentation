@@ -1,0 +1,1322 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Extensions.TransitionProperty
+  commentId: T:CodeUI.Extensions.TransitionProperty
+  id: TransitionProperty
+  parent: CodeUI.Extensions
+  children:
+  - CodeUI.Extensions.TransitionProperty.all
+  - CodeUI.Extensions.TransitionProperty.backgroundColor
+  - CodeUI.Extensions.TransitionProperty.backgroundPosition
+  - CodeUI.Extensions.TransitionProperty.backgroundSize
+  - CodeUI.Extensions.TransitionProperty.borderBottomColor
+  - CodeUI.Extensions.TransitionProperty.borderBottomLeftRadius
+  - CodeUI.Extensions.TransitionProperty.borderBottomRightRadius
+  - CodeUI.Extensions.TransitionProperty.borderBottomWidth
+  - CodeUI.Extensions.TransitionProperty.borderColor
+  - CodeUI.Extensions.TransitionProperty.borderLeftColor
+  - CodeUI.Extensions.TransitionProperty.borderLeftWidth
+  - CodeUI.Extensions.TransitionProperty.borderRadius
+  - CodeUI.Extensions.TransitionProperty.borderRightColor
+  - CodeUI.Extensions.TransitionProperty.borderRightWidth
+  - CodeUI.Extensions.TransitionProperty.borderTopColor
+  - CodeUI.Extensions.TransitionProperty.borderTopLeftRadius
+  - CodeUI.Extensions.TransitionProperty.borderTopRightRadius
+  - CodeUI.Extensions.TransitionProperty.borderTopWidth
+  - CodeUI.Extensions.TransitionProperty.borderWidth
+  - CodeUI.Extensions.TransitionProperty.bottom
+  - CodeUI.Extensions.TransitionProperty.color
+  - CodeUI.Extensions.TransitionProperty.flex
+  - CodeUI.Extensions.TransitionProperty.flexBasis
+  - CodeUI.Extensions.TransitionProperty.flexGrow
+  - CodeUI.Extensions.TransitionProperty.flexShrink
+  - CodeUI.Extensions.TransitionProperty.fontSize
+  - CodeUI.Extensions.TransitionProperty.height
+  - CodeUI.Extensions.TransitionProperty.left
+  - CodeUI.Extensions.TransitionProperty.letterSpacing
+  - CodeUI.Extensions.TransitionProperty.margin
+  - CodeUI.Extensions.TransitionProperty.marginBottom
+  - CodeUI.Extensions.TransitionProperty.marginLeft
+  - CodeUI.Extensions.TransitionProperty.marginRight
+  - CodeUI.Extensions.TransitionProperty.marginTop
+  - CodeUI.Extensions.TransitionProperty.maxHeight
+  - CodeUI.Extensions.TransitionProperty.maxWidth
+  - CodeUI.Extensions.TransitionProperty.minHeight
+  - CodeUI.Extensions.TransitionProperty.minWidth
+  - CodeUI.Extensions.TransitionProperty.opacity
+  - CodeUI.Extensions.TransitionProperty.padding
+  - CodeUI.Extensions.TransitionProperty.paddingBottom
+  - CodeUI.Extensions.TransitionProperty.paddingLeft
+  - CodeUI.Extensions.TransitionProperty.paddingRight
+  - CodeUI.Extensions.TransitionProperty.paddingTop
+  - CodeUI.Extensions.TransitionProperty.right
+  - CodeUI.Extensions.TransitionProperty.rotate
+  - CodeUI.Extensions.TransitionProperty.scale
+  - CodeUI.Extensions.TransitionProperty.textShadow
+  - CodeUI.Extensions.TransitionProperty.top
+  - CodeUI.Extensions.TransitionProperty.transformOrigin
+  - CodeUI.Extensions.TransitionProperty.translate
+  - CodeUI.Extensions.TransitionProperty.unityBackgroundImageTintColor
+  - CodeUI.Extensions.TransitionProperty.unityParagraphSpacing
+  - CodeUI.Extensions.TransitionProperty.unitySliceBottom
+  - CodeUI.Extensions.TransitionProperty.unitySliceLeft
+  - CodeUI.Extensions.TransitionProperty.unitySliceRight
+  - CodeUI.Extensions.TransitionProperty.unitySliceScale
+  - CodeUI.Extensions.TransitionProperty.unitySliceTop
+  - CodeUI.Extensions.TransitionProperty.unityTextOutline
+  - CodeUI.Extensions.TransitionProperty.unityTextOutlineColor
+  - CodeUI.Extensions.TransitionProperty.unityTextOutlineWidth
+  - CodeUI.Extensions.TransitionProperty.width
+  - CodeUI.Extensions.TransitionProperty.wordSpacing
+  langs:
+  - csharp
+  - vb
+  name: TransitionProperty
+  nameWithType: TransitionProperty
+  fullName: CodeUI.Extensions.TransitionProperty
+  type: Enum
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: public enum TransitionProperty
+    content.vb: Public Enum TransitionProperty
+  extensionMethods:
+  - CodeUI.Extensions.TransitionProperty.CodeUI.Extensions.TransitionPropertyExtensions.ToUssName
+- uid: CodeUI.Extensions.TransitionProperty.all
+  commentId: F:CodeUI.Extensions.TransitionProperty.all
+  id: all
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: all
+  nameWithType: TransitionProperty.all
+  fullName: CodeUI.Extensions.TransitionProperty.all
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: all = 0
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.backgroundColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.backgroundColor
+  id: backgroundColor
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: backgroundColor
+  nameWithType: TransitionProperty.backgroundColor
+  fullName: CodeUI.Extensions.TransitionProperty.backgroundColor
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: backgroundColor = 1
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.backgroundPosition
+  commentId: F:CodeUI.Extensions.TransitionProperty.backgroundPosition
+  id: backgroundPosition
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: backgroundPosition
+  nameWithType: TransitionProperty.backgroundPosition
+  fullName: CodeUI.Extensions.TransitionProperty.backgroundPosition
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: backgroundPosition = 2
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.backgroundSize
+  commentId: F:CodeUI.Extensions.TransitionProperty.backgroundSize
+  id: backgroundSize
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: backgroundSize
+  nameWithType: TransitionProperty.backgroundSize
+  fullName: CodeUI.Extensions.TransitionProperty.backgroundSize
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: backgroundSize = 3
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unityBackgroundImageTintColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityBackgroundImageTintColor
+  id: unityBackgroundImageTintColor
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unityBackgroundImageTintColor
+  nameWithType: TransitionProperty.unityBackgroundImageTintColor
+  fullName: CodeUI.Extensions.TransitionProperty.unityBackgroundImageTintColor
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unityBackgroundImageTintColor = 4
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderColor
+  id: borderColor
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderColor
+  nameWithType: TransitionProperty.borderColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderColor
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderColor = 5
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderTopColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderTopColor
+  id: borderTopColor
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderTopColor
+  nameWithType: TransitionProperty.borderTopColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderTopColor
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderTopColor = 6
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderRightColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderRightColor
+  id: borderRightColor
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderRightColor
+  nameWithType: TransitionProperty.borderRightColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderRightColor
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderRightColor = 7
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderBottomColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderBottomColor
+  id: borderBottomColor
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderBottomColor
+  nameWithType: TransitionProperty.borderBottomColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderBottomColor
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderBottomColor = 8
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderLeftColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderLeftColor
+  id: borderLeftColor
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderLeftColor
+  nameWithType: TransitionProperty.borderLeftColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderLeftColor
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderLeftColor = 9
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderWidth
+  id: borderWidth
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderWidth
+  nameWithType: TransitionProperty.borderWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderWidth
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderWidth = 10
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderTopWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderTopWidth
+  id: borderTopWidth
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderTopWidth
+  nameWithType: TransitionProperty.borderTopWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderTopWidth
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderTopWidth = 11
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderRightWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderRightWidth
+  id: borderRightWidth
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderRightWidth
+  nameWithType: TransitionProperty.borderRightWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderRightWidth
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderRightWidth = 12
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderBottomWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderBottomWidth
+  id: borderBottomWidth
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderBottomWidth
+  nameWithType: TransitionProperty.borderBottomWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderBottomWidth
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderBottomWidth = 13
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderLeftWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderLeftWidth
+  id: borderLeftWidth
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderLeftWidth
+  nameWithType: TransitionProperty.borderLeftWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderLeftWidth
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderLeftWidth = 14
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderRadius
+  id: borderRadius
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderRadius
+  nameWithType: TransitionProperty.borderRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderRadius
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderRadius = 15
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderTopLeftRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderTopLeftRadius
+  id: borderTopLeftRadius
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderTopLeftRadius
+  nameWithType: TransitionProperty.borderTopLeftRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderTopLeftRadius
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderTopLeftRadius = 16
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderTopRightRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderTopRightRadius
+  id: borderTopRightRadius
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderTopRightRadius
+  nameWithType: TransitionProperty.borderTopRightRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderTopRightRadius
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderTopRightRadius = 17
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderBottomRightRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderBottomRightRadius
+  id: borderBottomRightRadius
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderBottomRightRadius
+  nameWithType: TransitionProperty.borderBottomRightRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderBottomRightRadius
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderBottomRightRadius = 18
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.borderBottomLeftRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderBottomLeftRadius
+  id: borderBottomLeftRadius
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: borderBottomLeftRadius
+  nameWithType: TransitionProperty.borderBottomLeftRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderBottomLeftRadius
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: borderBottomLeftRadius = 19
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.top
+  commentId: F:CodeUI.Extensions.TransitionProperty.top
+  id: top
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: top
+  nameWithType: TransitionProperty.top
+  fullName: CodeUI.Extensions.TransitionProperty.top
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: top = 20
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.right
+  commentId: F:CodeUI.Extensions.TransitionProperty.right
+  id: right
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: right
+  nameWithType: TransitionProperty.right
+  fullName: CodeUI.Extensions.TransitionProperty.right
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: right = 21
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.bottom
+  commentId: F:CodeUI.Extensions.TransitionProperty.bottom
+  id: bottom
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: bottom
+  nameWithType: TransitionProperty.bottom
+  fullName: CodeUI.Extensions.TransitionProperty.bottom
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: bottom = 22
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.left
+  commentId: F:CodeUI.Extensions.TransitionProperty.left
+  id: left
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: left
+  nameWithType: TransitionProperty.left
+  fullName: CodeUI.Extensions.TransitionProperty.left
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: left = 23
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.width
+  commentId: F:CodeUI.Extensions.TransitionProperty.width
+  id: width
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: width
+  nameWithType: TransitionProperty.width
+  fullName: CodeUI.Extensions.TransitionProperty.width
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: width = 24
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.height
+  commentId: F:CodeUI.Extensions.TransitionProperty.height
+  id: height
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: height
+  nameWithType: TransitionProperty.height
+  fullName: CodeUI.Extensions.TransitionProperty.height
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: height = 25
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.minWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.minWidth
+  id: minWidth
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: minWidth
+  nameWithType: TransitionProperty.minWidth
+  fullName: CodeUI.Extensions.TransitionProperty.minWidth
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: minWidth = 26
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.minHeight
+  commentId: F:CodeUI.Extensions.TransitionProperty.minHeight
+  id: minHeight
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: minHeight
+  nameWithType: TransitionProperty.minHeight
+  fullName: CodeUI.Extensions.TransitionProperty.minHeight
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: minHeight = 27
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.maxWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.maxWidth
+  id: maxWidth
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: maxWidth
+  nameWithType: TransitionProperty.maxWidth
+  fullName: CodeUI.Extensions.TransitionProperty.maxWidth
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: maxWidth = 28
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.maxHeight
+  commentId: F:CodeUI.Extensions.TransitionProperty.maxHeight
+  id: maxHeight
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: maxHeight
+  nameWithType: TransitionProperty.maxHeight
+  fullName: CodeUI.Extensions.TransitionProperty.maxHeight
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: maxHeight = 29
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.flex
+  commentId: F:CodeUI.Extensions.TransitionProperty.flex
+  id: flex
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: flex
+  nameWithType: TransitionProperty.flex
+  fullName: CodeUI.Extensions.TransitionProperty.flex
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: flex = 30
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.flexBasis
+  commentId: F:CodeUI.Extensions.TransitionProperty.flexBasis
+  id: flexBasis
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: flexBasis
+  nameWithType: TransitionProperty.flexBasis
+  fullName: CodeUI.Extensions.TransitionProperty.flexBasis
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: flexBasis = 31
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.flexGrow
+  commentId: F:CodeUI.Extensions.TransitionProperty.flexGrow
+  id: flexGrow
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: flexGrow
+  nameWithType: TransitionProperty.flexGrow
+  fullName: CodeUI.Extensions.TransitionProperty.flexGrow
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: flexGrow = 32
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.flexShrink
+  commentId: F:CodeUI.Extensions.TransitionProperty.flexShrink
+  id: flexShrink
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: flexShrink
+  nameWithType: TransitionProperty.flexShrink
+  fullName: CodeUI.Extensions.TransitionProperty.flexShrink
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: flexShrink = 33
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.margin
+  commentId: F:CodeUI.Extensions.TransitionProperty.margin
+  id: margin
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: margin
+  nameWithType: TransitionProperty.margin
+  fullName: CodeUI.Extensions.TransitionProperty.margin
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: margin = 34
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.marginTop
+  commentId: F:CodeUI.Extensions.TransitionProperty.marginTop
+  id: marginTop
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: marginTop
+  nameWithType: TransitionProperty.marginTop
+  fullName: CodeUI.Extensions.TransitionProperty.marginTop
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: marginTop = 35
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.marginRight
+  commentId: F:CodeUI.Extensions.TransitionProperty.marginRight
+  id: marginRight
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: marginRight
+  nameWithType: TransitionProperty.marginRight
+  fullName: CodeUI.Extensions.TransitionProperty.marginRight
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: marginRight = 36
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.marginBottom
+  commentId: F:CodeUI.Extensions.TransitionProperty.marginBottom
+  id: marginBottom
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: marginBottom
+  nameWithType: TransitionProperty.marginBottom
+  fullName: CodeUI.Extensions.TransitionProperty.marginBottom
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: marginBottom = 37
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.marginLeft
+  commentId: F:CodeUI.Extensions.TransitionProperty.marginLeft
+  id: marginLeft
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: marginLeft
+  nameWithType: TransitionProperty.marginLeft
+  fullName: CodeUI.Extensions.TransitionProperty.marginLeft
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: marginLeft = 38
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.padding
+  commentId: F:CodeUI.Extensions.TransitionProperty.padding
+  id: padding
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: padding
+  nameWithType: TransitionProperty.padding
+  fullName: CodeUI.Extensions.TransitionProperty.padding
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: padding = 39
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.paddingTop
+  commentId: F:CodeUI.Extensions.TransitionProperty.paddingTop
+  id: paddingTop
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: paddingTop
+  nameWithType: TransitionProperty.paddingTop
+  fullName: CodeUI.Extensions.TransitionProperty.paddingTop
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: paddingTop = 40
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.paddingRight
+  commentId: F:CodeUI.Extensions.TransitionProperty.paddingRight
+  id: paddingRight
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: paddingRight
+  nameWithType: TransitionProperty.paddingRight
+  fullName: CodeUI.Extensions.TransitionProperty.paddingRight
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: paddingRight = 41
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.paddingBottom
+  commentId: F:CodeUI.Extensions.TransitionProperty.paddingBottom
+  id: paddingBottom
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: paddingBottom
+  nameWithType: TransitionProperty.paddingBottom
+  fullName: CodeUI.Extensions.TransitionProperty.paddingBottom
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: paddingBottom = 42
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.paddingLeft
+  commentId: F:CodeUI.Extensions.TransitionProperty.paddingLeft
+  id: paddingLeft
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: paddingLeft
+  nameWithType: TransitionProperty.paddingLeft
+  fullName: CodeUI.Extensions.TransitionProperty.paddingLeft
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: paddingLeft = 43
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.translate
+  commentId: F:CodeUI.Extensions.TransitionProperty.translate
+  id: translate
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: translate
+  nameWithType: TransitionProperty.translate
+  fullName: CodeUI.Extensions.TransitionProperty.translate
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: translate = 44
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.scale
+  commentId: F:CodeUI.Extensions.TransitionProperty.scale
+  id: scale
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: scale
+  nameWithType: TransitionProperty.scale
+  fullName: CodeUI.Extensions.TransitionProperty.scale
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: scale = 45
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.rotate
+  commentId: F:CodeUI.Extensions.TransitionProperty.rotate
+  id: rotate
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: rotate
+  nameWithType: TransitionProperty.rotate
+  fullName: CodeUI.Extensions.TransitionProperty.rotate
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: rotate = 46
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.transformOrigin
+  commentId: F:CodeUI.Extensions.TransitionProperty.transformOrigin
+  id: transformOrigin
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: transformOrigin
+  nameWithType: TransitionProperty.transformOrigin
+  fullName: CodeUI.Extensions.TransitionProperty.transformOrigin
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: transformOrigin = 47
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.opacity
+  commentId: F:CodeUI.Extensions.TransitionProperty.opacity
+  id: opacity
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: opacity
+  nameWithType: TransitionProperty.opacity
+  fullName: CodeUI.Extensions.TransitionProperty.opacity
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: opacity = 48
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.color
+  commentId: F:CodeUI.Extensions.TransitionProperty.color
+  id: color
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: color
+  nameWithType: TransitionProperty.color
+  fullName: CodeUI.Extensions.TransitionProperty.color
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: color = 49
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.fontSize
+  commentId: F:CodeUI.Extensions.TransitionProperty.fontSize
+  id: fontSize
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: fontSize
+  nameWithType: TransitionProperty.fontSize
+  fullName: CodeUI.Extensions.TransitionProperty.fontSize
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: fontSize = 50
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.letterSpacing
+  commentId: F:CodeUI.Extensions.TransitionProperty.letterSpacing
+  id: letterSpacing
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: letterSpacing
+  nameWithType: TransitionProperty.letterSpacing
+  fullName: CodeUI.Extensions.TransitionProperty.letterSpacing
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: letterSpacing = 51
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.wordSpacing
+  commentId: F:CodeUI.Extensions.TransitionProperty.wordSpacing
+  id: wordSpacing
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: wordSpacing
+  nameWithType: TransitionProperty.wordSpacing
+  fullName: CodeUI.Extensions.TransitionProperty.wordSpacing
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: wordSpacing = 52
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.textShadow
+  commentId: F:CodeUI.Extensions.TransitionProperty.textShadow
+  id: textShadow
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: textShadow
+  nameWithType: TransitionProperty.textShadow
+  fullName: CodeUI.Extensions.TransitionProperty.textShadow
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: textShadow = 53
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unityParagraphSpacing
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityParagraphSpacing
+  id: unityParagraphSpacing
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unityParagraphSpacing
+  nameWithType: TransitionProperty.unityParagraphSpacing
+  fullName: CodeUI.Extensions.TransitionProperty.unityParagraphSpacing
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unityParagraphSpacing = 54
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unityTextOutline
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityTextOutline
+  id: unityTextOutline
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unityTextOutline
+  nameWithType: TransitionProperty.unityTextOutline
+  fullName: CodeUI.Extensions.TransitionProperty.unityTextOutline
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unityTextOutline = 55
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unityTextOutlineColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityTextOutlineColor
+  id: unityTextOutlineColor
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unityTextOutlineColor
+  nameWithType: TransitionProperty.unityTextOutlineColor
+  fullName: CodeUI.Extensions.TransitionProperty.unityTextOutlineColor
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unityTextOutlineColor = 56
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unityTextOutlineWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityTextOutlineWidth
+  id: unityTextOutlineWidth
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unityTextOutlineWidth
+  nameWithType: TransitionProperty.unityTextOutlineWidth
+  fullName: CodeUI.Extensions.TransitionProperty.unityTextOutlineWidth
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unityTextOutlineWidth = 57
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceTop
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceTop
+  id: unitySliceTop
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unitySliceTop
+  nameWithType: TransitionProperty.unitySliceTop
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceTop
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unitySliceTop = 58
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceRight
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceRight
+  id: unitySliceRight
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unitySliceRight
+  nameWithType: TransitionProperty.unitySliceRight
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceRight
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unitySliceRight = 59
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceBottom
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceBottom
+  id: unitySliceBottom
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unitySliceBottom
+  nameWithType: TransitionProperty.unitySliceBottom
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceBottom
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unitySliceBottom = 60
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceLeft
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceLeft
+  id: unitySliceLeft
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unitySliceLeft
+  nameWithType: TransitionProperty.unitySliceLeft
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceLeft
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unitySliceLeft = 61
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceScale
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceScale
+  id: unitySliceScale
+  parent: CodeUI.Extensions.TransitionProperty
+  langs:
+  - csharp
+  - vb
+  name: unitySliceScale
+  nameWithType: TransitionProperty.unitySliceScale
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceScale
+  type: Field
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: unitySliceScale = 62
+    return:
+      type: CodeUI.Extensions.TransitionProperty
+references:
+- uid: CodeUI.Extensions
+  commentId: N:CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Extensions
+  nameWithType: CodeUI.Extensions
+  fullName: CodeUI.Extensions
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+- uid: CodeUI.Extensions.TransitionProperty.CodeUI.Extensions.TransitionPropertyExtensions.ToUssName
+  commentId: M:CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  parent: CodeUI.Extensions.TransitionPropertyExtensions
+  definition: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  href: CodeUI.Extensions.TransitionPropertyExtensions.html#CodeUI_Extensions_TransitionPropertyExtensions_ToUssName_CodeUI_Extensions_TransitionProperty_
+  name: ToUssName(TransitionProperty)
+  nameWithType: TransitionPropertyExtensions.ToUssName(TransitionProperty)
+  fullName: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  spec.csharp:
+  - uid: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+    name: ToUssName
+    isExternal: true
+    href: CodeUI.Extensions.TransitionPropertyExtensions.html#CodeUI_Extensions_TransitionPropertyExtensions_ToUssName_CodeUI_Extensions_TransitionProperty_
+  - name: (
+  - uid: CodeUI.Extensions.TransitionProperty
+    name: TransitionProperty
+    isExternal: true
+    href: CodeUI.Extensions.TransitionProperty.html
+  - name: )
+  spec.vb:
+  - uid: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+    name: ToUssName
+    isExternal: true
+    href: CodeUI.Extensions.TransitionPropertyExtensions.html#CodeUI_Extensions_TransitionPropertyExtensions_ToUssName_CodeUI_Extensions_TransitionProperty_
+  - name: (
+  - uid: CodeUI.Extensions.TransitionProperty
+    name: TransitionProperty
+    isExternal: true
+    href: CodeUI.Extensions.TransitionProperty.html
+  - name: )
+- uid: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  commentId: M:CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  isExternal: true
+  href: CodeUI.Extensions.TransitionPropertyExtensions.html#CodeUI_Extensions_TransitionPropertyExtensions_ToUssName_CodeUI_Extensions_TransitionProperty_
+  name: ToUssName(TransitionProperty)
+  nameWithType: TransitionPropertyExtensions.ToUssName(TransitionProperty)
+  fullName: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  spec.csharp:
+  - uid: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+    name: ToUssName
+    isExternal: true
+    href: CodeUI.Extensions.TransitionPropertyExtensions.html#CodeUI_Extensions_TransitionPropertyExtensions_ToUssName_CodeUI_Extensions_TransitionProperty_
+  - name: (
+  - uid: CodeUI.Extensions.TransitionProperty
+    name: TransitionProperty
+    isExternal: true
+    href: CodeUI.Extensions.TransitionProperty.html
+  - name: )
+  spec.vb:
+  - uid: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+    name: ToUssName
+    isExternal: true
+    href: CodeUI.Extensions.TransitionPropertyExtensions.html#CodeUI_Extensions_TransitionPropertyExtensions_ToUssName_CodeUI_Extensions_TransitionProperty_
+  - name: (
+  - uid: CodeUI.Extensions.TransitionProperty
+    name: TransitionProperty
+    isExternal: true
+    href: CodeUI.Extensions.TransitionProperty.html
+  - name: )
+- uid: CodeUI.Extensions.TransitionPropertyExtensions
+  commentId: T:CodeUI.Extensions.TransitionPropertyExtensions
+  parent: CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.Extensions.TransitionPropertyExtensions.html
+  name: TransitionPropertyExtensions
+  nameWithType: TransitionPropertyExtensions
+  fullName: CodeUI.Extensions.TransitionPropertyExtensions
+- uid: CodeUI.Extensions.TransitionProperty
+  commentId: T:CodeUI.Extensions.TransitionProperty
+  parent: CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.Extensions.TransitionProperty.html
+  name: TransitionProperty
+  nameWithType: TransitionProperty
+  fullName: CodeUI.Extensions.TransitionProperty

@@ -1,0 +1,701 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Extensions.EventExtensions
+  commentId: T:CodeUI.Extensions.EventExtensions
+  id: EventExtensions
+  parent: CodeUI.Extensions
+  children:
+  - CodeUI.Extensions.EventExtensions.OnClick``1(``0,System.Action)
+  - CodeUI.Extensions.EventExtensions.OnEvent``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  - CodeUI.Extensions.EventExtensions.OnHover``1(``0,System.Action{System.Boolean})
+  - CodeUI.Extensions.EventExtensions.OnResize``1(``0,System.Action{UnityEngine.UIElements.GeometryChangedEvent})
+  - CodeUI.Extensions.EventExtensions.OnValueChanged``2(``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{``1}})
+  langs:
+  - csharp
+  - vb
+  name: EventExtensions
+  nameWithType: EventExtensions
+  fullName: CodeUI.Extensions.EventExtensions
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: public static class EventExtensions
+    content.vb: Public Module EventExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CodeUI.Extensions.EventExtensions.OnEvent``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  commentId: M:CodeUI.Extensions.EventExtensions.OnEvent``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  id: OnEvent``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.EventExtensions
+  langs:
+  - csharp
+  - vb
+  name: OnEvent<TElement, TEvent>(TElement, EventCallback<TEvent>)
+  nameWithType: EventExtensions.OnEvent<TElement, TEvent>(TElement, EventCallback<TEvent>)
+  fullName: CodeUI.Extensions.EventExtensions.OnEvent<TElement, TEvent>(TElement, UnityEngine.UIElements.EventCallback<TEvent>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static TElement OnEvent<TElement, TEvent>(this TElement element, EventCallback<TEvent> callback) where TElement : VisualElement where TEvent : EventBase<TEvent>, new()'
+    parameters:
+    - id: element
+      type: '{TElement}'
+    - id: callback
+      type: UnityEngine.UIElements.EventCallback{{TEvent}}
+    typeParameters:
+    - id: TElement
+    - id: TEvent
+    return:
+      type: '{TElement}'
+    content.vb: Public Shared Function OnEvent(Of TElement As VisualElement, TEvent As {EventBase(Of TEvent), New})(element As TElement, callback As EventCallback(Of TEvent)) As TElement
+  overload: CodeUI.Extensions.EventExtensions.OnEvent*
+  nameWithType.vb: EventExtensions.OnEvent(Of TElement, TEvent)(TElement, EventCallback(Of TEvent))
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnEvent(Of TElement, TEvent)(TElement, UnityEngine.UIElements.EventCallback(Of TEvent))
+  name.vb: OnEvent(Of TElement, TEvent)(TElement, EventCallback(Of TEvent))
+- uid: CodeUI.Extensions.EventExtensions.OnClick``1(``0,System.Action)
+  commentId: M:CodeUI.Extensions.EventExtensions.OnClick``1(``0,System.Action)
+  id: OnClick``1(``0,System.Action)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.EventExtensions
+  langs:
+  - csharp
+  - vb
+  name: OnClick<T>(T, Action)
+  nameWithType: EventExtensions.OnClick<T>(T, Action)
+  fullName: CodeUI.Extensions.EventExtensions.OnClick<T>(T, System.Action)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T OnClick<T>(this T element, Action onClick) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: onClick
+      type: System.Action
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function OnClick(Of T As VisualElement)(element As T, onClick As Action) As T
+  overload: CodeUI.Extensions.EventExtensions.OnClick*
+  nameWithType.vb: EventExtensions.OnClick(Of T)(T, Action)
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnClick(Of T)(T, System.Action)
+  name.vb: OnClick(Of T)(T, Action)
+- uid: CodeUI.Extensions.EventExtensions.OnHover``1(``0,System.Action{System.Boolean})
+  commentId: M:CodeUI.Extensions.EventExtensions.OnHover``1(``0,System.Action{System.Boolean})
+  id: OnHover``1(``0,System.Action{System.Boolean})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.EventExtensions
+  langs:
+  - csharp
+  - vb
+  name: OnHover<T>(T, Action<bool>)
+  nameWithType: EventExtensions.OnHover<T>(T, Action<bool>)
+  fullName: CodeUI.Extensions.EventExtensions.OnHover<T>(T, System.Action<bool>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T OnHover<T>(this T element, Action<bool> isHovering) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: isHovering
+      type: System.Action{System.Boolean}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function OnHover(Of T As VisualElement)(element As T, isHovering As Action(Of Boolean)) As T
+  overload: CodeUI.Extensions.EventExtensions.OnHover*
+  nameWithType.vb: EventExtensions.OnHover(Of T)(T, Action(Of Boolean))
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnHover(Of T)(T, System.Action(Of Boolean))
+  name.vb: OnHover(Of T)(T, Action(Of Boolean))
+- uid: CodeUI.Extensions.EventExtensions.OnValueChanged``2(``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{``1}})
+  commentId: M:CodeUI.Extensions.EventExtensions.OnValueChanged``2(``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{``1}})
+  id: OnValueChanged``2(``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{``1}})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.EventExtensions
+  langs:
+  - csharp
+  - vb
+  name: OnValueChanged<TElement, TValue>(TElement, EventCallback<ChangeEvent<TValue>>)
+  nameWithType: EventExtensions.OnValueChanged<TElement, TValue>(TElement, EventCallback<ChangeEvent<TValue>>)
+  fullName: CodeUI.Extensions.EventExtensions.OnValueChanged<TElement, TValue>(TElement, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<TValue>>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static TElement OnValueChanged<TElement, TValue>(this TElement element, EventCallback<ChangeEvent<TValue>> onValueChanged) where TElement : VisualElement, INotifyValueChanged<TValue>'
+    parameters:
+    - id: element
+      type: '{TElement}'
+    - id: onValueChanged
+      type: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{{TValue}}}
+    typeParameters:
+    - id: TElement
+    - id: TValue
+    return:
+      type: '{TElement}'
+    content.vb: Public Shared Function OnValueChanged(Of TElement As {VisualElement, INotifyValueChanged(Of TValue)}, TValue)(element As TElement, onValueChanged As EventCallback(Of ChangeEvent(Of TValue))) As TElement
+  overload: CodeUI.Extensions.EventExtensions.OnValueChanged*
+  nameWithType.vb: EventExtensions.OnValueChanged(Of TElement, TValue)(TElement, EventCallback(Of ChangeEvent(Of TValue)))
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnValueChanged(Of TElement, TValue)(TElement, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of TValue)))
+  name.vb: OnValueChanged(Of TElement, TValue)(TElement, EventCallback(Of ChangeEvent(Of TValue)))
+- uid: CodeUI.Extensions.EventExtensions.OnResize``1(``0,System.Action{UnityEngine.UIElements.GeometryChangedEvent})
+  commentId: M:CodeUI.Extensions.EventExtensions.OnResize``1(``0,System.Action{UnityEngine.UIElements.GeometryChangedEvent})
+  id: OnResize``1(``0,System.Action{UnityEngine.UIElements.GeometryChangedEvent})
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.EventExtensions
+  langs:
+  - csharp
+  - vb
+  name: OnResize<T>(T, Action<GeometryChangedEvent>)
+  nameWithType: EventExtensions.OnResize<T>(T, Action<GeometryChangedEvent>)
+  fullName: CodeUI.Extensions.EventExtensions.OnResize<T>(T, System.Action<UnityEngine.UIElements.GeometryChangedEvent>)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T OnResize<T>(this T element, Action<GeometryChangedEvent> onResize) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: onResize
+      type: System.Action{UnityEngine.UIElements.GeometryChangedEvent}
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function OnResize(Of T As VisualElement)(element As T, onResize As Action(Of GeometryChangedEvent)) As T
+  overload: CodeUI.Extensions.EventExtensions.OnResize*
+  nameWithType.vb: EventExtensions.OnResize(Of T)(T, Action(Of GeometryChangedEvent))
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnResize(Of T)(T, System.Action(Of UnityEngine.UIElements.GeometryChangedEvent))
+  name.vb: OnResize(Of T)(T, Action(Of GeometryChangedEvent))
+references:
+- uid: CodeUI.Extensions
+  commentId: N:CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Extensions
+  nameWithType: CodeUI.Extensions
+  fullName: CodeUI.Extensions
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.Extensions.EventExtensions.OnEvent*
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnEvent
+  isExternal: true
+  href: CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnEvent__2___0_UnityEngine_UIElements_EventCallback___1__
+  name: OnEvent
+  nameWithType: EventExtensions.OnEvent
+  fullName: CodeUI.Extensions.EventExtensions.OnEvent
+- uid: '{TElement}'
+  commentId: '!:TElement'
+  definition: TElement
+  name: TElement
+  nameWithType: TElement
+  fullName: TElement
+- uid: UnityEngine.UIElements.EventCallback{{TEvent}}
+  commentId: '!:UnityEngine.UIElements.EventCallback{``1}'
+  definition: UnityEngine.UIElements.EventCallback`1
+  name: EventCallback<TEvent>
+  nameWithType: EventCallback<TEvent>
+  fullName: UnityEngine.UIElements.EventCallback<TEvent>
+  nameWithType.vb: EventCallback(Of TEvent)
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of TEvent)
+  name.vb: EventCallback(Of TEvent)
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: TEvent
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TEvent
+  - name: )
+- uid: TElement
+  name: TElement
+  nameWithType: TElement
+  fullName: TElement
+- uid: UnityEngine.UIElements.EventCallback`1
+  isExternal: true
+  name: EventCallback<>
+  nameWithType: EventCallback<>
+  fullName: UnityEngine.UIElements.EventCallback<>
+  nameWithType.vb: EventCallback(Of )
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of )
+  name.vb: EventCallback(Of )
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: CodeUI.Extensions.EventExtensions.OnClick*
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnClick
+  isExternal: true
+  href: CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnClick__1___0_System_Action_
+  name: OnClick
+  nameWithType: EventExtensions.OnClick
+  fullName: CodeUI.Extensions.EventExtensions.OnClick
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CodeUI.Extensions.EventExtensions.OnHover*
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnHover
+  isExternal: true
+  href: CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnHover__1___0_System_Action_System_Boolean__
+  name: OnHover
+  nameWithType: EventExtensions.OnHover
+  fullName: CodeUI.Extensions.EventExtensions.OnHover
+- uid: System.Action{System.Boolean}
+  commentId: T:System.Action{System.Boolean}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<bool>
+  nameWithType: Action<bool>
+  fullName: System.Action<bool>
+  nameWithType.vb: Action(Of Boolean)
+  fullName.vb: System.Action(Of Boolean)
+  name.vb: Action(Of Boolean)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: CodeUI.Extensions.EventExtensions.OnValueChanged*
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnValueChanged
+  isExternal: true
+  href: CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnValueChanged__2___0_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent___1___
+  name: OnValueChanged
+  nameWithType: EventExtensions.OnValueChanged
+  fullName: CodeUI.Extensions.EventExtensions.OnValueChanged
+- uid: UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{{TValue}}}
+  commentId: '!:UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{``1}}'
+  definition: UnityEngine.UIElements.EventCallback`1
+  name: EventCallback<ChangeEvent<TValue>>
+  nameWithType: EventCallback<ChangeEvent<TValue>>
+  fullName: UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<TValue>>
+  nameWithType.vb: EventCallback(Of ChangeEvent(Of TValue))
+  fullName.vb: UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of TValue))
+  name.vb: EventCallback(Of ChangeEvent(Of TValue))
+  spec.csharp:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: <
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    isExternal: true
+  - name: <
+  - name: TValue
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: UnityEngine.UIElements.EventCallback`1
+    name: EventCallback
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.ChangeEvent`1
+    name: ChangeEvent
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TValue
+  - name: )
+  - name: )
+- uid: CodeUI.Extensions.EventExtensions.OnResize*
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnResize
+  isExternal: true
+  href: CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnResize__1___0_System_Action_UnityEngine_UIElements_GeometryChangedEvent__
+  name: OnResize
+  nameWithType: EventExtensions.OnResize
+  fullName: CodeUI.Extensions.EventExtensions.OnResize
+- uid: System.Action{UnityEngine.UIElements.GeometryChangedEvent}
+  commentId: T:System.Action{UnityEngine.UIElements.GeometryChangedEvent}
+  parent: System
+  definition: System.Action`1
+  href: https://learn.microsoft.com/dotnet/api/system.action-1
+  name: Action<GeometryChangedEvent>
+  nameWithType: Action<GeometryChangedEvent>
+  fullName: System.Action<UnityEngine.UIElements.GeometryChangedEvent>
+  nameWithType.vb: Action(Of GeometryChangedEvent)
+  fullName.vb: System.Action(Of UnityEngine.UIElements.GeometryChangedEvent)
+  name.vb: Action(Of GeometryChangedEvent)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: <
+  - uid: UnityEngine.UIElements.GeometryChangedEvent
+    name: GeometryChangedEvent
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.action-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: UnityEngine.UIElements.GeometryChangedEvent
+    name: GeometryChangedEvent
+    isExternal: true
+  - name: )

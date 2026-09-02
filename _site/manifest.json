@@ -1,0 +1,418 @@
+{
+  "source_base_path": "S:/Unity/CodeUIDoc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "Template/public/main.css",
+      "output": {
+        "resource": {
+          "relative_path": "Template/public/main.css"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.BaseUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.BaseUI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.BaseUIEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.BaseUIEditor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Components.Divider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Components.Divider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Components.Spacer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Components.Spacer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Components.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.ApplyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.ApplyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.BackgroundExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.BackgroundExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.BorderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.BorderExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.ClassExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.ClassExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.EventExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.EventExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.GeneralExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.GeneralExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.HierarchyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.HierarchyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.LayoutExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.LayoutExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.LocalizationBindingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.LocalizationBindingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.LoopExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.LoopExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.MarginExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.MarginExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.PaddingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.PaddingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.StyleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.StyleExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.TextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.TextExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.TransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.TransformExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.TransitionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.TransitionExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.TransitionProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.TransitionProperty.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.TransitionPropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.TransitionPropertyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.UnityBindingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.UnityBindingExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Tokens.FontSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Tokens.FontSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Tokens.Radius.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Tokens.Radius.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Tokens.Spacing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Tokens.Spacing.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.Tokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.Tokens.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CodeUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CodeUI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/Favicon.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Favicon.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

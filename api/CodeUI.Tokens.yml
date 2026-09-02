@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Tokens
+  commentId: N:CodeUI.Tokens
+  id: CodeUI.Tokens
+  children:
+  - CodeUI.Tokens.FontSize
+  - CodeUI.Tokens.Radius
+  - CodeUI.Tokens.Spacing
+  langs:
+  - csharp
+  - vb
+  name: CodeUI.Tokens
+  nameWithType: CodeUI.Tokens
+  fullName: CodeUI.Tokens
+  type: Namespace
+  assemblies:
+  - CodeUI
+references:
+- uid: CodeUI.Tokens.FontSize
+  commentId: T:CodeUI.Tokens.FontSize
+  isExternal: true
+  href: CodeUI.Tokens.FontSize.html
+  name: FontSize
+  nameWithType: FontSize
+  fullName: CodeUI.Tokens.FontSize
+- uid: CodeUI.Tokens.Radius
+  commentId: T:CodeUI.Tokens.Radius
+  isExternal: true
+  href: CodeUI.Tokens.Radius.html
+  name: Radius
+  nameWithType: Radius
+  fullName: CodeUI.Tokens.Radius
+- uid: CodeUI.Tokens.Spacing
+  commentId: T:CodeUI.Tokens.Spacing
+  isExternal: true
+  href: CodeUI.Tokens.Spacing.html
+  name: Spacing
+  nameWithType: Spacing
+  fullName: CodeUI.Tokens.Spacing

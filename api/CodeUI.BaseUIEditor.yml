@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.BaseUIEditor
+  commentId: T:CodeUI.BaseUIEditor
+  id: BaseUIEditor
+  parent: CodeUI
+  children:
+  - CodeUI.BaseUIEditor.#ctor
+  - CodeUI.BaseUIEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: BaseUIEditor
+  nameWithType: BaseUIEditor
+  fullName: CodeUI.BaseUIEditor
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: 'public class BaseUIEditor : Editor'
+    content.vb: Public Class BaseUIEditor Inherits Editor
+  inheritance:
+  - System.Object
+- uid: CodeUI.BaseUIEditor.OnInspectorGUI
+  commentId: M:CodeUI.BaseUIEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: CodeUI.BaseUIEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: BaseUIEditor.OnInspectorGUI()
+  fullName: CodeUI.BaseUIEditor.OnInspectorGUI()
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  example: []
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI()
+  overload: CodeUI.BaseUIEditor.OnInspectorGUI*
+- uid: CodeUI.BaseUIEditor.#ctor
+  commentId: M:CodeUI.BaseUIEditor.#ctor
+  id: '#ctor'
+  parent: CodeUI.BaseUIEditor
+  langs:
+  - csharp
+  - vb
+  name: BaseUIEditor()
+  nameWithType: BaseUIEditor.BaseUIEditor()
+  fullName: CodeUI.BaseUIEditor.BaseUIEditor()
+  type: Constructor
+  assemblies:
+  - CodeUI
+  namespace: CodeUI
+  syntax:
+    content: public BaseUIEditor()
+    content.vb: Public Sub New()
+  overload: CodeUI.BaseUIEditor.#ctor*
+  nameWithType.vb: BaseUIEditor.New()
+  fullName.vb: CodeUI.BaseUIEditor.New()
+  name.vb: New()
+references:
+- uid: CodeUI
+  commentId: N:CodeUI
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI
+  nameWithType: CodeUI
+  fullName: CodeUI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.BaseUIEditor.OnInspectorGUI*
+  commentId: Overload:CodeUI.BaseUIEditor.OnInspectorGUI
+  isExternal: true
+  href: CodeUI.BaseUIEditor.html#CodeUI_BaseUIEditor_OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: BaseUIEditor.OnInspectorGUI
+  fullName: CodeUI.BaseUIEditor.OnInspectorGUI
+- uid: CodeUI.BaseUIEditor.#ctor*
+  commentId: Overload:CodeUI.BaseUIEditor.#ctor
+  isExternal: true
+  href: CodeUI.BaseUIEditor.html#CodeUI_BaseUIEditor__ctor
+  name: BaseUIEditor
+  nameWithType: BaseUIEditor.BaseUIEditor
+  fullName: CodeUI.BaseUIEditor.BaseUIEditor
+  nameWithType.vb: BaseUIEditor.New
+  fullName.vb: CodeUI.BaseUIEditor.New
+  name.vb: New

@@ -1,0 +1,2565 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: CodeUI
+  name: CodeUI
+  href: api/CodeUI.html
+  commentId: N:CodeUI
+  fullName: CodeUI
+  nameWithType: CodeUI
+- uid: CodeUI.BaseUI
+  name: BaseUI
+  href: api/CodeUI.BaseUI.html
+  commentId: T:CodeUI.BaseUI
+  fullName: CodeUI.BaseUI
+  nameWithType: BaseUI
+- uid: CodeUI.BaseUI.#ctor
+  name: BaseUI()
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI__ctor
+  commentId: M:CodeUI.BaseUI.#ctor
+  name.vb: New()
+  fullName: CodeUI.BaseUI.BaseUI()
+  fullName.vb: CodeUI.BaseUI.New()
+  nameWithType: BaseUI.BaseUI()
+  nameWithType.vb: BaseUI.New()
+- uid: CodeUI.BaseUI.#ctor*
+  name: BaseUI
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI__ctor_
+  commentId: Overload:CodeUI.BaseUI.#ctor
+  name.vb: New
+  fullName: CodeUI.BaseUI.BaseUI
+  fullName.vb: CodeUI.BaseUI.New
+  nameWithType: BaseUI.BaseUI
+  nameWithType.vb: BaseUI.New
+- uid: CodeUI.BaseUI.Awake
+  name: Awake()
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_Awake
+  commentId: M:CodeUI.BaseUI.Awake
+  fullName: CodeUI.BaseUI.Awake()
+  nameWithType: BaseUI.Awake()
+- uid: CodeUI.BaseUI.Awake*
+  name: Awake
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_Awake_
+  commentId: Overload:CodeUI.BaseUI.Awake
+  fullName: CodeUI.BaseUI.Awake
+  nameWithType: BaseUI.Awake
+- uid: CodeUI.BaseUI.Generate(UnityEngine.UIElements.VisualElement)
+  name: Generate(VisualElement)
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_Generate_UnityEngine_UIElements_VisualElement_
+  commentId: M:CodeUI.BaseUI.Generate(UnityEngine.UIElements.VisualElement)
+  fullName: CodeUI.BaseUI.Generate(UnityEngine.UIElements.VisualElement)
+  nameWithType: BaseUI.Generate(VisualElement)
+- uid: CodeUI.BaseUI.Generate*
+  name: Generate
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_Generate_
+  commentId: Overload:CodeUI.BaseUI.Generate
+  fullName: CodeUI.BaseUI.Generate
+  nameWithType: BaseUI.Generate
+- uid: CodeUI.BaseUI.OnEnable
+  name: OnEnable()
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_OnEnable
+  commentId: M:CodeUI.BaseUI.OnEnable
+  fullName: CodeUI.BaseUI.OnEnable()
+  nameWithType: BaseUI.OnEnable()
+- uid: CodeUI.BaseUI.OnEnable*
+  name: OnEnable
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_OnEnable_
+  commentId: Overload:CodeUI.BaseUI.OnEnable
+  fullName: CodeUI.BaseUI.OnEnable
+  nameWithType: BaseUI.OnEnable
+- uid: CodeUI.BaseUI.RebuildUI
+  name: RebuildUI()
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_RebuildUI
+  commentId: M:CodeUI.BaseUI.RebuildUI
+  fullName: CodeUI.BaseUI.RebuildUI()
+  nameWithType: BaseUI.RebuildUI()
+- uid: CodeUI.BaseUI.RebuildUI*
+  name: RebuildUI
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_RebuildUI_
+  commentId: Overload:CodeUI.BaseUI.RebuildUI
+  fullName: CodeUI.BaseUI.RebuildUI
+  nameWithType: BaseUI.RebuildUI
+- uid: CodeUI.BaseUI.Root
+  name: Root
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_Root
+  commentId: P:CodeUI.BaseUI.Root
+  fullName: CodeUI.BaseUI.Root
+  nameWithType: BaseUI.Root
+- uid: CodeUI.BaseUI.Root*
+  name: Root
+  href: api/CodeUI.BaseUI.html#CodeUI_BaseUI_Root_
+  commentId: Overload:CodeUI.BaseUI.Root
+  fullName: CodeUI.BaseUI.Root
+  nameWithType: BaseUI.Root
+- uid: CodeUI.BaseUIEditor
+  name: BaseUIEditor
+  href: api/CodeUI.BaseUIEditor.html
+  commentId: T:CodeUI.BaseUIEditor
+  fullName: CodeUI.BaseUIEditor
+  nameWithType: BaseUIEditor
+- uid: CodeUI.BaseUIEditor.#ctor
+  name: BaseUIEditor()
+  href: api/CodeUI.BaseUIEditor.html#CodeUI_BaseUIEditor__ctor
+  commentId: M:CodeUI.BaseUIEditor.#ctor
+  name.vb: New()
+  fullName: CodeUI.BaseUIEditor.BaseUIEditor()
+  fullName.vb: CodeUI.BaseUIEditor.New()
+  nameWithType: BaseUIEditor.BaseUIEditor()
+  nameWithType.vb: BaseUIEditor.New()
+- uid: CodeUI.BaseUIEditor.#ctor*
+  name: BaseUIEditor
+  href: api/CodeUI.BaseUIEditor.html#CodeUI_BaseUIEditor__ctor_
+  commentId: Overload:CodeUI.BaseUIEditor.#ctor
+  name.vb: New
+  fullName: CodeUI.BaseUIEditor.BaseUIEditor
+  fullName.vb: CodeUI.BaseUIEditor.New
+  nameWithType: BaseUIEditor.BaseUIEditor
+  nameWithType.vb: BaseUIEditor.New
+- uid: CodeUI.BaseUIEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/CodeUI.BaseUIEditor.html#CodeUI_BaseUIEditor_OnInspectorGUI
+  commentId: M:CodeUI.BaseUIEditor.OnInspectorGUI
+  fullName: CodeUI.BaseUIEditor.OnInspectorGUI()
+  nameWithType: BaseUIEditor.OnInspectorGUI()
+- uid: CodeUI.BaseUIEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/CodeUI.BaseUIEditor.html#CodeUI_BaseUIEditor_OnInspectorGUI_
+  commentId: Overload:CodeUI.BaseUIEditor.OnInspectorGUI
+  fullName: CodeUI.BaseUIEditor.OnInspectorGUI
+  nameWithType: BaseUIEditor.OnInspectorGUI
+- uid: CodeUI.Components
+  name: CodeUI.Components
+  href: api/CodeUI.Components.html
+  commentId: N:CodeUI.Components
+  fullName: CodeUI.Components
+  nameWithType: CodeUI.Components
+- uid: CodeUI.Components.Divider
+  name: Divider
+  href: api/CodeUI.Components.Divider.html
+  commentId: T:CodeUI.Components.Divider
+  fullName: CodeUI.Components.Divider
+  nameWithType: Divider
+- uid: CodeUI.Components.Divider.#ctor(System.Boolean)
+  name: Divider(bool)
+  href: api/CodeUI.Components.Divider.html#CodeUI_Components_Divider__ctor_System_Boolean_
+  commentId: M:CodeUI.Components.Divider.#ctor(System.Boolean)
+  name.vb: New(Boolean)
+  fullName: CodeUI.Components.Divider.Divider(bool)
+  fullName.vb: CodeUI.Components.Divider.New(Boolean)
+  nameWithType: Divider.Divider(bool)
+  nameWithType.vb: Divider.New(Boolean)
+- uid: CodeUI.Components.Divider.#ctor*
+  name: Divider
+  href: api/CodeUI.Components.Divider.html#CodeUI_Components_Divider__ctor_
+  commentId: Overload:CodeUI.Components.Divider.#ctor
+  name.vb: New
+  fullName: CodeUI.Components.Divider.Divider
+  fullName.vb: CodeUI.Components.Divider.New
+  nameWithType: Divider.Divider
+  nameWithType.vb: Divider.New
+- uid: CodeUI.Components.Spacer
+  name: Spacer
+  href: api/CodeUI.Components.Spacer.html
+  commentId: T:CodeUI.Components.Spacer
+  fullName: CodeUI.Components.Spacer
+  nameWithType: Spacer
+- uid: CodeUI.Components.Spacer.#ctor(System.Single,System.Single)
+  name: Spacer(float, float)
+  href: api/CodeUI.Components.Spacer.html#CodeUI_Components_Spacer__ctor_System_Single_System_Single_
+  commentId: M:CodeUI.Components.Spacer.#ctor(System.Single,System.Single)
+  name.vb: New(Single, Single)
+  fullName: CodeUI.Components.Spacer.Spacer(float, float)
+  fullName.vb: CodeUI.Components.Spacer.New(Single, Single)
+  nameWithType: Spacer.Spacer(float, float)
+  nameWithType.vb: Spacer.New(Single, Single)
+- uid: CodeUI.Components.Spacer.#ctor*
+  name: Spacer
+  href: api/CodeUI.Components.Spacer.html#CodeUI_Components_Spacer__ctor_
+  commentId: Overload:CodeUI.Components.Spacer.#ctor
+  name.vb: New
+  fullName: CodeUI.Components.Spacer.Spacer
+  fullName.vb: CodeUI.Components.Spacer.New
+  nameWithType: Spacer.Spacer
+  nameWithType.vb: Spacer.New
+- uid: CodeUI.Components.Spacer.Horizontal(System.Single)
+  name: Horizontal(float)
+  href: api/CodeUI.Components.Spacer.html#CodeUI_Components_Spacer_Horizontal_System_Single_
+  commentId: M:CodeUI.Components.Spacer.Horizontal(System.Single)
+  name.vb: Horizontal(Single)
+  fullName: CodeUI.Components.Spacer.Horizontal(float)
+  fullName.vb: CodeUI.Components.Spacer.Horizontal(Single)
+  nameWithType: Spacer.Horizontal(float)
+  nameWithType.vb: Spacer.Horizontal(Single)
+- uid: CodeUI.Components.Spacer.Horizontal*
+  name: Horizontal
+  href: api/CodeUI.Components.Spacer.html#CodeUI_Components_Spacer_Horizontal_
+  commentId: Overload:CodeUI.Components.Spacer.Horizontal
+  fullName: CodeUI.Components.Spacer.Horizontal
+  nameWithType: Spacer.Horizontal
+- uid: CodeUI.Components.Spacer.Vertical(System.Single)
+  name: Vertical(float)
+  href: api/CodeUI.Components.Spacer.html#CodeUI_Components_Spacer_Vertical_System_Single_
+  commentId: M:CodeUI.Components.Spacer.Vertical(System.Single)
+  name.vb: Vertical(Single)
+  fullName: CodeUI.Components.Spacer.Vertical(float)
+  fullName.vb: CodeUI.Components.Spacer.Vertical(Single)
+  nameWithType: Spacer.Vertical(float)
+  nameWithType.vb: Spacer.Vertical(Single)
+- uid: CodeUI.Components.Spacer.Vertical*
+  name: Vertical
+  href: api/CodeUI.Components.Spacer.html#CodeUI_Components_Spacer_Vertical_
+  commentId: Overload:CodeUI.Components.Spacer.Vertical
+  fullName: CodeUI.Components.Spacer.Vertical
+  nameWithType: Spacer.Vertical
+- uid: CodeUI.Extensions
+  name: CodeUI.Extensions
+  href: api/CodeUI.Extensions.html
+  commentId: N:CodeUI.Extensions
+  fullName: CodeUI.Extensions
+  nameWithType: CodeUI.Extensions
+- uid: CodeUI.Extensions.ApplyExtensions
+  name: ApplyExtensions
+  href: api/CodeUI.Extensions.ApplyExtensions.html
+  commentId: T:CodeUI.Extensions.ApplyExtensions
+  fullName: CodeUI.Extensions.ApplyExtensions
+  nameWithType: ApplyExtensions
+- uid: CodeUI.Extensions.ApplyExtensions.Apply*
+  name: Apply
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_Apply_
+  commentId: Overload:CodeUI.Extensions.ApplyExtensions.Apply
+  fullName: CodeUI.Extensions.ApplyExtensions.Apply
+  nameWithType: ApplyExtensions.Apply
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQ*
+  name: ApplyQ
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQ_
+  commentId: Overload:CodeUI.Extensions.ApplyExtensions.ApplyQ
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQ
+  nameWithType: ApplyExtensions.ApplyQ
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEach*
+  name: ApplyQForEach
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQForEach_
+  commentId: Overload:CodeUI.Extensions.ApplyExtensions.ApplyQForEach
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEach
+  nameWithType: ApplyExtensions.ApplyQForEach
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere*
+  name: ApplyQForEachWhere
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQForEachWhere_
+  commentId: Overload:CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere
+  nameWithType: ApplyExtensions.ApplyQForEachWhere
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``1(``0,System.Func{UnityEngine.UIElements.VisualElement,System.Boolean},System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  name: ApplyQForEachWhere<TRoot>(TRoot, Func<VisualElement, bool>, string, string, Action<VisualElement>)
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQForEachWhere__1___0_System_Func_UnityEngine_UIElements_VisualElement_System_Boolean__System_String_System_String_System_Action_UnityEngine_UIElements_VisualElement__
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``1(``0,System.Func{UnityEngine.UIElements.VisualElement,System.Boolean},System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  name.vb: ApplyQForEachWhere(Of TRoot)(TRoot, Func(Of VisualElement, Boolean), String, String, Action(Of VisualElement))
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere<TRoot>(TRoot, System.Func<UnityEngine.UIElements.VisualElement, bool>, string, string, System.Action<UnityEngine.UIElements.VisualElement>)
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere(Of TRoot)(TRoot, System.Func(Of UnityEngine.UIElements.VisualElement, Boolean), String, String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  nameWithType: ApplyExtensions.ApplyQForEachWhere<TRoot>(TRoot, Func<VisualElement, bool>, string, string, Action<VisualElement>)
+  nameWithType.vb: ApplyExtensions.ApplyQForEachWhere(Of TRoot)(TRoot, Func(Of VisualElement, Boolean), String, String, Action(Of VisualElement))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``2(``0,System.Func{``1,System.Boolean},System.String,System.String,System.Action{``1})
+  name: ApplyQForEachWhere<TRoot, TChild>(TRoot, Func<TChild, bool>, string, string, Action<TChild>)
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQForEachWhere__2___0_System_Func___1_System_Boolean__System_String_System_String_System_Action___1__
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere``2(``0,System.Func{``1,System.Boolean},System.String,System.String,System.Action{``1})
+  name.vb: ApplyQForEachWhere(Of TRoot, TChild)(TRoot, Func(Of TChild, Boolean), String, String, Action(Of TChild))
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere<TRoot, TChild>(TRoot, System.Func<TChild, bool>, string, string, System.Action<TChild>)
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQForEachWhere(Of TRoot, TChild)(TRoot, System.Func(Of TChild, Boolean), String, String, System.Action(Of TChild))
+  nameWithType: ApplyExtensions.ApplyQForEachWhere<TRoot, TChild>(TRoot, Func<TChild, bool>, string, string, Action<TChild>)
+  nameWithType.vb: ApplyExtensions.ApplyQForEachWhere(Of TRoot, TChild)(TRoot, Func(Of TChild, Boolean), String, String, Action(Of TChild))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEach``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  name: ApplyQForEach<TRoot>(TRoot, string, string, Action<VisualElement>)
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQForEach__1___0_System_String_System_String_System_Action_UnityEngine_UIElements_VisualElement__
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQForEach``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  name.vb: ApplyQForEach(Of TRoot)(TRoot, String, String, Action(Of VisualElement))
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEach<TRoot>(TRoot, string, string, System.Action<UnityEngine.UIElements.VisualElement>)
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQForEach(Of TRoot)(TRoot, String, String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  nameWithType: ApplyExtensions.ApplyQForEach<TRoot>(TRoot, string, string, Action<VisualElement>)
+  nameWithType.vb: ApplyExtensions.ApplyQForEach(Of TRoot)(TRoot, String, String, Action(Of VisualElement))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQForEach``2(``0,System.String,System.String,System.Action{``1})
+  name: ApplyQForEach<TRoot, TChild>(TRoot, string, string, Action<TChild>)
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQForEach__2___0_System_String_System_String_System_Action___1__
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQForEach``2(``0,System.String,System.String,System.Action{``1})
+  name.vb: ApplyQForEach(Of TRoot, TChild)(TRoot, String, String, Action(Of TChild))
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQForEach<TRoot, TChild>(TRoot, string, string, System.Action<TChild>)
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQForEach(Of TRoot, TChild)(TRoot, String, String, System.Action(Of TChild))
+  nameWithType: ApplyExtensions.ApplyQForEach<TRoot, TChild>(TRoot, string, string, Action<TChild>)
+  nameWithType.vb: ApplyExtensions.ApplyQForEach(Of TRoot, TChild)(TRoot, String, String, Action(Of TChild))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQ``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  name: ApplyQ<TRoot>(TRoot, string, string, Action<VisualElement>)
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQ__1___0_System_String_System_String_System_Action_UnityEngine_UIElements_VisualElement__
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQ``1(``0,System.String,System.String,System.Action{UnityEngine.UIElements.VisualElement})
+  name.vb: ApplyQ(Of TRoot)(TRoot, String, String, Action(Of VisualElement))
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQ<TRoot>(TRoot, string, string, System.Action<UnityEngine.UIElements.VisualElement>)
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQ(Of TRoot)(TRoot, String, String, System.Action(Of UnityEngine.UIElements.VisualElement))
+  nameWithType: ApplyExtensions.ApplyQ<TRoot>(TRoot, string, string, Action<VisualElement>)
+  nameWithType.vb: ApplyExtensions.ApplyQ(Of TRoot)(TRoot, String, String, Action(Of VisualElement))
+- uid: CodeUI.Extensions.ApplyExtensions.ApplyQ``2(``0,System.String,System.String,System.Action{``1})
+  name: ApplyQ<TRoot, TChild>(TRoot, string, string, Action<TChild>)
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_ApplyQ__2___0_System_String_System_String_System_Action___1__
+  commentId: M:CodeUI.Extensions.ApplyExtensions.ApplyQ``2(``0,System.String,System.String,System.Action{``1})
+  name.vb: ApplyQ(Of TRoot, TChild)(TRoot, String, String, Action(Of TChild))
+  fullName: CodeUI.Extensions.ApplyExtensions.ApplyQ<TRoot, TChild>(TRoot, string, string, System.Action<TChild>)
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.ApplyQ(Of TRoot, TChild)(TRoot, String, String, System.Action(Of TChild))
+  nameWithType: ApplyExtensions.ApplyQ<TRoot, TChild>(TRoot, string, string, Action<TChild>)
+  nameWithType.vb: ApplyExtensions.ApplyQ(Of TRoot, TChild)(TRoot, String, String, Action(Of TChild))
+- uid: CodeUI.Extensions.ApplyExtensions.Apply``1(``0,System.Action{``0})
+  name: Apply<T>(T, Action<T>)
+  href: api/CodeUI.Extensions.ApplyExtensions.html#CodeUI_Extensions_ApplyExtensions_Apply__1___0_System_Action___0__
+  commentId: M:CodeUI.Extensions.ApplyExtensions.Apply``1(``0,System.Action{``0})
+  name.vb: Apply(Of T)(T, Action(Of T))
+  fullName: CodeUI.Extensions.ApplyExtensions.Apply<T>(T, System.Action<T>)
+  fullName.vb: CodeUI.Extensions.ApplyExtensions.Apply(Of T)(T, System.Action(Of T))
+  nameWithType: ApplyExtensions.Apply<T>(T, Action<T>)
+  nameWithType.vb: ApplyExtensions.Apply(Of T)(T, Action(Of T))
+- uid: CodeUI.Extensions.BackgroundExtensions
+  name: BackgroundExtensions
+  href: api/CodeUI.Extensions.BackgroundExtensions.html
+  commentId: T:CodeUI.Extensions.BackgroundExtensions
+  fullName: CodeUI.Extensions.BackgroundExtensions
+  nameWithType: BackgroundExtensions
+- uid: CodeUI.Extensions.BackgroundExtensions.AspectRatio*
+  name: AspectRatio
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_AspectRatio_
+  commentId: Overload:CodeUI.Extensions.BackgroundExtensions.AspectRatio
+  fullName: CodeUI.Extensions.BackgroundExtensions.AspectRatio
+  nameWithType: BackgroundExtensions.AspectRatio
+- uid: CodeUI.Extensions.BackgroundExtensions.AspectRatio``1(``0,UnityEngine.UIElements.Ratio)
+  name: AspectRatio<T>(T, Ratio)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_AspectRatio__1___0_UnityEngine_UIElements_Ratio_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.AspectRatio``1(``0,UnityEngine.UIElements.Ratio)
+  name.vb: AspectRatio(Of T)(T, Ratio)
+  fullName: CodeUI.Extensions.BackgroundExtensions.AspectRatio<T>(T, UnityEngine.UIElements.Ratio)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.AspectRatio(Of T)(T, UnityEngine.UIElements.Ratio)
+  nameWithType: BackgroundExtensions.AspectRatio<T>(T, Ratio)
+  nameWithType.vb: BackgroundExtensions.AspectRatio(Of T)(T, Ratio)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundColor*
+  name: BackgroundColor
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundColor_
+  commentId: Overload:CodeUI.Extensions.BackgroundExtensions.BackgroundColor
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundColor
+  nameWithType: BackgroundExtensions.BackgroundColor
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundColor``1(``0,UnityEngine.Color)
+  name: BackgroundColor<T>(T, Color)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundColor__1___0_UnityEngine_Color_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundColor``1(``0,UnityEngine.Color)
+  name.vb: BackgroundColor(Of T)(T, Color)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundColor<T>(T, UnityEngine.Color)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundColor(Of T)(T, UnityEngine.Color)
+  nameWithType: BackgroundExtensions.BackgroundColor<T>(T, Color)
+  nameWithType.vb: BackgroundExtensions.BackgroundColor(Of T)(T, Color)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundImage*
+  name: BackgroundImage
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundImage_
+  commentId: Overload:CodeUI.Extensions.BackgroundExtensions.BackgroundImage
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundImage
+  nameWithType: BackgroundExtensions.BackgroundImage
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundImage``1(``0,UnityEngine.Sprite)
+  name: BackgroundImage<T>(T, Sprite)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundImage__1___0_UnityEngine_Sprite_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundImage``1(``0,UnityEngine.Sprite)
+  name.vb: BackgroundImage(Of T)(T, Sprite)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundImage<T>(T, UnityEngine.Sprite)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundImage(Of T)(T, UnityEngine.Sprite)
+  nameWithType: BackgroundExtensions.BackgroundImage<T>(T, Sprite)
+  nameWithType.vb: BackgroundExtensions.BackgroundImage(Of T)(T, Sprite)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundImage``1(``0,UnityEngine.Texture2D)
+  name: BackgroundImage<T>(T, Texture2D)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundImage__1___0_UnityEngine_Texture2D_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundImage``1(``0,UnityEngine.Texture2D)
+  name.vb: BackgroundImage(Of T)(T, Texture2D)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundImage<T>(T, UnityEngine.Texture2D)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundImage(Of T)(T, UnityEngine.Texture2D)
+  nameWithType: BackgroundExtensions.BackgroundImage<T>(T, Texture2D)
+  nameWithType.vb: BackgroundExtensions.BackgroundImage(Of T)(T, Texture2D)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundImage``1(``0,UnityEngine.UIElements.Background)
+  name: BackgroundImage<T>(T, Background)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundImage__1___0_UnityEngine_UIElements_Background_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundImage``1(``0,UnityEngine.UIElements.Background)
+  name.vb: BackgroundImage(Of T)(T, Background)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundImage<T>(T, UnityEngine.UIElements.Background)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundImage(Of T)(T, UnityEngine.UIElements.Background)
+  nameWithType: BackgroundExtensions.BackgroundImage<T>(T, Background)
+  nameWithType.vb: BackgroundExtensions.BackgroundImage(Of T)(T, Background)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundImage``1(``0,UnityEngine.UIElements.VectorImage)
+  name: BackgroundImage<T>(T, VectorImage)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundImage__1___0_UnityEngine_UIElements_VectorImage_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundImage``1(``0,UnityEngine.UIElements.VectorImage)
+  name.vb: BackgroundImage(Of T)(T, VectorImage)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundImage<T>(T, UnityEngine.UIElements.VectorImage)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundImage(Of T)(T, UnityEngine.UIElements.VectorImage)
+  nameWithType: BackgroundExtensions.BackgroundImage<T>(T, VectorImage)
+  nameWithType.vb: BackgroundExtensions.BackgroundImage(Of T)(T, VectorImage)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundRepeat*
+  name: BackgroundRepeat
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundRepeat_
+  commentId: Overload:CodeUI.Extensions.BackgroundExtensions.BackgroundRepeat
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundRepeat
+  nameWithType: BackgroundExtensions.BackgroundRepeat
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundRepeat``1(``0,UnityEngine.UIElements.Repeat,UnityEngine.UIElements.Repeat)
+  name: BackgroundRepeat<T>(T, Repeat, Repeat)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundRepeat__1___0_UnityEngine_UIElements_Repeat_UnityEngine_UIElements_Repeat_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundRepeat``1(``0,UnityEngine.UIElements.Repeat,UnityEngine.UIElements.Repeat)
+  name.vb: BackgroundRepeat(Of T)(T, Repeat, Repeat)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundRepeat<T>(T, UnityEngine.UIElements.Repeat, UnityEngine.UIElements.Repeat)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundRepeat(Of T)(T, UnityEngine.UIElements.Repeat, UnityEngine.UIElements.Repeat)
+  nameWithType: BackgroundExtensions.BackgroundRepeat<T>(T, Repeat, Repeat)
+  nameWithType.vb: BackgroundExtensions.BackgroundRepeat(Of T)(T, Repeat, Repeat)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundSize*
+  name: BackgroundSize
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundSize_
+  commentId: Overload:CodeUI.Extensions.BackgroundExtensions.BackgroundSize
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundSize
+  nameWithType: BackgroundExtensions.BackgroundSize
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundSize``1(``0,UnityEngine.UIElements.BackgroundSize)
+  name: BackgroundSize<T>(T, BackgroundSize)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundSize__1___0_UnityEngine_UIElements_BackgroundSize_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundSize``1(``0,UnityEngine.UIElements.BackgroundSize)
+  name.vb: BackgroundSize(Of T)(T, BackgroundSize)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundSize<T>(T, UnityEngine.UIElements.BackgroundSize)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundSize(Of T)(T, UnityEngine.UIElements.BackgroundSize)
+  nameWithType: BackgroundExtensions.BackgroundSize<T>(T, BackgroundSize)
+  nameWithType.vb: BackgroundExtensions.BackgroundSize(Of T)(T, BackgroundSize)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundSize``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: BackgroundSize<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundSize__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundSize``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: BackgroundSize(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundSize<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundSize(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: BackgroundExtensions.BackgroundSize<T>(T, Length, Length)
+  nameWithType.vb: BackgroundExtensions.BackgroundSize(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundTint*
+  name: BackgroundTint
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundTint_
+  commentId: Overload:CodeUI.Extensions.BackgroundExtensions.BackgroundTint
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundTint
+  nameWithType: BackgroundExtensions.BackgroundTint
+- uid: CodeUI.Extensions.BackgroundExtensions.BackgroundTint``1(``0,UnityEngine.Color)
+  name: BackgroundTint<T>(T, Color)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_BackgroundTint__1___0_UnityEngine_Color_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.BackgroundTint``1(``0,UnityEngine.Color)
+  name.vb: BackgroundTint(Of T)(T, Color)
+  fullName: CodeUI.Extensions.BackgroundExtensions.BackgroundTint<T>(T, UnityEngine.Color)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.BackgroundTint(Of T)(T, UnityEngine.Color)
+  nameWithType: BackgroundExtensions.BackgroundTint<T>(T, Color)
+  nameWithType.vb: BackgroundExtensions.BackgroundTint(Of T)(T, Color)
+- uid: CodeUI.Extensions.BackgroundExtensions.Opacity*
+  name: Opacity
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_Opacity_
+  commentId: Overload:CodeUI.Extensions.BackgroundExtensions.Opacity
+  fullName: CodeUI.Extensions.BackgroundExtensions.Opacity
+  nameWithType: BackgroundExtensions.Opacity
+- uid: CodeUI.Extensions.BackgroundExtensions.Opacity``1(``0,System.Single)
+  name: Opacity<T>(T, float)
+  href: api/CodeUI.Extensions.BackgroundExtensions.html#CodeUI_Extensions_BackgroundExtensions_Opacity__1___0_System_Single_
+  commentId: M:CodeUI.Extensions.BackgroundExtensions.Opacity``1(``0,System.Single)
+  name.vb: Opacity(Of T)(T, Single)
+  fullName: CodeUI.Extensions.BackgroundExtensions.Opacity<T>(T, float)
+  fullName.vb: CodeUI.Extensions.BackgroundExtensions.Opacity(Of T)(T, Single)
+  nameWithType: BackgroundExtensions.Opacity<T>(T, float)
+  nameWithType.vb: BackgroundExtensions.Opacity(Of T)(T, Single)
+- uid: CodeUI.Extensions.BorderExtensions
+  name: BorderExtensions
+  href: api/CodeUI.Extensions.BorderExtensions.html
+  commentId: T:CodeUI.Extensions.BorderExtensions
+  fullName: CodeUI.Extensions.BorderExtensions
+  nameWithType: BorderExtensions
+- uid: CodeUI.Extensions.BorderExtensions.BorderColor*
+  name: BorderColor
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderColor_
+  commentId: Overload:CodeUI.Extensions.BorderExtensions.BorderColor
+  fullName: CodeUI.Extensions.BorderExtensions.BorderColor
+  nameWithType: BorderExtensions.BorderColor
+- uid: CodeUI.Extensions.BorderExtensions.BorderColor``1(``0,UnityEngine.Color)
+  name: BorderColor<T>(T, Color)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderColor__1___0_UnityEngine_Color_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderColor``1(``0,UnityEngine.Color)
+  name.vb: BorderColor(Of T)(T, Color)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderColor<T>(T, UnityEngine.Color)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderColor(Of T)(T, UnityEngine.Color)
+  nameWithType: BorderExtensions.BorderColor<T>(T, Color)
+  nameWithType.vb: BorderExtensions.BorderColor(Of T)(T, Color)
+- uid: CodeUI.Extensions.BorderExtensions.BorderColor``1(``0,UnityEngine.Color,UnityEngine.Color)
+  name: BorderColor<T>(T, Color, Color)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderColor__1___0_UnityEngine_Color_UnityEngine_Color_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderColor``1(``0,UnityEngine.Color,UnityEngine.Color)
+  name.vb: BorderColor(Of T)(T, Color, Color)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderColor<T>(T, UnityEngine.Color, UnityEngine.Color)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderColor(Of T)(T, UnityEngine.Color, UnityEngine.Color)
+  nameWithType: BorderExtensions.BorderColor<T>(T, Color, Color)
+  nameWithType.vb: BorderExtensions.BorderColor(Of T)(T, Color, Color)
+- uid: CodeUI.Extensions.BorderExtensions.BorderColor``1(``0,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)
+  name: BorderColor<T>(T, Color, Color, Color, Color)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderColor__1___0_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_UnityEngine_Color_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderColor``1(``0,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color,UnityEngine.Color)
+  name.vb: BorderColor(Of T)(T, Color, Color, Color, Color)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderColor<T>(T, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderColor(Of T)(T, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color, UnityEngine.Color)
+  nameWithType: BorderExtensions.BorderColor<T>(T, Color, Color, Color, Color)
+  nameWithType.vb: BorderExtensions.BorderColor(Of T)(T, Color, Color, Color, Color)
+- uid: CodeUI.Extensions.BorderExtensions.BorderRadius*
+  name: BorderRadius
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderRadius_
+  commentId: Overload:CodeUI.Extensions.BorderExtensions.BorderRadius
+  fullName: CodeUI.Extensions.BorderExtensions.BorderRadius
+  nameWithType: BorderExtensions.BorderRadius
+- uid: CodeUI.Extensions.BorderExtensions.BorderRadius``1(``0,UnityEngine.UIElements.Length)
+  name: BorderRadius<T>(T, Length)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderRadius__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderRadius``1(``0,UnityEngine.UIElements.Length)
+  name.vb: BorderRadius(Of T)(T, Length)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderRadius<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderRadius(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: BorderExtensions.BorderRadius<T>(T, Length)
+  nameWithType.vb: BorderExtensions.BorderRadius(Of T)(T, Length)
+- uid: CodeUI.Extensions.BorderExtensions.BorderRadius``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: BorderRadius<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderRadius__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderRadius``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: BorderRadius(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderRadius<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderRadius(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: BorderExtensions.BorderRadius<T>(T, Length, Length)
+  nameWithType.vb: BorderExtensions.BorderRadius(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.BorderExtensions.BorderRadius``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: BorderRadius<T>(T, Length, Length, Length, Length)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderRadius__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderRadius``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: BorderRadius(Of T)(T, Length, Length, Length, Length)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderRadius<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderRadius(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: BorderExtensions.BorderRadius<T>(T, Length, Length, Length, Length)
+  nameWithType.vb: BorderExtensions.BorderRadius(Of T)(T, Length, Length, Length, Length)
+- uid: CodeUI.Extensions.BorderExtensions.BorderWidth*
+  name: BorderWidth
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderWidth_
+  commentId: Overload:CodeUI.Extensions.BorderExtensions.BorderWidth
+  fullName: CodeUI.Extensions.BorderExtensions.BorderWidth
+  nameWithType: BorderExtensions.BorderWidth
+- uid: CodeUI.Extensions.BorderExtensions.BorderWidth``1(``0,System.Single)
+  name: BorderWidth<T>(T, float)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderWidth__1___0_System_Single_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderWidth``1(``0,System.Single)
+  name.vb: BorderWidth(Of T)(T, Single)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderWidth<T>(T, float)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderWidth(Of T)(T, Single)
+  nameWithType: BorderExtensions.BorderWidth<T>(T, float)
+  nameWithType.vb: BorderExtensions.BorderWidth(Of T)(T, Single)
+- uid: CodeUI.Extensions.BorderExtensions.BorderWidth``1(``0,System.Single,System.Single)
+  name: BorderWidth<T>(T, float, float)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderWidth__1___0_System_Single_System_Single_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderWidth``1(``0,System.Single,System.Single)
+  name.vb: BorderWidth(Of T)(T, Single, Single)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderWidth<T>(T, float, float)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderWidth(Of T)(T, Single, Single)
+  nameWithType: BorderExtensions.BorderWidth<T>(T, float, float)
+  nameWithType.vb: BorderExtensions.BorderWidth(Of T)(T, Single, Single)
+- uid: CodeUI.Extensions.BorderExtensions.BorderWidth``1(``0,System.Single,System.Single,System.Single,System.Single)
+  name: BorderWidth<T>(T, float, float, float, float)
+  href: api/CodeUI.Extensions.BorderExtensions.html#CodeUI_Extensions_BorderExtensions_BorderWidth__1___0_System_Single_System_Single_System_Single_System_Single_
+  commentId: M:CodeUI.Extensions.BorderExtensions.BorderWidth``1(``0,System.Single,System.Single,System.Single,System.Single)
+  name.vb: BorderWidth(Of T)(T, Single, Single, Single, Single)
+  fullName: CodeUI.Extensions.BorderExtensions.BorderWidth<T>(T, float, float, float, float)
+  fullName.vb: CodeUI.Extensions.BorderExtensions.BorderWidth(Of T)(T, Single, Single, Single, Single)
+  nameWithType: BorderExtensions.BorderWidth<T>(T, float, float, float, float)
+  nameWithType.vb: BorderExtensions.BorderWidth(Of T)(T, Single, Single, Single, Single)
+- uid: CodeUI.Extensions.ClassExtensions
+  name: ClassExtensions
+  href: api/CodeUI.Extensions.ClassExtensions.html
+  commentId: T:CodeUI.Extensions.ClassExtensions
+  fullName: CodeUI.Extensions.ClassExtensions
+  nameWithType: ClassExtensions
+- uid: CodeUI.Extensions.ClassExtensions.AddClasses*
+  name: AddClasses
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_AddClasses_
+  commentId: Overload:CodeUI.Extensions.ClassExtensions.AddClasses
+  fullName: CodeUI.Extensions.ClassExtensions.AddClasses
+  nameWithType: ClassExtensions.AddClasses
+- uid: CodeUI.Extensions.ClassExtensions.AddClasses``1(``0,System.String[])
+  name: AddClasses<T>(T, params string[])
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_AddClasses__1___0_System_String___
+  commentId: M:CodeUI.Extensions.ClassExtensions.AddClasses``1(``0,System.String[])
+  name.vb: AddClasses(Of T)(T, ParamArray String())
+  fullName: CodeUI.Extensions.ClassExtensions.AddClasses<T>(T, params string[])
+  fullName.vb: CodeUI.Extensions.ClassExtensions.AddClasses(Of T)(T, ParamArray String())
+  nameWithType: ClassExtensions.AddClasses<T>(T, params string[])
+  nameWithType.vb: ClassExtensions.AddClasses(Of T)(T, ParamArray String())
+- uid: CodeUI.Extensions.ClassExtensions.ClearClasses*
+  name: ClearClasses
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_ClearClasses_
+  commentId: Overload:CodeUI.Extensions.ClassExtensions.ClearClasses
+  fullName: CodeUI.Extensions.ClassExtensions.ClearClasses
+  nameWithType: ClassExtensions.ClearClasses
+- uid: CodeUI.Extensions.ClassExtensions.ClearClasses``1(``0)
+  name: ClearClasses<T>(T)
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_ClearClasses__1___0_
+  commentId: M:CodeUI.Extensions.ClassExtensions.ClearClasses``1(``0)
+  name.vb: ClearClasses(Of T)(T)
+  fullName: CodeUI.Extensions.ClassExtensions.ClearClasses<T>(T)
+  fullName.vb: CodeUI.Extensions.ClassExtensions.ClearClasses(Of T)(T)
+  nameWithType: ClassExtensions.ClearClasses<T>(T)
+  nameWithType.vb: ClassExtensions.ClearClasses(Of T)(T)
+- uid: CodeUI.Extensions.ClassExtensions.RemoveClasses*
+  name: RemoveClasses
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_RemoveClasses_
+  commentId: Overload:CodeUI.Extensions.ClassExtensions.RemoveClasses
+  fullName: CodeUI.Extensions.ClassExtensions.RemoveClasses
+  nameWithType: ClassExtensions.RemoveClasses
+- uid: CodeUI.Extensions.ClassExtensions.RemoveClasses``1(``0,System.String[])
+  name: RemoveClasses<T>(T, params string[])
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_RemoveClasses__1___0_System_String___
+  commentId: M:CodeUI.Extensions.ClassExtensions.RemoveClasses``1(``0,System.String[])
+  name.vb: RemoveClasses(Of T)(T, ParamArray String())
+  fullName: CodeUI.Extensions.ClassExtensions.RemoveClasses<T>(T, params string[])
+  fullName.vb: CodeUI.Extensions.ClassExtensions.RemoveClasses(Of T)(T, ParamArray String())
+  nameWithType: ClassExtensions.RemoveClasses<T>(T, params string[])
+  nameWithType.vb: ClassExtensions.RemoveClasses(Of T)(T, ParamArray String())
+- uid: CodeUI.Extensions.ClassExtensions.ToggleClasses*
+  name: ToggleClasses
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_ToggleClasses_
+  commentId: Overload:CodeUI.Extensions.ClassExtensions.ToggleClasses
+  fullName: CodeUI.Extensions.ClassExtensions.ToggleClasses
+  nameWithType: ClassExtensions.ToggleClasses
+- uid: CodeUI.Extensions.ClassExtensions.ToggleClasses``1(``0,System.Boolean,System.String[])
+  name: ToggleClasses<T>(T, bool, params string[])
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_ToggleClasses__1___0_System_Boolean_System_String___
+  commentId: M:CodeUI.Extensions.ClassExtensions.ToggleClasses``1(``0,System.Boolean,System.String[])
+  name.vb: ToggleClasses(Of T)(T, Boolean, ParamArray String())
+  fullName: CodeUI.Extensions.ClassExtensions.ToggleClasses<T>(T, bool, params string[])
+  fullName.vb: CodeUI.Extensions.ClassExtensions.ToggleClasses(Of T)(T, Boolean, ParamArray String())
+  nameWithType: ClassExtensions.ToggleClasses<T>(T, bool, params string[])
+  nameWithType.vb: ClassExtensions.ToggleClasses(Of T)(T, Boolean, ParamArray String())
+- uid: CodeUI.Extensions.ClassExtensions.ToggleClasses``1(``0,System.String[])
+  name: ToggleClasses<T>(T, params string[])
+  href: api/CodeUI.Extensions.ClassExtensions.html#CodeUI_Extensions_ClassExtensions_ToggleClasses__1___0_System_String___
+  commentId: M:CodeUI.Extensions.ClassExtensions.ToggleClasses``1(``0,System.String[])
+  name.vb: ToggleClasses(Of T)(T, ParamArray String())
+  fullName: CodeUI.Extensions.ClassExtensions.ToggleClasses<T>(T, params string[])
+  fullName.vb: CodeUI.Extensions.ClassExtensions.ToggleClasses(Of T)(T, ParamArray String())
+  nameWithType: ClassExtensions.ToggleClasses<T>(T, params string[])
+  nameWithType.vb: ClassExtensions.ToggleClasses(Of T)(T, ParamArray String())
+- uid: CodeUI.Extensions.EventExtensions
+  name: EventExtensions
+  href: api/CodeUI.Extensions.EventExtensions.html
+  commentId: T:CodeUI.Extensions.EventExtensions
+  fullName: CodeUI.Extensions.EventExtensions
+  nameWithType: EventExtensions
+- uid: CodeUI.Extensions.EventExtensions.OnClick*
+  name: OnClick
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnClick_
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnClick
+  fullName: CodeUI.Extensions.EventExtensions.OnClick
+  nameWithType: EventExtensions.OnClick
+- uid: CodeUI.Extensions.EventExtensions.OnClick``1(``0,System.Action)
+  name: OnClick<T>(T, Action)
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnClick__1___0_System_Action_
+  commentId: M:CodeUI.Extensions.EventExtensions.OnClick``1(``0,System.Action)
+  name.vb: OnClick(Of T)(T, Action)
+  fullName: CodeUI.Extensions.EventExtensions.OnClick<T>(T, System.Action)
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnClick(Of T)(T, System.Action)
+  nameWithType: EventExtensions.OnClick<T>(T, Action)
+  nameWithType.vb: EventExtensions.OnClick(Of T)(T, Action)
+- uid: CodeUI.Extensions.EventExtensions.OnEvent*
+  name: OnEvent
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnEvent_
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnEvent
+  fullName: CodeUI.Extensions.EventExtensions.OnEvent
+  nameWithType: EventExtensions.OnEvent
+- uid: CodeUI.Extensions.EventExtensions.OnEvent``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  name: OnEvent<TElement, TEvent>(TElement, EventCallback<TEvent>)
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnEvent__2___0_UnityEngine_UIElements_EventCallback___1__
+  commentId: M:CodeUI.Extensions.EventExtensions.OnEvent``2(``0,UnityEngine.UIElements.EventCallback{``1})
+  name.vb: OnEvent(Of TElement, TEvent)(TElement, EventCallback(Of TEvent))
+  fullName: CodeUI.Extensions.EventExtensions.OnEvent<TElement, TEvent>(TElement, UnityEngine.UIElements.EventCallback<TEvent>)
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnEvent(Of TElement, TEvent)(TElement, UnityEngine.UIElements.EventCallback(Of TEvent))
+  nameWithType: EventExtensions.OnEvent<TElement, TEvent>(TElement, EventCallback<TEvent>)
+  nameWithType.vb: EventExtensions.OnEvent(Of TElement, TEvent)(TElement, EventCallback(Of TEvent))
+- uid: CodeUI.Extensions.EventExtensions.OnHover*
+  name: OnHover
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnHover_
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnHover
+  fullName: CodeUI.Extensions.EventExtensions.OnHover
+  nameWithType: EventExtensions.OnHover
+- uid: CodeUI.Extensions.EventExtensions.OnHover``1(``0,System.Action{System.Boolean})
+  name: OnHover<T>(T, Action<bool>)
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnHover__1___0_System_Action_System_Boolean__
+  commentId: M:CodeUI.Extensions.EventExtensions.OnHover``1(``0,System.Action{System.Boolean})
+  name.vb: OnHover(Of T)(T, Action(Of Boolean))
+  fullName: CodeUI.Extensions.EventExtensions.OnHover<T>(T, System.Action<bool>)
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnHover(Of T)(T, System.Action(Of Boolean))
+  nameWithType: EventExtensions.OnHover<T>(T, Action<bool>)
+  nameWithType.vb: EventExtensions.OnHover(Of T)(T, Action(Of Boolean))
+- uid: CodeUI.Extensions.EventExtensions.OnResize*
+  name: OnResize
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnResize_
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnResize
+  fullName: CodeUI.Extensions.EventExtensions.OnResize
+  nameWithType: EventExtensions.OnResize
+- uid: CodeUI.Extensions.EventExtensions.OnResize``1(``0,System.Action{UnityEngine.UIElements.GeometryChangedEvent})
+  name: OnResize<T>(T, Action<GeometryChangedEvent>)
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnResize__1___0_System_Action_UnityEngine_UIElements_GeometryChangedEvent__
+  commentId: M:CodeUI.Extensions.EventExtensions.OnResize``1(``0,System.Action{UnityEngine.UIElements.GeometryChangedEvent})
+  name.vb: OnResize(Of T)(T, Action(Of GeometryChangedEvent))
+  fullName: CodeUI.Extensions.EventExtensions.OnResize<T>(T, System.Action<UnityEngine.UIElements.GeometryChangedEvent>)
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnResize(Of T)(T, System.Action(Of UnityEngine.UIElements.GeometryChangedEvent))
+  nameWithType: EventExtensions.OnResize<T>(T, Action<GeometryChangedEvent>)
+  nameWithType.vb: EventExtensions.OnResize(Of T)(T, Action(Of GeometryChangedEvent))
+- uid: CodeUI.Extensions.EventExtensions.OnValueChanged*
+  name: OnValueChanged
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnValueChanged_
+  commentId: Overload:CodeUI.Extensions.EventExtensions.OnValueChanged
+  fullName: CodeUI.Extensions.EventExtensions.OnValueChanged
+  nameWithType: EventExtensions.OnValueChanged
+- uid: CodeUI.Extensions.EventExtensions.OnValueChanged``2(``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{``1}})
+  name: OnValueChanged<TElement, TValue>(TElement, EventCallback<ChangeEvent<TValue>>)
+  href: api/CodeUI.Extensions.EventExtensions.html#CodeUI_Extensions_EventExtensions_OnValueChanged__2___0_UnityEngine_UIElements_EventCallback_UnityEngine_UIElements_ChangeEvent___1___
+  commentId: M:CodeUI.Extensions.EventExtensions.OnValueChanged``2(``0,UnityEngine.UIElements.EventCallback{UnityEngine.UIElements.ChangeEvent{``1}})
+  name.vb: OnValueChanged(Of TElement, TValue)(TElement, EventCallback(Of ChangeEvent(Of TValue)))
+  fullName: CodeUI.Extensions.EventExtensions.OnValueChanged<TElement, TValue>(TElement, UnityEngine.UIElements.EventCallback<UnityEngine.UIElements.ChangeEvent<TValue>>)
+  fullName.vb: CodeUI.Extensions.EventExtensions.OnValueChanged(Of TElement, TValue)(TElement, UnityEngine.UIElements.EventCallback(Of UnityEngine.UIElements.ChangeEvent(Of TValue)))
+  nameWithType: EventExtensions.OnValueChanged<TElement, TValue>(TElement, EventCallback<ChangeEvent<TValue>>)
+  nameWithType.vb: EventExtensions.OnValueChanged(Of TElement, TValue)(TElement, EventCallback(Of ChangeEvent(Of TValue)))
+- uid: CodeUI.Extensions.GeneralExtensions
+  name: GeneralExtensions
+  href: api/CodeUI.Extensions.GeneralExtensions.html
+  commentId: T:CodeUI.Extensions.GeneralExtensions
+  fullName: CodeUI.Extensions.GeneralExtensions
+  nameWithType: GeneralExtensions
+- uid: CodeUI.Extensions.GeneralExtensions.Disable*
+  name: Disable
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_Disable_
+  commentId: Overload:CodeUI.Extensions.GeneralExtensions.Disable
+  fullName: CodeUI.Extensions.GeneralExtensions.Disable
+  nameWithType: GeneralExtensions.Disable
+- uid: CodeUI.Extensions.GeneralExtensions.Disable``1(``0)
+  name: Disable<T>(T)
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_Disable__1___0_
+  commentId: M:CodeUI.Extensions.GeneralExtensions.Disable``1(``0)
+  name.vb: Disable(Of T)(T)
+  fullName: CodeUI.Extensions.GeneralExtensions.Disable<T>(T)
+  fullName.vb: CodeUI.Extensions.GeneralExtensions.Disable(Of T)(T)
+  nameWithType: GeneralExtensions.Disable<T>(T)
+  nameWithType.vb: GeneralExtensions.Disable(Of T)(T)
+- uid: CodeUI.Extensions.GeneralExtensions.Enable*
+  name: Enable
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_Enable_
+  commentId: Overload:CodeUI.Extensions.GeneralExtensions.Enable
+  fullName: CodeUI.Extensions.GeneralExtensions.Enable
+  nameWithType: GeneralExtensions.Enable
+- uid: CodeUI.Extensions.GeneralExtensions.Enable``1(``0)
+  name: Enable<T>(T)
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_Enable__1___0_
+  commentId: M:CodeUI.Extensions.GeneralExtensions.Enable``1(``0)
+  name.vb: Enable(Of T)(T)
+  fullName: CodeUI.Extensions.GeneralExtensions.Enable<T>(T)
+  fullName.vb: CodeUI.Extensions.GeneralExtensions.Enable(Of T)(T)
+  nameWithType: GeneralExtensions.Enable<T>(T)
+  nameWithType.vb: GeneralExtensions.Enable(Of T)(T)
+- uid: CodeUI.Extensions.GeneralExtensions.SetFocusable*
+  name: SetFocusable
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetFocusable_
+  commentId: Overload:CodeUI.Extensions.GeneralExtensions.SetFocusable
+  fullName: CodeUI.Extensions.GeneralExtensions.SetFocusable
+  nameWithType: GeneralExtensions.SetFocusable
+- uid: CodeUI.Extensions.GeneralExtensions.SetFocusable``1(``0,System.Boolean)
+  name: SetFocusable<T>(T, bool)
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetFocusable__1___0_System_Boolean_
+  commentId: M:CodeUI.Extensions.GeneralExtensions.SetFocusable``1(``0,System.Boolean)
+  name.vb: SetFocusable(Of T)(T, Boolean)
+  fullName: CodeUI.Extensions.GeneralExtensions.SetFocusable<T>(T, bool)
+  fullName.vb: CodeUI.Extensions.GeneralExtensions.SetFocusable(Of T)(T, Boolean)
+  nameWithType: GeneralExtensions.SetFocusable<T>(T, bool)
+  nameWithType.vb: GeneralExtensions.SetFocusable(Of T)(T, Boolean)
+- uid: CodeUI.Extensions.GeneralExtensions.SetName*
+  name: SetName
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetName_
+  commentId: Overload:CodeUI.Extensions.GeneralExtensions.SetName
+  fullName: CodeUI.Extensions.GeneralExtensions.SetName
+  nameWithType: GeneralExtensions.SetName
+- uid: CodeUI.Extensions.GeneralExtensions.SetName``1(``0,System.String)
+  name: SetName<T>(T, string)
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetName__1___0_System_String_
+  commentId: M:CodeUI.Extensions.GeneralExtensions.SetName``1(``0,System.String)
+  name.vb: SetName(Of T)(T, String)
+  fullName: CodeUI.Extensions.GeneralExtensions.SetName<T>(T, string)
+  fullName.vb: CodeUI.Extensions.GeneralExtensions.SetName(Of T)(T, String)
+  nameWithType: GeneralExtensions.SetName<T>(T, string)
+  nameWithType.vb: GeneralExtensions.SetName(Of T)(T, String)
+- uid: CodeUI.Extensions.GeneralExtensions.SetPickingMode*
+  name: SetPickingMode
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetPickingMode_
+  commentId: Overload:CodeUI.Extensions.GeneralExtensions.SetPickingMode
+  fullName: CodeUI.Extensions.GeneralExtensions.SetPickingMode
+  nameWithType: GeneralExtensions.SetPickingMode
+- uid: CodeUI.Extensions.GeneralExtensions.SetPickingMode``1(``0,UnityEngine.UIElements.PickingMode)
+  name: SetPickingMode<T>(T, PickingMode)
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetPickingMode__1___0_UnityEngine_UIElements_PickingMode_
+  commentId: M:CodeUI.Extensions.GeneralExtensions.SetPickingMode``1(``0,UnityEngine.UIElements.PickingMode)
+  name.vb: SetPickingMode(Of T)(T, PickingMode)
+  fullName: CodeUI.Extensions.GeneralExtensions.SetPickingMode<T>(T, UnityEngine.UIElements.PickingMode)
+  fullName.vb: CodeUI.Extensions.GeneralExtensions.SetPickingMode(Of T)(T, UnityEngine.UIElements.PickingMode)
+  nameWithType: GeneralExtensions.SetPickingMode<T>(T, PickingMode)
+  nameWithType.vb: GeneralExtensions.SetPickingMode(Of T)(T, PickingMode)
+- uid: CodeUI.Extensions.GeneralExtensions.SetText*
+  name: SetText
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetText_
+  commentId: Overload:CodeUI.Extensions.GeneralExtensions.SetText
+  fullName: CodeUI.Extensions.GeneralExtensions.SetText
+  nameWithType: GeneralExtensions.SetText
+- uid: CodeUI.Extensions.GeneralExtensions.SetText``1(``0,System.String)
+  name: SetText<T>(T, string)
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetText__1___0_System_String_
+  commentId: M:CodeUI.Extensions.GeneralExtensions.SetText``1(``0,System.String)
+  name.vb: SetText(Of T)(T, String)
+  fullName: CodeUI.Extensions.GeneralExtensions.SetText<T>(T, string)
+  fullName.vb: CodeUI.Extensions.GeneralExtensions.SetText(Of T)(T, String)
+  nameWithType: GeneralExtensions.SetText<T>(T, string)
+  nameWithType.vb: GeneralExtensions.SetText(Of T)(T, String)
+- uid: CodeUI.Extensions.GeneralExtensions.SetToolTip*
+  name: SetToolTip
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetToolTip_
+  commentId: Overload:CodeUI.Extensions.GeneralExtensions.SetToolTip
+  fullName: CodeUI.Extensions.GeneralExtensions.SetToolTip
+  nameWithType: GeneralExtensions.SetToolTip
+- uid: CodeUI.Extensions.GeneralExtensions.SetToolTip``1(``0,System.String)
+  name: SetToolTip<T>(T, string)
+  href: api/CodeUI.Extensions.GeneralExtensions.html#CodeUI_Extensions_GeneralExtensions_SetToolTip__1___0_System_String_
+  commentId: M:CodeUI.Extensions.GeneralExtensions.SetToolTip``1(``0,System.String)
+  name.vb: SetToolTip(Of T)(T, String)
+  fullName: CodeUI.Extensions.GeneralExtensions.SetToolTip<T>(T, string)
+  fullName.vb: CodeUI.Extensions.GeneralExtensions.SetToolTip(Of T)(T, String)
+  nameWithType: GeneralExtensions.SetToolTip<T>(T, string)
+  nameWithType.vb: GeneralExtensions.SetToolTip(Of T)(T, String)
+- uid: CodeUI.Extensions.HierarchyExtensions
+  name: HierarchyExtensions
+  href: api/CodeUI.Extensions.HierarchyExtensions.html
+  commentId: T:CodeUI.Extensions.HierarchyExtensions
+  fullName: CodeUI.Extensions.HierarchyExtensions
+  nameWithType: HierarchyExtensions
+- uid: CodeUI.Extensions.HierarchyExtensions.AddTo*
+  name: AddTo
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_AddTo_
+  commentId: Overload:CodeUI.Extensions.HierarchyExtensions.AddTo
+  fullName: CodeUI.Extensions.HierarchyExtensions.AddTo
+  nameWithType: HierarchyExtensions.AddTo
+- uid: CodeUI.Extensions.HierarchyExtensions.AddTo``1(``0,UnityEngine.UIElements.VisualElement)
+  name: AddTo<T>(T, VisualElement)
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_AddTo__1___0_UnityEngine_UIElements_VisualElement_
+  commentId: M:CodeUI.Extensions.HierarchyExtensions.AddTo``1(``0,UnityEngine.UIElements.VisualElement)
+  name.vb: AddTo(Of T)(T, VisualElement)
+  fullName: CodeUI.Extensions.HierarchyExtensions.AddTo<T>(T, UnityEngine.UIElements.VisualElement)
+  fullName.vb: CodeUI.Extensions.HierarchyExtensions.AddTo(Of T)(T, UnityEngine.UIElements.VisualElement)
+  nameWithType: HierarchyExtensions.AddTo<T>(T, VisualElement)
+  nameWithType.vb: HierarchyExtensions.AddTo(Of T)(T, VisualElement)
+- uid: CodeUI.Extensions.HierarchyExtensions.ClearChildren*
+  name: ClearChildren
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_ClearChildren_
+  commentId: Overload:CodeUI.Extensions.HierarchyExtensions.ClearChildren
+  fullName: CodeUI.Extensions.HierarchyExtensions.ClearChildren
+  nameWithType: HierarchyExtensions.ClearChildren
+- uid: CodeUI.Extensions.HierarchyExtensions.ClearChildren``1(``0)
+  name: ClearChildren<T>(T)
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_ClearChildren__1___0_
+  commentId: M:CodeUI.Extensions.HierarchyExtensions.ClearChildren``1(``0)
+  name.vb: ClearChildren(Of T)(T)
+  fullName: CodeUI.Extensions.HierarchyExtensions.ClearChildren<T>(T)
+  fullName.vb: CodeUI.Extensions.HierarchyExtensions.ClearChildren(Of T)(T)
+  nameWithType: HierarchyExtensions.ClearChildren<T>(T)
+  nameWithType.vb: HierarchyExtensions.ClearChildren(Of T)(T)
+- uid: CodeUI.Extensions.HierarchyExtensions.Detach*
+  name: Detach
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_Detach_
+  commentId: Overload:CodeUI.Extensions.HierarchyExtensions.Detach
+  fullName: CodeUI.Extensions.HierarchyExtensions.Detach
+  nameWithType: HierarchyExtensions.Detach
+- uid: CodeUI.Extensions.HierarchyExtensions.Detach``1(``0)
+  name: Detach<T>(T)
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_Detach__1___0_
+  commentId: M:CodeUI.Extensions.HierarchyExtensions.Detach``1(``0)
+  name.vb: Detach(Of T)(T)
+  fullName: CodeUI.Extensions.HierarchyExtensions.Detach<T>(T)
+  fullName.vb: CodeUI.Extensions.HierarchyExtensions.Detach(Of T)(T)
+  nameWithType: HierarchyExtensions.Detach<T>(T)
+  nameWithType.vb: HierarchyExtensions.Detach(Of T)(T)
+- uid: CodeUI.Extensions.HierarchyExtensions.InsertChild*
+  name: InsertChild
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_InsertChild_
+  commentId: Overload:CodeUI.Extensions.HierarchyExtensions.InsertChild
+  fullName: CodeUI.Extensions.HierarchyExtensions.InsertChild
+  nameWithType: HierarchyExtensions.InsertChild
+- uid: CodeUI.Extensions.HierarchyExtensions.InsertChild``1(``0,System.Int32,UnityEngine.UIElements.VisualElement)
+  name: InsertChild<T>(T, int, VisualElement)
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_InsertChild__1___0_System_Int32_UnityEngine_UIElements_VisualElement_
+  commentId: M:CodeUI.Extensions.HierarchyExtensions.InsertChild``1(``0,System.Int32,UnityEngine.UIElements.VisualElement)
+  name.vb: InsertChild(Of T)(T, Integer, VisualElement)
+  fullName: CodeUI.Extensions.HierarchyExtensions.InsertChild<T>(T, int, UnityEngine.UIElements.VisualElement)
+  fullName.vb: CodeUI.Extensions.HierarchyExtensions.InsertChild(Of T)(T, Integer, UnityEngine.UIElements.VisualElement)
+  nameWithType: HierarchyExtensions.InsertChild<T>(T, int, VisualElement)
+  nameWithType.vb: HierarchyExtensions.InsertChild(Of T)(T, Integer, VisualElement)
+- uid: CodeUI.Extensions.HierarchyExtensions.WithChildren*
+  name: WithChildren
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_WithChildren_
+  commentId: Overload:CodeUI.Extensions.HierarchyExtensions.WithChildren
+  fullName: CodeUI.Extensions.HierarchyExtensions.WithChildren
+  nameWithType: HierarchyExtensions.WithChildren
+- uid: CodeUI.Extensions.HierarchyExtensions.WithChildren``1(``0,UnityEngine.UIElements.VisualElement[])
+  name: WithChildren<T>(T, params VisualElement[])
+  href: api/CodeUI.Extensions.HierarchyExtensions.html#CodeUI_Extensions_HierarchyExtensions_WithChildren__1___0_UnityEngine_UIElements_VisualElement___
+  commentId: M:CodeUI.Extensions.HierarchyExtensions.WithChildren``1(``0,UnityEngine.UIElements.VisualElement[])
+  name.vb: WithChildren(Of T)(T, ParamArray VisualElement())
+  fullName: CodeUI.Extensions.HierarchyExtensions.WithChildren<T>(T, params UnityEngine.UIElements.VisualElement[])
+  fullName.vb: CodeUI.Extensions.HierarchyExtensions.WithChildren(Of T)(T, ParamArray UnityEngine.UIElements.VisualElement())
+  nameWithType: HierarchyExtensions.WithChildren<T>(T, params VisualElement[])
+  nameWithType.vb: HierarchyExtensions.WithChildren(Of T)(T, ParamArray VisualElement())
+- uid: CodeUI.Extensions.LayoutExtensions
+  name: LayoutExtensions
+  href: api/CodeUI.Extensions.LayoutExtensions.html
+  commentId: T:CodeUI.Extensions.LayoutExtensions
+  fullName: CodeUI.Extensions.LayoutExtensions
+  nameWithType: LayoutExtensions
+- uid: CodeUI.Extensions.LayoutExtensions.Absolute*
+  name: Absolute
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Absolute_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Absolute
+  fullName: CodeUI.Extensions.LayoutExtensions.Absolute
+  nameWithType: LayoutExtensions.Absolute
+- uid: CodeUI.Extensions.LayoutExtensions.Absolute``1(``0)
+  name: Absolute<T>(T)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Absolute__1___0_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Absolute``1(``0)
+  name.vb: Absolute(Of T)(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Absolute<T>(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Absolute(Of T)(T)
+  nameWithType: LayoutExtensions.Absolute<T>(T)
+  nameWithType.vb: LayoutExtensions.Absolute(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.AlignItems*
+  name: AlignItems
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_AlignItems_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.AlignItems
+  fullName: CodeUI.Extensions.LayoutExtensions.AlignItems
+  nameWithType: LayoutExtensions.AlignItems
+- uid: CodeUI.Extensions.LayoutExtensions.AlignItems``1(``0,UnityEngine.UIElements.Align)
+  name: AlignItems<T>(T, Align)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_AlignItems__1___0_UnityEngine_UIElements_Align_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.AlignItems``1(``0,UnityEngine.UIElements.Align)
+  name.vb: AlignItems(Of T)(T, Align)
+  fullName: CodeUI.Extensions.LayoutExtensions.AlignItems<T>(T, UnityEngine.UIElements.Align)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.AlignItems(Of T)(T, UnityEngine.UIElements.Align)
+  nameWithType: LayoutExtensions.AlignItems<T>(T, Align)
+  nameWithType.vb: LayoutExtensions.AlignItems(Of T)(T, Align)
+- uid: CodeUI.Extensions.LayoutExtensions.AlignSelf*
+  name: AlignSelf
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_AlignSelf_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.AlignSelf
+  fullName: CodeUI.Extensions.LayoutExtensions.AlignSelf
+  nameWithType: LayoutExtensions.AlignSelf
+- uid: CodeUI.Extensions.LayoutExtensions.AlignSelf``1(``0,UnityEngine.UIElements.Align)
+  name: AlignSelf<T>(T, Align)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_AlignSelf__1___0_UnityEngine_UIElements_Align_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.AlignSelf``1(``0,UnityEngine.UIElements.Align)
+  name.vb: AlignSelf(Of T)(T, Align)
+  fullName: CodeUI.Extensions.LayoutExtensions.AlignSelf<T>(T, UnityEngine.UIElements.Align)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.AlignSelf(Of T)(T, UnityEngine.UIElements.Align)
+  nameWithType: LayoutExtensions.AlignSelf<T>(T, Align)
+  nameWithType.vb: LayoutExtensions.AlignSelf(Of T)(T, Align)
+- uid: CodeUI.Extensions.LayoutExtensions.Bottom*
+  name: Bottom
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Bottom_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Bottom
+  fullName: CodeUI.Extensions.LayoutExtensions.Bottom
+  nameWithType: LayoutExtensions.Bottom
+- uid: CodeUI.Extensions.LayoutExtensions.Bottom``1(``0,UnityEngine.UIElements.Length)
+  name: Bottom<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Bottom__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Bottom``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Bottom(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Bottom<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Bottom(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.Bottom<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.Bottom(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Center*
+  name: Center
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Center_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Center
+  fullName: CodeUI.Extensions.LayoutExtensions.Center
+  nameWithType: LayoutExtensions.Center
+- uid: CodeUI.Extensions.LayoutExtensions.Center``1(``0)
+  name: Center<T>(T)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Center__1___0_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Center``1(``0)
+  name.vb: Center(Of T)(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Center<T>(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Center(Of T)(T)
+  nameWithType: LayoutExtensions.Center<T>(T)
+  nameWithType.vb: LayoutExtensions.Center(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.Column*
+  name: Column
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Column_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Column
+  fullName: CodeUI.Extensions.LayoutExtensions.Column
+  nameWithType: LayoutExtensions.Column
+- uid: CodeUI.Extensions.LayoutExtensions.Column``1(``0)
+  name: Column<T>(T)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Column__1___0_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Column``1(``0)
+  name.vb: Column(Of T)(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Column<T>(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Column(Of T)(T)
+  nameWithType: LayoutExtensions.Column<T>(T)
+  nameWithType.vb: LayoutExtensions.Column(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexBasis*
+  name: FlexBasis
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexBasis_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexBasis
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexBasis
+  nameWithType: LayoutExtensions.FlexBasis
+- uid: CodeUI.Extensions.LayoutExtensions.FlexBasis``1(``0,UnityEngine.UIElements.Length)
+  name: FlexBasis<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexBasis__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexBasis``1(``0,UnityEngine.UIElements.Length)
+  name.vb: FlexBasis(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexBasis<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexBasis(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.FlexBasis<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.FlexBasis(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexDirection*
+  name: FlexDirection
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexDirection_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexDirection
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexDirection
+  nameWithType: LayoutExtensions.FlexDirection
+- uid: CodeUI.Extensions.LayoutExtensions.FlexDirection``1(``0,UnityEngine.UIElements.FlexDirection)
+  name: FlexDirection<T>(T, FlexDirection)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexDirection__1___0_UnityEngine_UIElements_FlexDirection_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexDirection``1(``0,UnityEngine.UIElements.FlexDirection)
+  name.vb: FlexDirection(Of T)(T, FlexDirection)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexDirection<T>(T, UnityEngine.UIElements.FlexDirection)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexDirection(Of T)(T, UnityEngine.UIElements.FlexDirection)
+  nameWithType: LayoutExtensions.FlexDirection<T>(T, FlexDirection)
+  nameWithType.vb: LayoutExtensions.FlexDirection(Of T)(T, FlexDirection)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexGrow*
+  name: FlexGrow
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexGrow_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexGrow
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexGrow
+  nameWithType: LayoutExtensions.FlexGrow
+- uid: CodeUI.Extensions.LayoutExtensions.FlexGrow``1(``0,System.Single)
+  name: FlexGrow<T>(T, float)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexGrow__1___0_System_Single_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexGrow``1(``0,System.Single)
+  name.vb: FlexGrow(Of T)(T, Single)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexGrow<T>(T, float)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexGrow(Of T)(T, Single)
+  nameWithType: LayoutExtensions.FlexGrow<T>(T, float)
+  nameWithType.vb: LayoutExtensions.FlexGrow(Of T)(T, Single)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexShrink*
+  name: FlexShrink
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexShrink_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexShrink
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexShrink
+  nameWithType: LayoutExtensions.FlexShrink
+- uid: CodeUI.Extensions.LayoutExtensions.FlexShrink``1(``0,System.Single)
+  name: FlexShrink<T>(T, float)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexShrink__1___0_System_Single_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexShrink``1(``0,System.Single)
+  name.vb: FlexShrink(Of T)(T, Single)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexShrink<T>(T, float)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexShrink(Of T)(T, Single)
+  nameWithType: LayoutExtensions.FlexShrink<T>(T, float)
+  nameWithType.vb: LayoutExtensions.FlexShrink(Of T)(T, Single)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexSize*
+  name: FlexSize
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexSize_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexSize
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexSize
+  nameWithType: LayoutExtensions.FlexSize
+- uid: CodeUI.Extensions.LayoutExtensions.FlexSize``1(``0,System.Single,System.Single,UnityEngine.UIElements.Length)
+  name: FlexSize<T>(T, float, float, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexSize__1___0_System_Single_System_Single_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexSize``1(``0,System.Single,System.Single,UnityEngine.UIElements.Length)
+  name.vb: FlexSize(Of T)(T, Single, Single, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexSize<T>(T, float, float, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexSize(Of T)(T, Single, Single, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.FlexSize<T>(T, float, float, Length)
+  nameWithType.vb: LayoutExtensions.FlexSize(Of T)(T, Single, Single, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexWrap*
+  name: FlexWrap
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexWrap_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexWrap
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexWrap
+  nameWithType: LayoutExtensions.FlexWrap
+- uid: CodeUI.Extensions.LayoutExtensions.FlexWrap``1(``0,UnityEngine.UIElements.Wrap)
+  name: FlexWrap<T>(T, Wrap)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexWrap__1___0_UnityEngine_UIElements_Wrap_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexWrap``1(``0,UnityEngine.UIElements.Wrap)
+  name.vb: FlexWrap(Of T)(T, Wrap)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexWrap<T>(T, UnityEngine.UIElements.Wrap)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexWrap(Of T)(T, UnityEngine.UIElements.Wrap)
+  nameWithType: LayoutExtensions.FlexWrap<T>(T, Wrap)
+  nameWithType.vb: LayoutExtensions.FlexWrap(Of T)(T, Wrap)
+- uid: CodeUI.Extensions.LayoutExtensions.Height*
+  name: Height
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Height_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Height
+  fullName: CodeUI.Extensions.LayoutExtensions.Height
+  nameWithType: LayoutExtensions.Height
+- uid: CodeUI.Extensions.LayoutExtensions.Height``1(``0,UnityEngine.UIElements.Length)
+  name: Height<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Height__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Height``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Height(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Height<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Height(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.Height<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.Height(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.JustifyContent*
+  name: JustifyContent
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_JustifyContent_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.JustifyContent
+  fullName: CodeUI.Extensions.LayoutExtensions.JustifyContent
+  nameWithType: LayoutExtensions.JustifyContent
+- uid: CodeUI.Extensions.LayoutExtensions.JustifyContent``1(``0,UnityEngine.UIElements.Justify)
+  name: JustifyContent<T>(T, Justify)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_JustifyContent__1___0_UnityEngine_UIElements_Justify_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.JustifyContent``1(``0,UnityEngine.UIElements.Justify)
+  name.vb: JustifyContent(Of T)(T, Justify)
+  fullName: CodeUI.Extensions.LayoutExtensions.JustifyContent<T>(T, UnityEngine.UIElements.Justify)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.JustifyContent(Of T)(T, UnityEngine.UIElements.Justify)
+  nameWithType: LayoutExtensions.JustifyContent<T>(T, Justify)
+  nameWithType.vb: LayoutExtensions.JustifyContent(Of T)(T, Justify)
+- uid: CodeUI.Extensions.LayoutExtensions.Left*
+  name: Left
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Left_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Left
+  fullName: CodeUI.Extensions.LayoutExtensions.Left
+  nameWithType: LayoutExtensions.Left
+- uid: CodeUI.Extensions.LayoutExtensions.Left``1(``0,UnityEngine.UIElements.Length)
+  name: Left<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Left__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Left``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Left(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Left<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Left(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.Left<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.Left(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MaxHeight*
+  name: MaxHeight
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MaxHeight_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MaxHeight
+  fullName: CodeUI.Extensions.LayoutExtensions.MaxHeight
+  nameWithType: LayoutExtensions.MaxHeight
+- uid: CodeUI.Extensions.LayoutExtensions.MaxHeight``1(``0,UnityEngine.UIElements.Length)
+  name: MaxHeight<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MaxHeight__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MaxHeight``1(``0,UnityEngine.UIElements.Length)
+  name.vb: MaxHeight(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MaxHeight<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MaxHeight(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.MaxHeight<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.MaxHeight(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MaxWidth*
+  name: MaxWidth
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MaxWidth_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MaxWidth
+  fullName: CodeUI.Extensions.LayoutExtensions.MaxWidth
+  nameWithType: LayoutExtensions.MaxWidth
+- uid: CodeUI.Extensions.LayoutExtensions.MaxWidth``1(``0,UnityEngine.UIElements.Length)
+  name: MaxWidth<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MaxWidth__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MaxWidth``1(``0,UnityEngine.UIElements.Length)
+  name.vb: MaxWidth(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MaxWidth<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MaxWidth(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.MaxWidth<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.MaxWidth(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MinHeight*
+  name: MinHeight
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinHeight_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MinHeight
+  fullName: CodeUI.Extensions.LayoutExtensions.MinHeight
+  nameWithType: LayoutExtensions.MinHeight
+- uid: CodeUI.Extensions.LayoutExtensions.MinHeight``1(``0,UnityEngine.UIElements.Length)
+  name: MinHeight<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinHeight__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MinHeight``1(``0,UnityEngine.UIElements.Length)
+  name.vb: MinHeight(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MinHeight<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MinHeight(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.MinHeight<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.MinHeight(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MinMaxHeight*
+  name: MinMaxHeight
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinMaxHeight_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MinMaxHeight
+  fullName: CodeUI.Extensions.LayoutExtensions.MinMaxHeight
+  nameWithType: LayoutExtensions.MinMaxHeight
+- uid: CodeUI.Extensions.LayoutExtensions.MinMaxHeight``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: MinMaxHeight<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinMaxHeight__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MinMaxHeight``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: MinMaxHeight(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MinMaxHeight<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MinMaxHeight(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.MinMaxHeight<T>(T, Length, Length)
+  nameWithType.vb: LayoutExtensions.MinMaxHeight(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MinMaxWidth*
+  name: MinMaxWidth
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinMaxWidth_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MinMaxWidth
+  fullName: CodeUI.Extensions.LayoutExtensions.MinMaxWidth
+  nameWithType: LayoutExtensions.MinMaxWidth
+- uid: CodeUI.Extensions.LayoutExtensions.MinMaxWidth``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: MinMaxWidth<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinMaxWidth__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MinMaxWidth``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: MinMaxWidth(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MinMaxWidth<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MinMaxWidth(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.MinMaxWidth<T>(T, Length, Length)
+  nameWithType.vb: LayoutExtensions.MinMaxWidth(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MinWidth*
+  name: MinWidth
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinWidth_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MinWidth
+  fullName: CodeUI.Extensions.LayoutExtensions.MinWidth
+  nameWithType: LayoutExtensions.MinWidth
+- uid: CodeUI.Extensions.LayoutExtensions.MinWidth``1(``0,UnityEngine.UIElements.Length)
+  name: MinWidth<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinWidth__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MinWidth``1(``0,UnityEngine.UIElements.Length)
+  name.vb: MinWidth(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MinWidth<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MinWidth(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.MinWidth<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.MinWidth(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Relative*
+  name: Relative
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Relative_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Relative
+  fullName: CodeUI.Extensions.LayoutExtensions.Relative
+  nameWithType: LayoutExtensions.Relative
+- uid: CodeUI.Extensions.LayoutExtensions.Relative``1(``0)
+  name: Relative<T>(T)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Relative__1___0_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Relative``1(``0)
+  name.vb: Relative(Of T)(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Relative<T>(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Relative(Of T)(T)
+  nameWithType: LayoutExtensions.Relative<T>(T)
+  nameWithType.vb: LayoutExtensions.Relative(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.Right*
+  name: Right
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Right_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Right
+  fullName: CodeUI.Extensions.LayoutExtensions.Right
+  nameWithType: LayoutExtensions.Right
+- uid: CodeUI.Extensions.LayoutExtensions.Right``1(``0,UnityEngine.UIElements.Length)
+  name: Right<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Right__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Right``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Right(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Right<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Right(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.Right<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.Right(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Row*
+  name: Row
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Row_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Row
+  fullName: CodeUI.Extensions.LayoutExtensions.Row
+  nameWithType: LayoutExtensions.Row
+- uid: CodeUI.Extensions.LayoutExtensions.Row``1(``0)
+  name: Row<T>(T)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Row__1___0_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Row``1(``0)
+  name.vb: Row(Of T)(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Row<T>(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Row(Of T)(T)
+  nameWithType: LayoutExtensions.Row<T>(T)
+  nameWithType.vb: LayoutExtensions.Row(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.SetDisplay*
+  name: SetDisplay
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetDisplay_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.SetDisplay
+  fullName: CodeUI.Extensions.LayoutExtensions.SetDisplay
+  nameWithType: LayoutExtensions.SetDisplay
+- uid: CodeUI.Extensions.LayoutExtensions.SetDisplay``1(``0,UnityEngine.UIElements.DisplayStyle)
+  name: SetDisplay<T>(T, DisplayStyle)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetDisplay__1___0_UnityEngine_UIElements_DisplayStyle_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.SetDisplay``1(``0,UnityEngine.UIElements.DisplayStyle)
+  name.vb: SetDisplay(Of T)(T, DisplayStyle)
+  fullName: CodeUI.Extensions.LayoutExtensions.SetDisplay<T>(T, UnityEngine.UIElements.DisplayStyle)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.SetDisplay(Of T)(T, UnityEngine.UIElements.DisplayStyle)
+  nameWithType: LayoutExtensions.SetDisplay<T>(T, DisplayStyle)
+  nameWithType.vb: LayoutExtensions.SetDisplay(Of T)(T, DisplayStyle)
+- uid: CodeUI.Extensions.LayoutExtensions.SetPosition*
+  name: SetPosition
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetPosition_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.SetPosition
+  fullName: CodeUI.Extensions.LayoutExtensions.SetPosition
+  nameWithType: LayoutExtensions.SetPosition
+- uid: CodeUI.Extensions.LayoutExtensions.SetPositionMode*
+  name: SetPositionMode
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetPositionMode_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.SetPositionMode
+  fullName: CodeUI.Extensions.LayoutExtensions.SetPositionMode
+  nameWithType: LayoutExtensions.SetPositionMode
+- uid: CodeUI.Extensions.LayoutExtensions.SetPositionMode``1(``0,UnityEngine.UIElements.Position)
+  name: SetPositionMode<T>(T, Position)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetPositionMode__1___0_UnityEngine_UIElements_Position_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.SetPositionMode``1(``0,UnityEngine.UIElements.Position)
+  name.vb: SetPositionMode(Of T)(T, Position)
+  fullName: CodeUI.Extensions.LayoutExtensions.SetPositionMode<T>(T, UnityEngine.UIElements.Position)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.SetPositionMode(Of T)(T, UnityEngine.UIElements.Position)
+  nameWithType: LayoutExtensions.SetPositionMode<T>(T, Position)
+  nameWithType.vb: LayoutExtensions.SetPositionMode(Of T)(T, Position)
+- uid: CodeUI.Extensions.LayoutExtensions.SetPosition``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: SetPosition<T>(T, Length, Length, Length, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetPosition__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.SetPosition``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: SetPosition(Of T)(T, Length, Length, Length, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.SetPosition<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.SetPosition(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.SetPosition<T>(T, Length, Length, Length, Length)
+  nameWithType.vb: LayoutExtensions.SetPosition(Of T)(T, Length, Length, Length, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.SetVisibility*
+  name: SetVisibility
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetVisibility_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.SetVisibility
+  fullName: CodeUI.Extensions.LayoutExtensions.SetVisibility
+  nameWithType: LayoutExtensions.SetVisibility
+- uid: CodeUI.Extensions.LayoutExtensions.SetVisibility``1(``0,UnityEngine.UIElements.Visibility)
+  name: SetVisibility<T>(T, Visibility)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetVisibility__1___0_UnityEngine_UIElements_Visibility_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.SetVisibility``1(``0,UnityEngine.UIElements.Visibility)
+  name.vb: SetVisibility(Of T)(T, Visibility)
+  fullName: CodeUI.Extensions.LayoutExtensions.SetVisibility<T>(T, UnityEngine.UIElements.Visibility)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.SetVisibility(Of T)(T, UnityEngine.UIElements.Visibility)
+  nameWithType: LayoutExtensions.SetVisibility<T>(T, Visibility)
+  nameWithType.vb: LayoutExtensions.SetVisibility(Of T)(T, Visibility)
+- uid: CodeUI.Extensions.LayoutExtensions.Size*
+  name: Size
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Size_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Size
+  fullName: CodeUI.Extensions.LayoutExtensions.Size
+  nameWithType: LayoutExtensions.Size
+- uid: CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length)
+  name: Size<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Size__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Size(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Size<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Size(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.Size<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.Size(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: Size<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Size__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: Size(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Size<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Size(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.Size<T>(T, Length, Length)
+  nameWithType.vb: LayoutExtensions.Size(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Top*
+  name: Top
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Top_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Top
+  fullName: CodeUI.Extensions.LayoutExtensions.Top
+  nameWithType: LayoutExtensions.Top
+- uid: CodeUI.Extensions.LayoutExtensions.Top``1(``0,UnityEngine.UIElements.Length)
+  name: Top<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Top__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Top``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Top(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Top<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Top(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.Top<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.Top(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Width*
+  name: Width
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Width_
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Width
+  fullName: CodeUI.Extensions.LayoutExtensions.Width
+  nameWithType: LayoutExtensions.Width
+- uid: CodeUI.Extensions.LayoutExtensions.Width``1(``0,UnityEngine.UIElements.Length)
+  name: Width<T>(T, Length)
+  href: api/CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Width__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Width``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Width(Of T)(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Width<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Width(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: LayoutExtensions.Width<T>(T, Length)
+  nameWithType.vb: LayoutExtensions.Width(Of T)(T, Length)
+- uid: CodeUI.Extensions.LocalizationBindingExtensions
+  name: LocalizationBindingExtensions
+  href: api/CodeUI.Extensions.LocalizationBindingExtensions.html
+  commentId: T:CodeUI.Extensions.LocalizationBindingExtensions
+  fullName: CodeUI.Extensions.LocalizationBindingExtensions
+  nameWithType: LocalizationBindingExtensions
+- uid: CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText*
+  name: BindLocalizedText
+  href: api/CodeUI.Extensions.LocalizationBindingExtensions.html#CodeUI_Extensions_LocalizationBindingExtensions_BindLocalizedText_
+  commentId: Overload:CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText
+  fullName: CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText
+  nameWithType: LocalizationBindingExtensions.BindLocalizedText
+- uid: CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText``1(``0,System.String,System.String)
+  name: BindLocalizedText<T>(T, string, string)
+  href: api/CodeUI.Extensions.LocalizationBindingExtensions.html#CodeUI_Extensions_LocalizationBindingExtensions_BindLocalizedText__1___0_System_String_System_String_
+  commentId: M:CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText``1(``0,System.String,System.String)
+  name.vb: BindLocalizedText(Of T)(T, String, String)
+  fullName: CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText<T>(T, string, string)
+  fullName.vb: CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText(Of T)(T, String, String)
+  nameWithType: LocalizationBindingExtensions.BindLocalizedText<T>(T, string, string)
+  nameWithType.vb: LocalizationBindingExtensions.BindLocalizedText(Of T)(T, String, String)
+- uid: CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText``1(``0,UnityEngine.Localization.LocalizedString)
+  name: BindLocalizedText<T>(T, LocalizedString)
+  href: api/CodeUI.Extensions.LocalizationBindingExtensions.html#CodeUI_Extensions_LocalizationBindingExtensions_BindLocalizedText__1___0_UnityEngine_Localization_LocalizedString_
+  commentId: M:CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText``1(``0,UnityEngine.Localization.LocalizedString)
+  name.vb: BindLocalizedText(Of T)(T, LocalizedString)
+  fullName: CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText<T>(T, UnityEngine.Localization.LocalizedString)
+  fullName.vb: CodeUI.Extensions.LocalizationBindingExtensions.BindLocalizedText(Of T)(T, UnityEngine.Localization.LocalizedString)
+  nameWithType: LocalizationBindingExtensions.BindLocalizedText<T>(T, LocalizedString)
+  nameWithType.vb: LocalizationBindingExtensions.BindLocalizedText(Of T)(T, LocalizedString)
+- uid: CodeUI.Extensions.LoopExtensions
+  name: LoopExtensions
+  href: api/CodeUI.Extensions.LoopExtensions.html
+  commentId: T:CodeUI.Extensions.LoopExtensions
+  fullName: CodeUI.Extensions.LoopExtensions
+  nameWithType: LoopExtensions
+- uid: CodeUI.Extensions.LoopExtensions.ForEach*
+  name: ForEach
+  href: api/CodeUI.Extensions.LoopExtensions.html#CodeUI_Extensions_LoopExtensions_ForEach_
+  commentId: Overload:CodeUI.Extensions.LoopExtensions.ForEach
+  fullName: CodeUI.Extensions.LoopExtensions.ForEach
+  nameWithType: LoopExtensions.ForEach
+- uid: CodeUI.Extensions.LoopExtensions.ForEach``2(``0,System.Collections.Generic.IEnumerable{``1},System.Action{``0,``1})
+  name: ForEach<T, TData>(T, IEnumerable<TData>, Action<T, TData>)
+  href: api/CodeUI.Extensions.LoopExtensions.html#CodeUI_Extensions_LoopExtensions_ForEach__2___0_System_Collections_Generic_IEnumerable___1__System_Action___0___1__
+  commentId: M:CodeUI.Extensions.LoopExtensions.ForEach``2(``0,System.Collections.Generic.IEnumerable{``1},System.Action{``0,``1})
+  name.vb: ForEach(Of T, TData)(T, IEnumerable(Of TData), Action(Of T, TData))
+  fullName: CodeUI.Extensions.LoopExtensions.ForEach<T, TData>(T, System.Collections.Generic.IEnumerable<TData>, System.Action<T, TData>)
+  fullName.vb: CodeUI.Extensions.LoopExtensions.ForEach(Of T, TData)(T, System.Collections.Generic.IEnumerable(Of TData), System.Action(Of T, TData))
+  nameWithType: LoopExtensions.ForEach<T, TData>(T, IEnumerable<TData>, Action<T, TData>)
+  nameWithType.vb: LoopExtensions.ForEach(Of T, TData)(T, IEnumerable(Of TData), Action(Of T, TData))
+- uid: CodeUI.Extensions.LoopExtensions.Repeat*
+  name: Repeat
+  href: api/CodeUI.Extensions.LoopExtensions.html#CodeUI_Extensions_LoopExtensions_Repeat_
+  commentId: Overload:CodeUI.Extensions.LoopExtensions.Repeat
+  fullName: CodeUI.Extensions.LoopExtensions.Repeat
+  nameWithType: LoopExtensions.Repeat
+- uid: CodeUI.Extensions.LoopExtensions.Repeat``1(``0,System.Int32,System.Action{``0,System.Int32})
+  name: Repeat<T>(T, int, Action<T, int>)
+  href: api/CodeUI.Extensions.LoopExtensions.html#CodeUI_Extensions_LoopExtensions_Repeat__1___0_System_Int32_System_Action___0_System_Int32__
+  commentId: M:CodeUI.Extensions.LoopExtensions.Repeat``1(``0,System.Int32,System.Action{``0,System.Int32})
+  name.vb: Repeat(Of T)(T, Integer, Action(Of T, Integer))
+  fullName: CodeUI.Extensions.LoopExtensions.Repeat<T>(T, int, System.Action<T, int>)
+  fullName.vb: CodeUI.Extensions.LoopExtensions.Repeat(Of T)(T, Integer, System.Action(Of T, Integer))
+  nameWithType: LoopExtensions.Repeat<T>(T, int, Action<T, int>)
+  nameWithType.vb: LoopExtensions.Repeat(Of T)(T, Integer, Action(Of T, Integer))
+- uid: CodeUI.Extensions.MarginExtension
+  name: MarginExtension
+  href: api/CodeUI.Extensions.MarginExtension.html
+  commentId: T:CodeUI.Extensions.MarginExtension
+  fullName: CodeUI.Extensions.MarginExtension
+  nameWithType: MarginExtension
+- uid: CodeUI.Extensions.MarginExtension.Margin*
+  name: Margin
+  href: api/CodeUI.Extensions.MarginExtension.html#CodeUI_Extensions_MarginExtension_Margin_
+  commentId: Overload:CodeUI.Extensions.MarginExtension.Margin
+  fullName: CodeUI.Extensions.MarginExtension.Margin
+  nameWithType: MarginExtension.Margin
+- uid: CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length)
+  name: Margin<T>(T, Length)
+  href: api/CodeUI.Extensions.MarginExtension.html#CodeUI_Extensions_MarginExtension_Margin__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Margin(Of T)(T, Length)
+  fullName: CodeUI.Extensions.MarginExtension.Margin<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.MarginExtension.Margin(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: MarginExtension.Margin<T>(T, Length)
+  nameWithType.vb: MarginExtension.Margin(Of T)(T, Length)
+- uid: CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: Margin<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.MarginExtension.html#CodeUI_Extensions_MarginExtension_Margin__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: Margin(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.MarginExtension.Margin<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.MarginExtension.Margin(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: MarginExtension.Margin<T>(T, Length, Length)
+  nameWithType.vb: MarginExtension.Margin(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: Margin<T>(T, Length, Length, Length, Length)
+  href: api/CodeUI.Extensions.MarginExtension.html#CodeUI_Extensions_MarginExtension_Margin__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.MarginExtension.Margin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: Margin(Of T)(T, Length, Length, Length, Length)
+  fullName: CodeUI.Extensions.MarginExtension.Margin<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.MarginExtension.Margin(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: MarginExtension.Margin<T>(T, Length, Length, Length, Length)
+  nameWithType.vb: MarginExtension.Margin(Of T)(T, Length, Length, Length, Length)
+- uid: CodeUI.Extensions.PaddingExtensions
+  name: PaddingExtensions
+  href: api/CodeUI.Extensions.PaddingExtensions.html
+  commentId: T:CodeUI.Extensions.PaddingExtensions
+  fullName: CodeUI.Extensions.PaddingExtensions
+  nameWithType: PaddingExtensions
+- uid: CodeUI.Extensions.PaddingExtensions.Padding*
+  name: Padding
+  href: api/CodeUI.Extensions.PaddingExtensions.html#CodeUI_Extensions_PaddingExtensions_Padding_
+  commentId: Overload:CodeUI.Extensions.PaddingExtensions.Padding
+  fullName: CodeUI.Extensions.PaddingExtensions.Padding
+  nameWithType: PaddingExtensions.Padding
+- uid: CodeUI.Extensions.PaddingExtensions.Padding``1(``0,UnityEngine.UIElements.Length)
+  name: Padding<T>(T, Length)
+  href: api/CodeUI.Extensions.PaddingExtensions.html#CodeUI_Extensions_PaddingExtensions_Padding__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.PaddingExtensions.Padding``1(``0,UnityEngine.UIElements.Length)
+  name.vb: Padding(Of T)(T, Length)
+  fullName: CodeUI.Extensions.PaddingExtensions.Padding<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.PaddingExtensions.Padding(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: PaddingExtensions.Padding<T>(T, Length)
+  nameWithType.vb: PaddingExtensions.Padding(Of T)(T, Length)
+- uid: CodeUI.Extensions.PaddingExtensions.Padding``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: Padding<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.PaddingExtensions.html#CodeUI_Extensions_PaddingExtensions_Padding__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.PaddingExtensions.Padding``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: Padding(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.PaddingExtensions.Padding<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.PaddingExtensions.Padding(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: PaddingExtensions.Padding<T>(T, Length, Length)
+  nameWithType.vb: PaddingExtensions.Padding(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.PaddingExtensions.Padding``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: Padding<T>(T, Length, Length, Length, Length)
+  href: api/CodeUI.Extensions.PaddingExtensions.html#CodeUI_Extensions_PaddingExtensions_Padding__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.PaddingExtensions.Padding``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: Padding(Of T)(T, Length, Length, Length, Length)
+  fullName: CodeUI.Extensions.PaddingExtensions.Padding<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.PaddingExtensions.Padding(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: PaddingExtensions.Padding<T>(T, Length, Length, Length, Length)
+  nameWithType.vb: PaddingExtensions.Padding(Of T)(T, Length, Length, Length, Length)
+- uid: CodeUI.Extensions.StyleExtensions
+  name: StyleExtensions
+  href: api/CodeUI.Extensions.StyleExtensions.html
+  commentId: T:CodeUI.Extensions.StyleExtensions
+  fullName: CodeUI.Extensions.StyleExtensions
+  nameWithType: StyleExtensions
+- uid: CodeUI.Extensions.StyleExtensions.Style*
+  name: Style
+  href: api/CodeUI.Extensions.StyleExtensions.html#CodeUI_Extensions_StyleExtensions_Style_
+  commentId: Overload:CodeUI.Extensions.StyleExtensions.Style
+  fullName: CodeUI.Extensions.StyleExtensions.Style
+  nameWithType: StyleExtensions.Style
+- uid: CodeUI.Extensions.StyleExtensions.Style``1(``0,System.Action{UnityEngine.UIElements.IStyle})
+  name: Style<T>(T, Action<IStyle>)
+  href: api/CodeUI.Extensions.StyleExtensions.html#CodeUI_Extensions_StyleExtensions_Style__1___0_System_Action_UnityEngine_UIElements_IStyle__
+  commentId: M:CodeUI.Extensions.StyleExtensions.Style``1(``0,System.Action{UnityEngine.UIElements.IStyle})
+  name.vb: Style(Of T)(T, Action(Of IStyle))
+  fullName: CodeUI.Extensions.StyleExtensions.Style<T>(T, System.Action<UnityEngine.UIElements.IStyle>)
+  fullName.vb: CodeUI.Extensions.StyleExtensions.Style(Of T)(T, System.Action(Of UnityEngine.UIElements.IStyle))
+  nameWithType: StyleExtensions.Style<T>(T, Action<IStyle>)
+  nameWithType.vb: StyleExtensions.Style(Of T)(T, Action(Of IStyle))
+- uid: CodeUI.Extensions.TextExtensions
+  name: TextExtensions
+  href: api/CodeUI.Extensions.TextExtensions.html
+  commentId: T:CodeUI.Extensions.TextExtensions
+  fullName: CodeUI.Extensions.TextExtensions
+  nameWithType: TextExtensions
+- uid: CodeUI.Extensions.TextExtensions.Font*
+  name: Font
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_Font_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.Font
+  fullName: CodeUI.Extensions.TextExtensions.Font
+  nameWithType: TextExtensions.Font
+- uid: CodeUI.Extensions.TextExtensions.FontSize*
+  name: FontSize
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_FontSize_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.FontSize
+  fullName: CodeUI.Extensions.TextExtensions.FontSize
+  nameWithType: TextExtensions.FontSize
+- uid: CodeUI.Extensions.TextExtensions.FontSize``1(``0,UnityEngine.UIElements.Length)
+  name: FontSize<T>(T, Length)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_FontSize__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.TextExtensions.FontSize``1(``0,UnityEngine.UIElements.Length)
+  name.vb: FontSize(Of T)(T, Length)
+  fullName: CodeUI.Extensions.TextExtensions.FontSize<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.TextExtensions.FontSize(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: TextExtensions.FontSize<T>(T, Length)
+  nameWithType.vb: TextExtensions.FontSize(Of T)(T, Length)
+- uid: CodeUI.Extensions.TextExtensions.FontStyle*
+  name: FontStyle
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_FontStyle_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.FontStyle
+  fullName: CodeUI.Extensions.TextExtensions.FontStyle
+  nameWithType: TextExtensions.FontStyle
+- uid: CodeUI.Extensions.TextExtensions.FontStyle``1(``0,UnityEngine.FontStyle)
+  name: FontStyle<T>(T, FontStyle)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_FontStyle__1___0_UnityEngine_FontStyle_
+  commentId: M:CodeUI.Extensions.TextExtensions.FontStyle``1(``0,UnityEngine.FontStyle)
+  name.vb: FontStyle(Of T)(T, FontStyle)
+  fullName: CodeUI.Extensions.TextExtensions.FontStyle<T>(T, UnityEngine.FontStyle)
+  fullName.vb: CodeUI.Extensions.TextExtensions.FontStyle(Of T)(T, UnityEngine.FontStyle)
+  nameWithType: TextExtensions.FontStyle<T>(T, FontStyle)
+  nameWithType.vb: TextExtensions.FontStyle(Of T)(T, FontStyle)
+- uid: CodeUI.Extensions.TextExtensions.Font``1(``0,UnityEngine.Font)
+  name: Font<T>(T, Font)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_Font__1___0_UnityEngine_Font_
+  commentId: M:CodeUI.Extensions.TextExtensions.Font``1(``0,UnityEngine.Font)
+  name.vb: Font(Of T)(T, Font)
+  fullName: CodeUI.Extensions.TextExtensions.Font<T>(T, UnityEngine.Font)
+  fullName.vb: CodeUI.Extensions.TextExtensions.Font(Of T)(T, UnityEngine.Font)
+  nameWithType: TextExtensions.Font<T>(T, Font)
+  nameWithType.vb: TextExtensions.Font(Of T)(T, Font)
+- uid: CodeUI.Extensions.TextExtensions.Font``1(``0,UnityEngine.UIElements.FontDefinition)
+  name: Font<T>(T, FontDefinition)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_Font__1___0_UnityEngine_UIElements_FontDefinition_
+  commentId: M:CodeUI.Extensions.TextExtensions.Font``1(``0,UnityEngine.UIElements.FontDefinition)
+  name.vb: Font(Of T)(T, FontDefinition)
+  fullName: CodeUI.Extensions.TextExtensions.Font<T>(T, UnityEngine.UIElements.FontDefinition)
+  fullName.vb: CodeUI.Extensions.TextExtensions.Font(Of T)(T, UnityEngine.UIElements.FontDefinition)
+  nameWithType: TextExtensions.Font<T>(T, FontDefinition)
+  nameWithType.vb: TextExtensions.Font(Of T)(T, FontDefinition)
+- uid: CodeUI.Extensions.TextExtensions.LetterSpacing*
+  name: LetterSpacing
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_LetterSpacing_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.LetterSpacing
+  fullName: CodeUI.Extensions.TextExtensions.LetterSpacing
+  nameWithType: TextExtensions.LetterSpacing
+- uid: CodeUI.Extensions.TextExtensions.LetterSpacing``1(``0,UnityEngine.UIElements.Length)
+  name: LetterSpacing<T>(T, Length)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_LetterSpacing__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.TextExtensions.LetterSpacing``1(``0,UnityEngine.UIElements.Length)
+  name.vb: LetterSpacing(Of T)(T, Length)
+  fullName: CodeUI.Extensions.TextExtensions.LetterSpacing<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.TextExtensions.LetterSpacing(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: TextExtensions.LetterSpacing<T>(T, Length)
+  nameWithType.vb: TextExtensions.LetterSpacing(Of T)(T, Length)
+- uid: CodeUI.Extensions.TextExtensions.ParagraphSpacing*
+  name: ParagraphSpacing
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_ParagraphSpacing_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.ParagraphSpacing
+  fullName: CodeUI.Extensions.TextExtensions.ParagraphSpacing
+  nameWithType: TextExtensions.ParagraphSpacing
+- uid: CodeUI.Extensions.TextExtensions.ParagraphSpacing``1(``0,UnityEngine.UIElements.Length)
+  name: ParagraphSpacing<T>(T, Length)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_ParagraphSpacing__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.TextExtensions.ParagraphSpacing``1(``0,UnityEngine.UIElements.Length)
+  name.vb: ParagraphSpacing(Of T)(T, Length)
+  fullName: CodeUI.Extensions.TextExtensions.ParagraphSpacing<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.TextExtensions.ParagraphSpacing(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: TextExtensions.ParagraphSpacing<T>(T, Length)
+  nameWithType.vb: TextExtensions.ParagraphSpacing(Of T)(T, Length)
+- uid: CodeUI.Extensions.TextExtensions.TextAlignment*
+  name: TextAlignment
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextAlignment_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.TextAlignment
+  fullName: CodeUI.Extensions.TextExtensions.TextAlignment
+  nameWithType: TextExtensions.TextAlignment
+- uid: CodeUI.Extensions.TextExtensions.TextAlignment``1(``0,UnityEngine.TextAnchor)
+  name: TextAlignment<T>(T, TextAnchor)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextAlignment__1___0_UnityEngine_TextAnchor_
+  commentId: M:CodeUI.Extensions.TextExtensions.TextAlignment``1(``0,UnityEngine.TextAnchor)
+  name.vb: TextAlignment(Of T)(T, TextAnchor)
+  fullName: CodeUI.Extensions.TextExtensions.TextAlignment<T>(T, UnityEngine.TextAnchor)
+  fullName.vb: CodeUI.Extensions.TextExtensions.TextAlignment(Of T)(T, UnityEngine.TextAnchor)
+  nameWithType: TextExtensions.TextAlignment<T>(T, TextAnchor)
+  nameWithType.vb: TextExtensions.TextAlignment(Of T)(T, TextAnchor)
+- uid: CodeUI.Extensions.TextExtensions.TextColor*
+  name: TextColor
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextColor_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.TextColor
+  fullName: CodeUI.Extensions.TextExtensions.TextColor
+  nameWithType: TextExtensions.TextColor
+- uid: CodeUI.Extensions.TextExtensions.TextColor``1(``0,UnityEngine.Color)
+  name: TextColor<T>(T, Color)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextColor__1___0_UnityEngine_Color_
+  commentId: M:CodeUI.Extensions.TextExtensions.TextColor``1(``0,UnityEngine.Color)
+  name.vb: TextColor(Of T)(T, Color)
+  fullName: CodeUI.Extensions.TextExtensions.TextColor<T>(T, UnityEngine.Color)
+  fullName.vb: CodeUI.Extensions.TextExtensions.TextColor(Of T)(T, UnityEngine.Color)
+  nameWithType: TextExtensions.TextColor<T>(T, Color)
+  nameWithType.vb: TextExtensions.TextColor(Of T)(T, Color)
+- uid: CodeUI.Extensions.TextExtensions.TextOutlineColor*
+  name: TextOutlineColor
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextOutlineColor_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.TextOutlineColor
+  fullName: CodeUI.Extensions.TextExtensions.TextOutlineColor
+  nameWithType: TextExtensions.TextOutlineColor
+- uid: CodeUI.Extensions.TextExtensions.TextOutlineColor``1(``0,UnityEngine.Color)
+  name: TextOutlineColor<T>(T, Color)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextOutlineColor__1___0_UnityEngine_Color_
+  commentId: M:CodeUI.Extensions.TextExtensions.TextOutlineColor``1(``0,UnityEngine.Color)
+  name.vb: TextOutlineColor(Of T)(T, Color)
+  fullName: CodeUI.Extensions.TextExtensions.TextOutlineColor<T>(T, UnityEngine.Color)
+  fullName.vb: CodeUI.Extensions.TextExtensions.TextOutlineColor(Of T)(T, UnityEngine.Color)
+  nameWithType: TextExtensions.TextOutlineColor<T>(T, Color)
+  nameWithType.vb: TextExtensions.TextOutlineColor(Of T)(T, Color)
+- uid: CodeUI.Extensions.TextExtensions.TextOutlineWidth*
+  name: TextOutlineWidth
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextOutlineWidth_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.TextOutlineWidth
+  fullName: CodeUI.Extensions.TextExtensions.TextOutlineWidth
+  nameWithType: TextExtensions.TextOutlineWidth
+- uid: CodeUI.Extensions.TextExtensions.TextOutlineWidth``1(``0,System.Single)
+  name: TextOutlineWidth<T>(T, float)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextOutlineWidth__1___0_System_Single_
+  commentId: M:CodeUI.Extensions.TextExtensions.TextOutlineWidth``1(``0,System.Single)
+  name.vb: TextOutlineWidth(Of T)(T, Single)
+  fullName: CodeUI.Extensions.TextExtensions.TextOutlineWidth<T>(T, float)
+  fullName.vb: CodeUI.Extensions.TextExtensions.TextOutlineWidth(Of T)(T, Single)
+  nameWithType: TextExtensions.TextOutlineWidth<T>(T, float)
+  nameWithType.vb: TextExtensions.TextOutlineWidth(Of T)(T, Single)
+- uid: CodeUI.Extensions.TextExtensions.TextOverflow*
+  name: TextOverflow
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextOverflow_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.TextOverflow
+  fullName: CodeUI.Extensions.TextExtensions.TextOverflow
+  nameWithType: TextExtensions.TextOverflow
+- uid: CodeUI.Extensions.TextExtensions.TextOverflow``1(``0,UnityEngine.UIElements.TextOverflow)
+  name: TextOverflow<T>(T, TextOverflow)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_TextOverflow__1___0_UnityEngine_UIElements_TextOverflow_
+  commentId: M:CodeUI.Extensions.TextExtensions.TextOverflow``1(``0,UnityEngine.UIElements.TextOverflow)
+  name.vb: TextOverflow(Of T)(T, TextOverflow)
+  fullName: CodeUI.Extensions.TextExtensions.TextOverflow<T>(T, UnityEngine.UIElements.TextOverflow)
+  fullName.vb: CodeUI.Extensions.TextExtensions.TextOverflow(Of T)(T, UnityEngine.UIElements.TextOverflow)
+  nameWithType: TextExtensions.TextOverflow<T>(T, TextOverflow)
+  nameWithType.vb: TextExtensions.TextOverflow(Of T)(T, TextOverflow)
+- uid: CodeUI.Extensions.TextExtensions.WordSpacing*
+  name: WordSpacing
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_WordSpacing_
+  commentId: Overload:CodeUI.Extensions.TextExtensions.WordSpacing
+  fullName: CodeUI.Extensions.TextExtensions.WordSpacing
+  nameWithType: TextExtensions.WordSpacing
+- uid: CodeUI.Extensions.TextExtensions.WordSpacing``1(``0,UnityEngine.UIElements.Length)
+  name: WordSpacing<T>(T, Length)
+  href: api/CodeUI.Extensions.TextExtensions.html#CodeUI_Extensions_TextExtensions_WordSpacing__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.TextExtensions.WordSpacing``1(``0,UnityEngine.UIElements.Length)
+  name.vb: WordSpacing(Of T)(T, Length)
+  fullName: CodeUI.Extensions.TextExtensions.WordSpacing<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.TextExtensions.WordSpacing(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: TextExtensions.WordSpacing<T>(T, Length)
+  nameWithType.vb: TextExtensions.WordSpacing(Of T)(T, Length)
+- uid: CodeUI.Extensions.TransformExtensions
+  name: TransformExtensions
+  href: api/CodeUI.Extensions.TransformExtensions.html
+  commentId: T:CodeUI.Extensions.TransformExtensions
+  fullName: CodeUI.Extensions.TransformExtensions
+  nameWithType: TransformExtensions
+- uid: CodeUI.Extensions.TransformExtensions.Rotate*
+  name: Rotate
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Rotate_
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.Rotate
+  fullName: CodeUI.Extensions.TransformExtensions.Rotate
+  nameWithType: TransformExtensions.Rotate
+- uid: CodeUI.Extensions.TransformExtensions.Rotate``1(``0,System.Single)
+  name: Rotate<T>(T, float)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Rotate__1___0_System_Single_
+  commentId: M:CodeUI.Extensions.TransformExtensions.Rotate``1(``0,System.Single)
+  name.vb: Rotate(Of T)(T, Single)
+  fullName: CodeUI.Extensions.TransformExtensions.Rotate<T>(T, float)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Rotate(Of T)(T, Single)
+  nameWithType: TransformExtensions.Rotate<T>(T, float)
+  nameWithType.vb: TransformExtensions.Rotate(Of T)(T, Single)
+- uid: CodeUI.Extensions.TransformExtensions.Rotate``1(``0,UnityEngine.UIElements.Angle)
+  name: Rotate<T>(T, Angle)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Rotate__1___0_UnityEngine_UIElements_Angle_
+  commentId: M:CodeUI.Extensions.TransformExtensions.Rotate``1(``0,UnityEngine.UIElements.Angle)
+  name.vb: Rotate(Of T)(T, Angle)
+  fullName: CodeUI.Extensions.TransformExtensions.Rotate<T>(T, UnityEngine.UIElements.Angle)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Rotate(Of T)(T, UnityEngine.UIElements.Angle)
+  nameWithType: TransformExtensions.Rotate<T>(T, Angle)
+  nameWithType.vb: TransformExtensions.Rotate(Of T)(T, Angle)
+- uid: CodeUI.Extensions.TransformExtensions.Scale*
+  name: Scale
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Scale_
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.Scale
+  fullName: CodeUI.Extensions.TransformExtensions.Scale
+  nameWithType: TransformExtensions.Scale
+- uid: CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single)
+  name: Scale<T>(T, float)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Scale__1___0_System_Single_
+  commentId: M:CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single)
+  name.vb: Scale(Of T)(T, Single)
+  fullName: CodeUI.Extensions.TransformExtensions.Scale<T>(T, float)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Scale(Of T)(T, Single)
+  nameWithType: TransformExtensions.Scale<T>(T, float)
+  nameWithType.vb: TransformExtensions.Scale(Of T)(T, Single)
+- uid: CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single,System.Single)
+  name: Scale<T>(T, float, float)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Scale__1___0_System_Single_System_Single_
+  commentId: M:CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single,System.Single)
+  name.vb: Scale(Of T)(T, Single, Single)
+  fullName: CodeUI.Extensions.TransformExtensions.Scale<T>(T, float, float)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Scale(Of T)(T, Single, Single)
+  nameWithType: TransformExtensions.Scale<T>(T, float, float)
+  nameWithType.vb: TransformExtensions.Scale(Of T)(T, Single, Single)
+- uid: CodeUI.Extensions.TransformExtensions.Scale``1(``0,UnityEngine.Vector2)
+  name: Scale<T>(T, Vector2)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Scale__1___0_UnityEngine_Vector2_
+  commentId: M:CodeUI.Extensions.TransformExtensions.Scale``1(``0,UnityEngine.Vector2)
+  name.vb: Scale(Of T)(T, Vector2)
+  fullName: CodeUI.Extensions.TransformExtensions.Scale<T>(T, UnityEngine.Vector2)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Scale(Of T)(T, UnityEngine.Vector2)
+  nameWithType: TransformExtensions.Scale<T>(T, Vector2)
+  nameWithType.vb: TransformExtensions.Scale(Of T)(T, Vector2)
+- uid: CodeUI.Extensions.TransformExtensions.TransformOrigin*
+  name: TransformOrigin
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TransformOrigin_
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.TransformOrigin
+  fullName: CodeUI.Extensions.TransformExtensions.TransformOrigin
+  nameWithType: TransformExtensions.TransformOrigin
+- uid: CodeUI.Extensions.TransformExtensions.TransformOrigin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: TransformOrigin<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TransformOrigin__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.TransformExtensions.TransformOrigin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: TransformOrigin(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.TransformExtensions.TransformOrigin<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.TransformOrigin(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: TransformExtensions.TransformOrigin<T>(T, Length, Length)
+  nameWithType.vb: TransformExtensions.TransformOrigin(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.TransformExtensions.Translate*
+  name: Translate
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Translate_
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.Translate
+  fullName: CodeUI.Extensions.TransformExtensions.Translate
+  nameWithType: TransformExtensions.Translate
+- uid: CodeUI.Extensions.TransformExtensions.TranslateX*
+  name: TranslateX
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TranslateX_
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.TranslateX
+  fullName: CodeUI.Extensions.TransformExtensions.TranslateX
+  nameWithType: TransformExtensions.TranslateX
+- uid: CodeUI.Extensions.TransformExtensions.TranslateX``1(``0,UnityEngine.UIElements.Length)
+  name: TranslateX<T>(T, Length)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TranslateX__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.TransformExtensions.TranslateX``1(``0,UnityEngine.UIElements.Length)
+  name.vb: TranslateX(Of T)(T, Length)
+  fullName: CodeUI.Extensions.TransformExtensions.TranslateX<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.TranslateX(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: TransformExtensions.TranslateX<T>(T, Length)
+  nameWithType.vb: TransformExtensions.TranslateX(Of T)(T, Length)
+- uid: CodeUI.Extensions.TransformExtensions.TranslateY*
+  name: TranslateY
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TranslateY_
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.TranslateY
+  fullName: CodeUI.Extensions.TransformExtensions.TranslateY
+  nameWithType: TransformExtensions.TranslateY
+- uid: CodeUI.Extensions.TransformExtensions.TranslateY``1(``0,UnityEngine.UIElements.Length)
+  name: TranslateY<T>(T, Length)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TranslateY__1___0_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.TransformExtensions.TranslateY``1(``0,UnityEngine.UIElements.Length)
+  name.vb: TranslateY(Of T)(T, Length)
+  fullName: CodeUI.Extensions.TransformExtensions.TranslateY<T>(T, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.TranslateY(Of T)(T, UnityEngine.UIElements.Length)
+  nameWithType: TransformExtensions.TranslateY<T>(T, Length)
+  nameWithType.vb: TransformExtensions.TranslateY(Of T)(T, Length)
+- uid: CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name: Translate<T>(T, Length, Length)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Translate__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  commentId: M:CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  name.vb: Translate(Of T)(T, Length, Length)
+  fullName: CodeUI.Extensions.TransformExtensions.Translate<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Translate(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  nameWithType: TransformExtensions.Translate<T>(T, Length, Length)
+  nameWithType.vb: TransformExtensions.Translate(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.Vector2)
+  name: Translate<T>(T, Vector2)
+  href: api/CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Translate__1___0_UnityEngine_Vector2_
+  commentId: M:CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.Vector2)
+  name.vb: Translate(Of T)(T, Vector2)
+  fullName: CodeUI.Extensions.TransformExtensions.Translate<T>(T, UnityEngine.Vector2)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Translate(Of T)(T, UnityEngine.Vector2)
+  nameWithType: TransformExtensions.Translate<T>(T, Vector2)
+  nameWithType.vb: TransformExtensions.Translate(Of T)(T, Vector2)
+- uid: CodeUI.Extensions.TransitionExtensions
+  name: TransitionExtensions
+  href: api/CodeUI.Extensions.TransitionExtensions.html
+  commentId: T:CodeUI.Extensions.TransitionExtensions
+  fullName: CodeUI.Extensions.TransitionExtensions
+  nameWithType: TransitionExtensions
+- uid: CodeUI.Extensions.TransitionExtensions.ClearTransitions*
+  name: ClearTransitions
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_ClearTransitions_
+  commentId: Overload:CodeUI.Extensions.TransitionExtensions.ClearTransitions
+  fullName: CodeUI.Extensions.TransitionExtensions.ClearTransitions
+  nameWithType: TransitionExtensions.ClearTransitions
+- uid: CodeUI.Extensions.TransitionExtensions.ClearTransitions``1(``0)
+  name: ClearTransitions<T>(T)
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_ClearTransitions__1___0_
+  commentId: M:CodeUI.Extensions.TransitionExtensions.ClearTransitions``1(``0)
+  name.vb: ClearTransitions(Of T)(T)
+  fullName: CodeUI.Extensions.TransitionExtensions.ClearTransitions<T>(T)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.ClearTransitions(Of T)(T)
+  nameWithType: TransitionExtensions.ClearTransitions<T>(T)
+  nameWithType.vb: TransitionExtensions.ClearTransitions(Of T)(T)
+- uid: CodeUI.Extensions.TransitionExtensions.Transition*
+  name: Transition
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_Transition_
+  commentId: Overload:CodeUI.Extensions.TransitionExtensions.Transition
+  fullName: CodeUI.Extensions.TransitionExtensions.Transition
+  nameWithType: TransitionExtensions.Transition
+- uid: CodeUI.Extensions.TransitionExtensions.TransitionAll*
+  name: TransitionAll
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_TransitionAll_
+  commentId: Overload:CodeUI.Extensions.TransitionExtensions.TransitionAll
+  fullName: CodeUI.Extensions.TransitionExtensions.TransitionAll
+  nameWithType: TransitionExtensions.TransitionAll
+- uid: CodeUI.Extensions.TransitionExtensions.TransitionAll``1(``0,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name: TransitionAll<T>(T, float, EasingMode, float)
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_TransitionAll__1___0_System_Single_UnityEngine_UIElements_EasingMode_System_Single_
+  commentId: M:CodeUI.Extensions.TransitionExtensions.TransitionAll``1(``0,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name.vb: TransitionAll(Of T)(T, Single, EasingMode, Single)
+  fullName: CodeUI.Extensions.TransitionExtensions.TransitionAll<T>(T, float, UnityEngine.UIElements.EasingMode, float)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.TransitionAll(Of T)(T, Single, UnityEngine.UIElements.EasingMode, Single)
+  nameWithType: TransitionExtensions.TransitionAll<T>(T, float, EasingMode, float)
+  nameWithType.vb: TransitionExtensions.TransitionAll(Of T)(T, Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.Transition``1(``0,CodeUI.Extensions.TransitionProperty,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name: Transition<T>(T, TransitionProperty, float, EasingMode, float)
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_Transition__1___0_CodeUI_Extensions_TransitionProperty_System_Single_UnityEngine_UIElements_EasingMode_System_Single_
+  commentId: M:CodeUI.Extensions.TransitionExtensions.Transition``1(``0,CodeUI.Extensions.TransitionProperty,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name.vb: Transition(Of T)(T, TransitionProperty, Single, EasingMode, Single)
+  fullName: CodeUI.Extensions.TransitionExtensions.Transition<T>(T, CodeUI.Extensions.TransitionProperty, float, UnityEngine.UIElements.EasingMode, float)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.Transition(Of T)(T, CodeUI.Extensions.TransitionProperty, Single, UnityEngine.UIElements.EasingMode, Single)
+  nameWithType: TransitionExtensions.Transition<T>(T, TransitionProperty, float, EasingMode, float)
+  nameWithType.vb: TransitionExtensions.Transition(Of T)(T, TransitionProperty, Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.Transition``1(``0,System.String,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name: Transition<T>(T, string, float, EasingMode, float)
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_Transition__1___0_System_String_System_Single_UnityEngine_UIElements_EasingMode_System_Single_
+  commentId: M:CodeUI.Extensions.TransitionExtensions.Transition``1(``0,System.String,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name.vb: Transition(Of T)(T, String, Single, EasingMode, Single)
+  fullName: CodeUI.Extensions.TransitionExtensions.Transition<T>(T, string, float, UnityEngine.UIElements.EasingMode, float)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.Transition(Of T)(T, String, Single, UnityEngine.UIElements.EasingMode, Single)
+  nameWithType: TransitionExtensions.Transition<T>(T, string, float, EasingMode, float)
+  nameWithType.vb: TransitionExtensions.Transition(Of T)(T, String, Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.Transition``1(``0,UnityEngine.UIElements.StylePropertyName,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name: Transition<T>(T, StylePropertyName, float, EasingMode, float)
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_Transition__1___0_UnityEngine_UIElements_StylePropertyName_System_Single_UnityEngine_UIElements_EasingMode_System_Single_
+  commentId: M:CodeUI.Extensions.TransitionExtensions.Transition``1(``0,UnityEngine.UIElements.StylePropertyName,System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name.vb: Transition(Of T)(T, StylePropertyName, Single, EasingMode, Single)
+  fullName: CodeUI.Extensions.TransitionExtensions.Transition<T>(T, UnityEngine.UIElements.StylePropertyName, float, UnityEngine.UIElements.EasingMode, float)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.Transition(Of T)(T, UnityEngine.UIElements.StylePropertyName, Single, UnityEngine.UIElements.EasingMode, Single)
+  nameWithType: TransitionExtensions.Transition<T>(T, StylePropertyName, float, EasingMode, float)
+  nameWithType.vb: TransitionExtensions.Transition(Of T)(T, StylePropertyName, Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionExtensions.Transitions*
+  name: Transitions
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_Transitions_
+  commentId: Overload:CodeUI.Extensions.TransitionExtensions.Transitions
+  fullName: CodeUI.Extensions.TransitionExtensions.Transitions
+  nameWithType: TransitionExtensions.Transitions
+- uid: CodeUI.Extensions.TransitionExtensions.Transitions``1(``0,CodeUI.Extensions.TransitionProperty[],System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name: Transitions<T>(T, TransitionProperty[], float, EasingMode, float)
+  href: api/CodeUI.Extensions.TransitionExtensions.html#CodeUI_Extensions_TransitionExtensions_Transitions__1___0_CodeUI_Extensions_TransitionProperty___System_Single_UnityEngine_UIElements_EasingMode_System_Single_
+  commentId: M:CodeUI.Extensions.TransitionExtensions.Transitions``1(``0,CodeUI.Extensions.TransitionProperty[],System.Single,UnityEngine.UIElements.EasingMode,System.Single)
+  name.vb: Transitions(Of T)(T, TransitionProperty(), Single, EasingMode, Single)
+  fullName: CodeUI.Extensions.TransitionExtensions.Transitions<T>(T, CodeUI.Extensions.TransitionProperty[], float, UnityEngine.UIElements.EasingMode, float)
+  fullName.vb: CodeUI.Extensions.TransitionExtensions.Transitions(Of T)(T, CodeUI.Extensions.TransitionProperty(), Single, UnityEngine.UIElements.EasingMode, Single)
+  nameWithType: TransitionExtensions.Transitions<T>(T, TransitionProperty[], float, EasingMode, float)
+  nameWithType.vb: TransitionExtensions.Transitions(Of T)(T, TransitionProperty(), Single, EasingMode, Single)
+- uid: CodeUI.Extensions.TransitionProperty
+  name: TransitionProperty
+  href: api/CodeUI.Extensions.TransitionProperty.html
+  commentId: T:CodeUI.Extensions.TransitionProperty
+  fullName: CodeUI.Extensions.TransitionProperty
+  nameWithType: TransitionProperty
+- uid: CodeUI.Extensions.TransitionProperty.all
+  name: all
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_all
+  commentId: F:CodeUI.Extensions.TransitionProperty.all
+  fullName: CodeUI.Extensions.TransitionProperty.all
+  nameWithType: TransitionProperty.all
+- uid: CodeUI.Extensions.TransitionProperty.backgroundColor
+  name: backgroundColor
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_backgroundColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.backgroundColor
+  fullName: CodeUI.Extensions.TransitionProperty.backgroundColor
+  nameWithType: TransitionProperty.backgroundColor
+- uid: CodeUI.Extensions.TransitionProperty.backgroundPosition
+  name: backgroundPosition
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_backgroundPosition
+  commentId: F:CodeUI.Extensions.TransitionProperty.backgroundPosition
+  fullName: CodeUI.Extensions.TransitionProperty.backgroundPosition
+  nameWithType: TransitionProperty.backgroundPosition
+- uid: CodeUI.Extensions.TransitionProperty.backgroundSize
+  name: backgroundSize
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_backgroundSize
+  commentId: F:CodeUI.Extensions.TransitionProperty.backgroundSize
+  fullName: CodeUI.Extensions.TransitionProperty.backgroundSize
+  nameWithType: TransitionProperty.backgroundSize
+- uid: CodeUI.Extensions.TransitionProperty.borderBottomColor
+  name: borderBottomColor
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderBottomColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderBottomColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderBottomColor
+  nameWithType: TransitionProperty.borderBottomColor
+- uid: CodeUI.Extensions.TransitionProperty.borderBottomLeftRadius
+  name: borderBottomLeftRadius
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderBottomLeftRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderBottomLeftRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderBottomLeftRadius
+  nameWithType: TransitionProperty.borderBottomLeftRadius
+- uid: CodeUI.Extensions.TransitionProperty.borderBottomRightRadius
+  name: borderBottomRightRadius
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderBottomRightRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderBottomRightRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderBottomRightRadius
+  nameWithType: TransitionProperty.borderBottomRightRadius
+- uid: CodeUI.Extensions.TransitionProperty.borderBottomWidth
+  name: borderBottomWidth
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderBottomWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderBottomWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderBottomWidth
+  nameWithType: TransitionProperty.borderBottomWidth
+- uid: CodeUI.Extensions.TransitionProperty.borderColor
+  name: borderColor
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderColor
+  nameWithType: TransitionProperty.borderColor
+- uid: CodeUI.Extensions.TransitionProperty.borderLeftColor
+  name: borderLeftColor
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderLeftColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderLeftColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderLeftColor
+  nameWithType: TransitionProperty.borderLeftColor
+- uid: CodeUI.Extensions.TransitionProperty.borderLeftWidth
+  name: borderLeftWidth
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderLeftWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderLeftWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderLeftWidth
+  nameWithType: TransitionProperty.borderLeftWidth
+- uid: CodeUI.Extensions.TransitionProperty.borderRadius
+  name: borderRadius
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderRadius
+  nameWithType: TransitionProperty.borderRadius
+- uid: CodeUI.Extensions.TransitionProperty.borderRightColor
+  name: borderRightColor
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderRightColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderRightColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderRightColor
+  nameWithType: TransitionProperty.borderRightColor
+- uid: CodeUI.Extensions.TransitionProperty.borderRightWidth
+  name: borderRightWidth
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderRightWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderRightWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderRightWidth
+  nameWithType: TransitionProperty.borderRightWidth
+- uid: CodeUI.Extensions.TransitionProperty.borderTopColor
+  name: borderTopColor
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderTopColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderTopColor
+  fullName: CodeUI.Extensions.TransitionProperty.borderTopColor
+  nameWithType: TransitionProperty.borderTopColor
+- uid: CodeUI.Extensions.TransitionProperty.borderTopLeftRadius
+  name: borderTopLeftRadius
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderTopLeftRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderTopLeftRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderTopLeftRadius
+  nameWithType: TransitionProperty.borderTopLeftRadius
+- uid: CodeUI.Extensions.TransitionProperty.borderTopRightRadius
+  name: borderTopRightRadius
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderTopRightRadius
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderTopRightRadius
+  fullName: CodeUI.Extensions.TransitionProperty.borderTopRightRadius
+  nameWithType: TransitionProperty.borderTopRightRadius
+- uid: CodeUI.Extensions.TransitionProperty.borderTopWidth
+  name: borderTopWidth
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderTopWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderTopWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderTopWidth
+  nameWithType: TransitionProperty.borderTopWidth
+- uid: CodeUI.Extensions.TransitionProperty.borderWidth
+  name: borderWidth
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_borderWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.borderWidth
+  fullName: CodeUI.Extensions.TransitionProperty.borderWidth
+  nameWithType: TransitionProperty.borderWidth
+- uid: CodeUI.Extensions.TransitionProperty.bottom
+  name: bottom
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_bottom
+  commentId: F:CodeUI.Extensions.TransitionProperty.bottom
+  fullName: CodeUI.Extensions.TransitionProperty.bottom
+  nameWithType: TransitionProperty.bottom
+- uid: CodeUI.Extensions.TransitionProperty.color
+  name: color
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_color
+  commentId: F:CodeUI.Extensions.TransitionProperty.color
+  fullName: CodeUI.Extensions.TransitionProperty.color
+  nameWithType: TransitionProperty.color
+- uid: CodeUI.Extensions.TransitionProperty.flex
+  name: flex
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_flex
+  commentId: F:CodeUI.Extensions.TransitionProperty.flex
+  fullName: CodeUI.Extensions.TransitionProperty.flex
+  nameWithType: TransitionProperty.flex
+- uid: CodeUI.Extensions.TransitionProperty.flexBasis
+  name: flexBasis
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_flexBasis
+  commentId: F:CodeUI.Extensions.TransitionProperty.flexBasis
+  fullName: CodeUI.Extensions.TransitionProperty.flexBasis
+  nameWithType: TransitionProperty.flexBasis
+- uid: CodeUI.Extensions.TransitionProperty.flexGrow
+  name: flexGrow
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_flexGrow
+  commentId: F:CodeUI.Extensions.TransitionProperty.flexGrow
+  fullName: CodeUI.Extensions.TransitionProperty.flexGrow
+  nameWithType: TransitionProperty.flexGrow
+- uid: CodeUI.Extensions.TransitionProperty.flexShrink
+  name: flexShrink
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_flexShrink
+  commentId: F:CodeUI.Extensions.TransitionProperty.flexShrink
+  fullName: CodeUI.Extensions.TransitionProperty.flexShrink
+  nameWithType: TransitionProperty.flexShrink
+- uid: CodeUI.Extensions.TransitionProperty.fontSize
+  name: fontSize
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_fontSize
+  commentId: F:CodeUI.Extensions.TransitionProperty.fontSize
+  fullName: CodeUI.Extensions.TransitionProperty.fontSize
+  nameWithType: TransitionProperty.fontSize
+- uid: CodeUI.Extensions.TransitionProperty.height
+  name: height
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_height
+  commentId: F:CodeUI.Extensions.TransitionProperty.height
+  fullName: CodeUI.Extensions.TransitionProperty.height
+  nameWithType: TransitionProperty.height
+- uid: CodeUI.Extensions.TransitionProperty.left
+  name: left
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_left
+  commentId: F:CodeUI.Extensions.TransitionProperty.left
+  fullName: CodeUI.Extensions.TransitionProperty.left
+  nameWithType: TransitionProperty.left
+- uid: CodeUI.Extensions.TransitionProperty.letterSpacing
+  name: letterSpacing
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_letterSpacing
+  commentId: F:CodeUI.Extensions.TransitionProperty.letterSpacing
+  fullName: CodeUI.Extensions.TransitionProperty.letterSpacing
+  nameWithType: TransitionProperty.letterSpacing
+- uid: CodeUI.Extensions.TransitionProperty.margin
+  name: margin
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_margin
+  commentId: F:CodeUI.Extensions.TransitionProperty.margin
+  fullName: CodeUI.Extensions.TransitionProperty.margin
+  nameWithType: TransitionProperty.margin
+- uid: CodeUI.Extensions.TransitionProperty.marginBottom
+  name: marginBottom
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_marginBottom
+  commentId: F:CodeUI.Extensions.TransitionProperty.marginBottom
+  fullName: CodeUI.Extensions.TransitionProperty.marginBottom
+  nameWithType: TransitionProperty.marginBottom
+- uid: CodeUI.Extensions.TransitionProperty.marginLeft
+  name: marginLeft
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_marginLeft
+  commentId: F:CodeUI.Extensions.TransitionProperty.marginLeft
+  fullName: CodeUI.Extensions.TransitionProperty.marginLeft
+  nameWithType: TransitionProperty.marginLeft
+- uid: CodeUI.Extensions.TransitionProperty.marginRight
+  name: marginRight
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_marginRight
+  commentId: F:CodeUI.Extensions.TransitionProperty.marginRight
+  fullName: CodeUI.Extensions.TransitionProperty.marginRight
+  nameWithType: TransitionProperty.marginRight
+- uid: CodeUI.Extensions.TransitionProperty.marginTop
+  name: marginTop
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_marginTop
+  commentId: F:CodeUI.Extensions.TransitionProperty.marginTop
+  fullName: CodeUI.Extensions.TransitionProperty.marginTop
+  nameWithType: TransitionProperty.marginTop
+- uid: CodeUI.Extensions.TransitionProperty.maxHeight
+  name: maxHeight
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_maxHeight
+  commentId: F:CodeUI.Extensions.TransitionProperty.maxHeight
+  fullName: CodeUI.Extensions.TransitionProperty.maxHeight
+  nameWithType: TransitionProperty.maxHeight
+- uid: CodeUI.Extensions.TransitionProperty.maxWidth
+  name: maxWidth
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_maxWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.maxWidth
+  fullName: CodeUI.Extensions.TransitionProperty.maxWidth
+  nameWithType: TransitionProperty.maxWidth
+- uid: CodeUI.Extensions.TransitionProperty.minHeight
+  name: minHeight
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_minHeight
+  commentId: F:CodeUI.Extensions.TransitionProperty.minHeight
+  fullName: CodeUI.Extensions.TransitionProperty.minHeight
+  nameWithType: TransitionProperty.minHeight
+- uid: CodeUI.Extensions.TransitionProperty.minWidth
+  name: minWidth
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_minWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.minWidth
+  fullName: CodeUI.Extensions.TransitionProperty.minWidth
+  nameWithType: TransitionProperty.minWidth
+- uid: CodeUI.Extensions.TransitionProperty.opacity
+  name: opacity
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_opacity
+  commentId: F:CodeUI.Extensions.TransitionProperty.opacity
+  fullName: CodeUI.Extensions.TransitionProperty.opacity
+  nameWithType: TransitionProperty.opacity
+- uid: CodeUI.Extensions.TransitionProperty.padding
+  name: padding
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_padding
+  commentId: F:CodeUI.Extensions.TransitionProperty.padding
+  fullName: CodeUI.Extensions.TransitionProperty.padding
+  nameWithType: TransitionProperty.padding
+- uid: CodeUI.Extensions.TransitionProperty.paddingBottom
+  name: paddingBottom
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_paddingBottom
+  commentId: F:CodeUI.Extensions.TransitionProperty.paddingBottom
+  fullName: CodeUI.Extensions.TransitionProperty.paddingBottom
+  nameWithType: TransitionProperty.paddingBottom
+- uid: CodeUI.Extensions.TransitionProperty.paddingLeft
+  name: paddingLeft
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_paddingLeft
+  commentId: F:CodeUI.Extensions.TransitionProperty.paddingLeft
+  fullName: CodeUI.Extensions.TransitionProperty.paddingLeft
+  nameWithType: TransitionProperty.paddingLeft
+- uid: CodeUI.Extensions.TransitionProperty.paddingRight
+  name: paddingRight
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_paddingRight
+  commentId: F:CodeUI.Extensions.TransitionProperty.paddingRight
+  fullName: CodeUI.Extensions.TransitionProperty.paddingRight
+  nameWithType: TransitionProperty.paddingRight
+- uid: CodeUI.Extensions.TransitionProperty.paddingTop
+  name: paddingTop
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_paddingTop
+  commentId: F:CodeUI.Extensions.TransitionProperty.paddingTop
+  fullName: CodeUI.Extensions.TransitionProperty.paddingTop
+  nameWithType: TransitionProperty.paddingTop
+- uid: CodeUI.Extensions.TransitionProperty.right
+  name: right
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_right
+  commentId: F:CodeUI.Extensions.TransitionProperty.right
+  fullName: CodeUI.Extensions.TransitionProperty.right
+  nameWithType: TransitionProperty.right
+- uid: CodeUI.Extensions.TransitionProperty.rotate
+  name: rotate
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_rotate
+  commentId: F:CodeUI.Extensions.TransitionProperty.rotate
+  fullName: CodeUI.Extensions.TransitionProperty.rotate
+  nameWithType: TransitionProperty.rotate
+- uid: CodeUI.Extensions.TransitionProperty.scale
+  name: scale
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_scale
+  commentId: F:CodeUI.Extensions.TransitionProperty.scale
+  fullName: CodeUI.Extensions.TransitionProperty.scale
+  nameWithType: TransitionProperty.scale
+- uid: CodeUI.Extensions.TransitionProperty.textShadow
+  name: textShadow
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_textShadow
+  commentId: F:CodeUI.Extensions.TransitionProperty.textShadow
+  fullName: CodeUI.Extensions.TransitionProperty.textShadow
+  nameWithType: TransitionProperty.textShadow
+- uid: CodeUI.Extensions.TransitionProperty.top
+  name: top
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_top
+  commentId: F:CodeUI.Extensions.TransitionProperty.top
+  fullName: CodeUI.Extensions.TransitionProperty.top
+  nameWithType: TransitionProperty.top
+- uid: CodeUI.Extensions.TransitionProperty.transformOrigin
+  name: transformOrigin
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_transformOrigin
+  commentId: F:CodeUI.Extensions.TransitionProperty.transformOrigin
+  fullName: CodeUI.Extensions.TransitionProperty.transformOrigin
+  nameWithType: TransitionProperty.transformOrigin
+- uid: CodeUI.Extensions.TransitionProperty.translate
+  name: translate
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_translate
+  commentId: F:CodeUI.Extensions.TransitionProperty.translate
+  fullName: CodeUI.Extensions.TransitionProperty.translate
+  nameWithType: TransitionProperty.translate
+- uid: CodeUI.Extensions.TransitionProperty.unityBackgroundImageTintColor
+  name: unityBackgroundImageTintColor
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unityBackgroundImageTintColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityBackgroundImageTintColor
+  fullName: CodeUI.Extensions.TransitionProperty.unityBackgroundImageTintColor
+  nameWithType: TransitionProperty.unityBackgroundImageTintColor
+- uid: CodeUI.Extensions.TransitionProperty.unityParagraphSpacing
+  name: unityParagraphSpacing
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unityParagraphSpacing
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityParagraphSpacing
+  fullName: CodeUI.Extensions.TransitionProperty.unityParagraphSpacing
+  nameWithType: TransitionProperty.unityParagraphSpacing
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceBottom
+  name: unitySliceBottom
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unitySliceBottom
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceBottom
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceBottom
+  nameWithType: TransitionProperty.unitySliceBottom
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceLeft
+  name: unitySliceLeft
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unitySliceLeft
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceLeft
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceLeft
+  nameWithType: TransitionProperty.unitySliceLeft
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceRight
+  name: unitySliceRight
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unitySliceRight
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceRight
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceRight
+  nameWithType: TransitionProperty.unitySliceRight
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceScale
+  name: unitySliceScale
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unitySliceScale
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceScale
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceScale
+  nameWithType: TransitionProperty.unitySliceScale
+- uid: CodeUI.Extensions.TransitionProperty.unitySliceTop
+  name: unitySliceTop
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unitySliceTop
+  commentId: F:CodeUI.Extensions.TransitionProperty.unitySliceTop
+  fullName: CodeUI.Extensions.TransitionProperty.unitySliceTop
+  nameWithType: TransitionProperty.unitySliceTop
+- uid: CodeUI.Extensions.TransitionProperty.unityTextOutline
+  name: unityTextOutline
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unityTextOutline
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityTextOutline
+  fullName: CodeUI.Extensions.TransitionProperty.unityTextOutline
+  nameWithType: TransitionProperty.unityTextOutline
+- uid: CodeUI.Extensions.TransitionProperty.unityTextOutlineColor
+  name: unityTextOutlineColor
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unityTextOutlineColor
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityTextOutlineColor
+  fullName: CodeUI.Extensions.TransitionProperty.unityTextOutlineColor
+  nameWithType: TransitionProperty.unityTextOutlineColor
+- uid: CodeUI.Extensions.TransitionProperty.unityTextOutlineWidth
+  name: unityTextOutlineWidth
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_unityTextOutlineWidth
+  commentId: F:CodeUI.Extensions.TransitionProperty.unityTextOutlineWidth
+  fullName: CodeUI.Extensions.TransitionProperty.unityTextOutlineWidth
+  nameWithType: TransitionProperty.unityTextOutlineWidth
+- uid: CodeUI.Extensions.TransitionProperty.width
+  name: width
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_width
+  commentId: F:CodeUI.Extensions.TransitionProperty.width
+  fullName: CodeUI.Extensions.TransitionProperty.width
+  nameWithType: TransitionProperty.width
+- uid: CodeUI.Extensions.TransitionProperty.wordSpacing
+  name: wordSpacing
+  href: api/CodeUI.Extensions.TransitionProperty.html#CodeUI_Extensions_TransitionProperty_wordSpacing
+  commentId: F:CodeUI.Extensions.TransitionProperty.wordSpacing
+  fullName: CodeUI.Extensions.TransitionProperty.wordSpacing
+  nameWithType: TransitionProperty.wordSpacing
+- uid: CodeUI.Extensions.TransitionPropertyExtensions
+  name: TransitionPropertyExtensions
+  href: api/CodeUI.Extensions.TransitionPropertyExtensions.html
+  commentId: T:CodeUI.Extensions.TransitionPropertyExtensions
+  fullName: CodeUI.Extensions.TransitionPropertyExtensions
+  nameWithType: TransitionPropertyExtensions
+- uid: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  name: ToUssName(TransitionProperty)
+  href: api/CodeUI.Extensions.TransitionPropertyExtensions.html#CodeUI_Extensions_TransitionPropertyExtensions_ToUssName_CodeUI_Extensions_TransitionProperty_
+  commentId: M:CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  fullName: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName(CodeUI.Extensions.TransitionProperty)
+  nameWithType: TransitionPropertyExtensions.ToUssName(TransitionProperty)
+- uid: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName*
+  name: ToUssName
+  href: api/CodeUI.Extensions.TransitionPropertyExtensions.html#CodeUI_Extensions_TransitionPropertyExtensions_ToUssName_
+  commentId: Overload:CodeUI.Extensions.TransitionPropertyExtensions.ToUssName
+  fullName: CodeUI.Extensions.TransitionPropertyExtensions.ToUssName
+  nameWithType: TransitionPropertyExtensions.ToUssName
+- uid: CodeUI.Extensions.UnityBindingExtensions
+  name: UnityBindingExtensions
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html
+  commentId: T:CodeUI.Extensions.UnityBindingExtensions
+  fullName: CodeUI.Extensions.UnityBindingExtensions
+  nameWithType: UnityBindingExtensions
+- uid: CodeUI.Extensions.UnityBindingExtensions.BindText*
+  name: BindText
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_BindText_
+  commentId: Overload:CodeUI.Extensions.UnityBindingExtensions.BindText
+  fullName: CodeUI.Extensions.UnityBindingExtensions.BindText
+  nameWithType: UnityBindingExtensions.BindText
+- uid: CodeUI.Extensions.UnityBindingExtensions.BindText``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.String}},UnityEngine.UIElements.BindingMode)
+  name: BindText<TElement, TData>(TElement, TData, Expression<Func<TData, string>>, BindingMode)
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_BindText__2___0___1_System_Linq_Expressions_Expression_System_Func___1_System_String___UnityEngine_UIElements_BindingMode_
+  commentId: M:CodeUI.Extensions.UnityBindingExtensions.BindText``2(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,System.String}},UnityEngine.UIElements.BindingMode)
+  name.vb: BindText(Of TElement, TData)(TElement, TData, Expression(Of Func(Of TData, String)), BindingMode)
+  fullName: CodeUI.Extensions.UnityBindingExtensions.BindText<TElement, TData>(TElement, TData, System.Linq.Expressions.Expression<System.Func<TData, string>>, UnityEngine.UIElements.BindingMode)
+  fullName.vb: CodeUI.Extensions.UnityBindingExtensions.BindText(Of TElement, TData)(TElement, TData, System.Linq.Expressions.Expression(Of System.Func(Of TData, String)), UnityEngine.UIElements.BindingMode)
+  nameWithType: UnityBindingExtensions.BindText<TElement, TData>(TElement, TData, Expression<Func<TData, string>>, BindingMode)
+  nameWithType.vb: UnityBindingExtensions.BindText(Of TElement, TData)(TElement, TData, Expression(Of Func(Of TData, String)), BindingMode)
+- uid: CodeUI.Extensions.UnityBindingExtensions.BindValue*
+  name: BindValue
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_BindValue_
+  commentId: Overload:CodeUI.Extensions.UnityBindingExtensions.BindValue
+  fullName: CodeUI.Extensions.UnityBindingExtensions.BindValue
+  nameWithType: UnityBindingExtensions.BindValue
+- uid: CodeUI.Extensions.UnityBindingExtensions.BindValue``3(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,``2}},UnityEngine.UIElements.BindingMode)
+  name: BindValue<TElement, TData, TValue>(TElement, TData, Expression<Func<TData, TValue>>, BindingMode)
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_BindValue__3___0___1_System_Linq_Expressions_Expression_System_Func___1___2___UnityEngine_UIElements_BindingMode_
+  commentId: M:CodeUI.Extensions.UnityBindingExtensions.BindValue``3(``0,``1,System.Linq.Expressions.Expression{System.Func{``1,``2}},UnityEngine.UIElements.BindingMode)
+  name.vb: BindValue(Of TElement, TData, TValue)(TElement, TData, Expression(Of Func(Of TData, TValue)), BindingMode)
+  fullName: CodeUI.Extensions.UnityBindingExtensions.BindValue<TElement, TData, TValue>(TElement, TData, System.Linq.Expressions.Expression<System.Func<TData, TValue>>, UnityEngine.UIElements.BindingMode)
+  fullName.vb: CodeUI.Extensions.UnityBindingExtensions.BindValue(Of TElement, TData, TValue)(TElement, TData, System.Linq.Expressions.Expression(Of System.Func(Of TData, TValue)), UnityEngine.UIElements.BindingMode)
+  nameWithType: UnityBindingExtensions.BindValue<TElement, TData, TValue>(TElement, TData, Expression<Func<TData, TValue>>, BindingMode)
+  nameWithType.vb: UnityBindingExtensions.BindValue(Of TElement, TData, TValue)(TElement, TData, Expression(Of Func(Of TData, TValue)), BindingMode)
+- uid: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding*
+  name: SetUnityBinding
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_SetUnityBinding_
+  commentId: Overload:CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding
+  fullName: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding
+  nameWithType: UnityBindingExtensions.SetUnityBinding
+- uid: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding``1(``0,System.String,System.String,UnityEngine.UIElements.BindingMode)
+  name: SetUnityBinding<T>(T, string, string, BindingMode)
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_SetUnityBinding__1___0_System_String_System_String_UnityEngine_UIElements_BindingMode_
+  commentId: M:CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding``1(``0,System.String,System.String,UnityEngine.UIElements.BindingMode)
+  name.vb: SetUnityBinding(Of T)(T, String, String, BindingMode)
+  fullName: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding<T>(T, string, string, UnityEngine.UIElements.BindingMode)
+  fullName.vb: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding(Of T)(T, String, String, UnityEngine.UIElements.BindingMode)
+  nameWithType: UnityBindingExtensions.SetUnityBinding<T>(T, string, string, BindingMode)
+  nameWithType.vb: UnityBindingExtensions.SetUnityBinding(Of T)(T, String, String, BindingMode)
+- uid: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding``3(``0,System.Linq.Expressions.Expression{System.Func{``0,``2}},``1,System.Boolean,System.Linq.Expressions.Expression{System.Func{``1,``2}},UnityEngine.UIElements.BindingMode)
+  name: SetUnityBinding<TElement, TData, TDataType>(TElement, Expression<Func<TElement, TDataType>>, TData, bool, Expression<Func<TData, TDataType>>, BindingMode)
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_SetUnityBinding__3___0_System_Linq_Expressions_Expression_System_Func___0___2_____1_System_Boolean_System_Linq_Expressions_Expression_System_Func___1___2___UnityEngine_UIElements_BindingMode_
+  commentId: M:CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding``3(``0,System.Linq.Expressions.Expression{System.Func{``0,``2}},``1,System.Boolean,System.Linq.Expressions.Expression{System.Func{``1,``2}},UnityEngine.UIElements.BindingMode)
+  name.vb: SetUnityBinding(Of TElement, TData, TDataType)(TElement, Expression(Of Func(Of TElement, TDataType)), TData, Boolean, Expression(Of Func(Of TData, TDataType)), BindingMode)
+  fullName: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding<TElement, TData, TDataType>(TElement, System.Linq.Expressions.Expression<System.Func<TElement, TDataType>>, TData, bool, System.Linq.Expressions.Expression<System.Func<TData, TDataType>>, UnityEngine.UIElements.BindingMode)
+  fullName.vb: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding(Of TElement, TData, TDataType)(TElement, System.Linq.Expressions.Expression(Of System.Func(Of TElement, TDataType)), TData, Boolean, System.Linq.Expressions.Expression(Of System.Func(Of TData, TDataType)), UnityEngine.UIElements.BindingMode)
+  nameWithType: UnityBindingExtensions.SetUnityBinding<TElement, TData, TDataType>(TElement, Expression<Func<TElement, TDataType>>, TData, bool, Expression<Func<TData, TDataType>>, BindingMode)
+  nameWithType.vb: UnityBindingExtensions.SetUnityBinding(Of TElement, TData, TDataType)(TElement, Expression(Of Func(Of TElement, TDataType)), TData, Boolean, Expression(Of Func(Of TData, TDataType)), BindingMode)
+- uid: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding``4(``0,System.Linq.Expressions.Expression{System.Func{``0,``3}},``1,System.Boolean,System.Linq.Expressions.Expression{System.Func{``1,``2}},UnityEngine.UIElements.ConverterGroup,UnityEngine.UIElements.ConverterGroup,UnityEngine.UIElements.BindingMode)
+  name: SetUnityBinding<TElement, TData, TSourceDataType, TTargetDataType>(TElement, Expression<Func<TElement, TTargetDataType>>, TData, bool, Expression<Func<TData, TSourceDataType>>, ConverterGroup, ConverterGroup, BindingMode)
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_SetUnityBinding__4___0_System_Linq_Expressions_Expression_System_Func___0___3_____1_System_Boolean_System_Linq_Expressions_Expression_System_Func___1___2___UnityEngine_UIElements_ConverterGroup_UnityEngine_UIElements_ConverterGroup_UnityEngine_UIElements_BindingMode_
+  commentId: M:CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding``4(``0,System.Linq.Expressions.Expression{System.Func{``0,``3}},``1,System.Boolean,System.Linq.Expressions.Expression{System.Func{``1,``2}},UnityEngine.UIElements.ConverterGroup,UnityEngine.UIElements.ConverterGroup,UnityEngine.UIElements.BindingMode)
+  name.vb: SetUnityBinding(Of TElement, TData, TSourceDataType, TTargetDataType)(TElement, Expression(Of Func(Of TElement, TTargetDataType)), TData, Boolean, Expression(Of Func(Of TData, TSourceDataType)), ConverterGroup, ConverterGroup, BindingMode)
+  fullName: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding<TElement, TData, TSourceDataType, TTargetDataType>(TElement, System.Linq.Expressions.Expression<System.Func<TElement, TTargetDataType>>, TData, bool, System.Linq.Expressions.Expression<System.Func<TData, TSourceDataType>>, UnityEngine.UIElements.ConverterGroup, UnityEngine.UIElements.ConverterGroup, UnityEngine.UIElements.BindingMode)
+  fullName.vb: CodeUI.Extensions.UnityBindingExtensions.SetUnityBinding(Of TElement, TData, TSourceDataType, TTargetDataType)(TElement, System.Linq.Expressions.Expression(Of System.Func(Of TElement, TTargetDataType)), TData, Boolean, System.Linq.Expressions.Expression(Of System.Func(Of TData, TSourceDataType)), UnityEngine.UIElements.ConverterGroup, UnityEngine.UIElements.ConverterGroup, UnityEngine.UIElements.BindingMode)
+  nameWithType: UnityBindingExtensions.SetUnityBinding<TElement, TData, TSourceDataType, TTargetDataType>(TElement, Expression<Func<TElement, TTargetDataType>>, TData, bool, Expression<Func<TData, TSourceDataType>>, ConverterGroup, ConverterGroup, BindingMode)
+  nameWithType.vb: UnityBindingExtensions.SetUnityBinding(Of TElement, TData, TSourceDataType, TTargetDataType)(TElement, Expression(Of Func(Of TElement, TTargetDataType)), TData, Boolean, Expression(Of Func(Of TData, TSourceDataType)), ConverterGroup, ConverterGroup, BindingMode)
+- uid: CodeUI.Extensions.UnityBindingExtensions.SetUnityDataSource*
+  name: SetUnityDataSource
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_SetUnityDataSource_
+  commentId: Overload:CodeUI.Extensions.UnityBindingExtensions.SetUnityDataSource
+  fullName: CodeUI.Extensions.UnityBindingExtensions.SetUnityDataSource
+  nameWithType: UnityBindingExtensions.SetUnityDataSource
+- uid: CodeUI.Extensions.UnityBindingExtensions.SetUnityDataSource``1(``0,System.Object)
+  name: SetUnityDataSource<T>(T, object)
+  href: api/CodeUI.Extensions.UnityBindingExtensions.html#CodeUI_Extensions_UnityBindingExtensions_SetUnityDataSource__1___0_System_Object_
+  commentId: M:CodeUI.Extensions.UnityBindingExtensions.SetUnityDataSource``1(``0,System.Object)
+  name.vb: SetUnityDataSource(Of T)(T, Object)
+  fullName: CodeUI.Extensions.UnityBindingExtensions.SetUnityDataSource<T>(T, object)
+  fullName.vb: CodeUI.Extensions.UnityBindingExtensions.SetUnityDataSource(Of T)(T, Object)
+  nameWithType: UnityBindingExtensions.SetUnityDataSource<T>(T, object)
+  nameWithType.vb: UnityBindingExtensions.SetUnityDataSource(Of T)(T, Object)
+- uid: CodeUI.Tokens
+  name: CodeUI.Tokens
+  href: api/CodeUI.Tokens.html
+  commentId: N:CodeUI.Tokens
+  fullName: CodeUI.Tokens
+  nameWithType: CodeUI.Tokens
+- uid: CodeUI.Tokens.FontSize
+  name: FontSize
+  href: api/CodeUI.Tokens.FontSize.html
+  commentId: T:CodeUI.Tokens.FontSize
+  fullName: CodeUI.Tokens.FontSize
+  nameWithType: FontSize
+- uid: CodeUI.Tokens.FontSize.LG
+  name: LG
+  href: api/CodeUI.Tokens.FontSize.html#CodeUI_Tokens_FontSize_LG
+  commentId: F:CodeUI.Tokens.FontSize.LG
+  fullName: CodeUI.Tokens.FontSize.LG
+  nameWithType: FontSize.LG
+- uid: CodeUI.Tokens.FontSize.MD
+  name: MD
+  href: api/CodeUI.Tokens.FontSize.html#CodeUI_Tokens_FontSize_MD
+  commentId: F:CodeUI.Tokens.FontSize.MD
+  fullName: CodeUI.Tokens.FontSize.MD
+  nameWithType: FontSize.MD
+- uid: CodeUI.Tokens.FontSize.SM
+  name: SM
+  href: api/CodeUI.Tokens.FontSize.html#CodeUI_Tokens_FontSize_SM
+  commentId: F:CodeUI.Tokens.FontSize.SM
+  fullName: CodeUI.Tokens.FontSize.SM
+  nameWithType: FontSize.SM
+- uid: CodeUI.Tokens.FontSize.XL
+  name: XL
+  href: api/CodeUI.Tokens.FontSize.html#CodeUI_Tokens_FontSize_XL
+  commentId: F:CodeUI.Tokens.FontSize.XL
+  fullName: CodeUI.Tokens.FontSize.XL
+  nameWithType: FontSize.XL
+- uid: CodeUI.Tokens.FontSize.XS
+  name: XS
+  href: api/CodeUI.Tokens.FontSize.html#CodeUI_Tokens_FontSize_XS
+  commentId: F:CodeUI.Tokens.FontSize.XS
+  fullName: CodeUI.Tokens.FontSize.XS
+  nameWithType: FontSize.XS
+- uid: CodeUI.Tokens.FontSize.XXL
+  name: XXL
+  href: api/CodeUI.Tokens.FontSize.html#CodeUI_Tokens_FontSize_XXL
+  commentId: F:CodeUI.Tokens.FontSize.XXL
+  fullName: CodeUI.Tokens.FontSize.XXL
+  nameWithType: FontSize.XXL
+- uid: CodeUI.Tokens.Radius
+  name: Radius
+  href: api/CodeUI.Tokens.Radius.html
+  commentId: T:CodeUI.Tokens.Radius
+  fullName: CodeUI.Tokens.Radius
+  nameWithType: Radius
+- uid: CodeUI.Tokens.Radius.Full
+  name: Full
+  href: api/CodeUI.Tokens.Radius.html#CodeUI_Tokens_Radius_Full
+  commentId: F:CodeUI.Tokens.Radius.Full
+  fullName: CodeUI.Tokens.Radius.Full
+  nameWithType: Radius.Full
+- uid: CodeUI.Tokens.Radius.LG
+  name: LG
+  href: api/CodeUI.Tokens.Radius.html#CodeUI_Tokens_Radius_LG
+  commentId: F:CodeUI.Tokens.Radius.LG
+  fullName: CodeUI.Tokens.Radius.LG
+  nameWithType: Radius.LG
+- uid: CodeUI.Tokens.Radius.MD
+  name: MD
+  href: api/CodeUI.Tokens.Radius.html#CodeUI_Tokens_Radius_MD
+  commentId: F:CodeUI.Tokens.Radius.MD
+  fullName: CodeUI.Tokens.Radius.MD
+  nameWithType: Radius.MD
+- uid: CodeUI.Tokens.Radius.None
+  name: None
+  href: api/CodeUI.Tokens.Radius.html#CodeUI_Tokens_Radius_None
+  commentId: F:CodeUI.Tokens.Radius.None
+  fullName: CodeUI.Tokens.Radius.None
+  nameWithType: Radius.None
+- uid: CodeUI.Tokens.Radius.SM
+  name: SM
+  href: api/CodeUI.Tokens.Radius.html#CodeUI_Tokens_Radius_SM
+  commentId: F:CodeUI.Tokens.Radius.SM
+  fullName: CodeUI.Tokens.Radius.SM
+  nameWithType: Radius.SM
+- uid: CodeUI.Tokens.Spacing
+  name: Spacing
+  href: api/CodeUI.Tokens.Spacing.html
+  commentId: T:CodeUI.Tokens.Spacing
+  fullName: CodeUI.Tokens.Spacing
+  nameWithType: Spacing
+- uid: CodeUI.Tokens.Spacing.LG
+  name: LG
+  href: api/CodeUI.Tokens.Spacing.html#CodeUI_Tokens_Spacing_LG
+  commentId: F:CodeUI.Tokens.Spacing.LG
+  fullName: CodeUI.Tokens.Spacing.LG
+  nameWithType: Spacing.LG
+- uid: CodeUI.Tokens.Spacing.MD
+  name: MD
+  href: api/CodeUI.Tokens.Spacing.html#CodeUI_Tokens_Spacing_MD
+  commentId: F:CodeUI.Tokens.Spacing.MD
+  fullName: CodeUI.Tokens.Spacing.MD
+  nameWithType: Spacing.MD
+- uid: CodeUI.Tokens.Spacing.SM
+  name: SM
+  href: api/CodeUI.Tokens.Spacing.html#CodeUI_Tokens_Spacing_SM
+  commentId: F:CodeUI.Tokens.Spacing.SM
+  fullName: CodeUI.Tokens.Spacing.SM
+  nameWithType: Spacing.SM
+- uid: CodeUI.Tokens.Spacing.XL
+  name: XL
+  href: api/CodeUI.Tokens.Spacing.html#CodeUI_Tokens_Spacing_XL
+  commentId: F:CodeUI.Tokens.Spacing.XL
+  fullName: CodeUI.Tokens.Spacing.XL
+  nameWithType: Spacing.XL
+- uid: CodeUI.Tokens.Spacing.XS
+  name: XS
+  href: api/CodeUI.Tokens.Spacing.html#CodeUI_Tokens_Spacing_XS
+  commentId: F:CodeUI.Tokens.Spacing.XS
+  fullName: CodeUI.Tokens.Spacing.XS
+  nameWithType: Spacing.XS
+- uid: CodeUI.Tokens.Spacing.XXL
+  name: XXL
+  href: api/CodeUI.Tokens.Spacing.html#CodeUI_Tokens_Spacing_XXL
+  commentId: F:CodeUI.Tokens.Spacing.XXL
+  fullName: CodeUI.Tokens.Spacing.XXL
+  nameWithType: Spacing.XXL

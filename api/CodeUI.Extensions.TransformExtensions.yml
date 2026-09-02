@@ -1,0 +1,700 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Extensions.TransformExtensions
+  commentId: T:CodeUI.Extensions.TransformExtensions
+  id: TransformExtensions
+  parent: CodeUI.Extensions
+  children:
+  - CodeUI.Extensions.TransformExtensions.Rotate``1(``0,System.Single)
+  - CodeUI.Extensions.TransformExtensions.Rotate``1(``0,UnityEngine.UIElements.Angle)
+  - CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single)
+  - CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single,System.Single)
+  - CodeUI.Extensions.TransformExtensions.Scale``1(``0,UnityEngine.Vector2)
+  - CodeUI.Extensions.TransformExtensions.TransformOrigin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.TransformExtensions.TranslateX``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.TransformExtensions.TranslateY``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.Vector2)
+  langs:
+  - csharp
+  - vb
+  name: TransformExtensions
+  nameWithType: TransformExtensions
+  fullName: CodeUI.Extensions.TransformExtensions
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: public static class TransformExtensions
+    content.vb: Public Module TransformExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  id: Translate``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Translate<T>(T, Length, Length)
+  nameWithType: TransformExtensions.Translate<T>(T, Length, Length)
+  fullName: CodeUI.Extensions.TransformExtensions.Translate<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Translate<T>(this T element, Length x, Length y) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: x
+      type: UnityEngine.UIElements.Length
+    - id: y
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Translate(Of T As VisualElement)(element As T, x As Length, y As Length) As T
+  overload: CodeUI.Extensions.TransformExtensions.Translate*
+  nameWithType.vb: TransformExtensions.Translate(Of T)(T, Length, Length)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Translate(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  name.vb: Translate(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.Vector2)
+  commentId: M:CodeUI.Extensions.TransformExtensions.Translate``1(``0,UnityEngine.Vector2)
+  id: Translate``1(``0,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Translate<T>(T, Vector2)
+  nameWithType: TransformExtensions.Translate<T>(T, Vector2)
+  fullName: CodeUI.Extensions.TransformExtensions.Translate<T>(T, UnityEngine.Vector2)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Translate<T>(this T element, Vector2 offset) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: offset
+      type: UnityEngine.Vector2
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Translate(Of T As VisualElement)(element As T, offset As Vector2) As T
+  overload: CodeUI.Extensions.TransformExtensions.Translate*
+  nameWithType.vb: TransformExtensions.Translate(Of T)(T, Vector2)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Translate(Of T)(T, UnityEngine.Vector2)
+  name.vb: Translate(Of T)(T, Vector2)
+- uid: CodeUI.Extensions.TransformExtensions.TranslateX``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.TransformExtensions.TranslateX``1(``0,UnityEngine.UIElements.Length)
+  id: TranslateX``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateX<T>(T, Length)
+  nameWithType: TransformExtensions.TranslateX<T>(T, Length)
+  fullName: CodeUI.Extensions.TransformExtensions.TranslateX<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T TranslateX<T>(this T element, Length x) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: x
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function TranslateX(Of T As VisualElement)(element As T, x As Length) As T
+  overload: CodeUI.Extensions.TransformExtensions.TranslateX*
+  nameWithType.vb: TransformExtensions.TranslateX(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.TranslateX(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: TranslateX(Of T)(T, Length)
+- uid: CodeUI.Extensions.TransformExtensions.TranslateY``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.TransformExtensions.TranslateY``1(``0,UnityEngine.UIElements.Length)
+  id: TranslateY``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TranslateY<T>(T, Length)
+  nameWithType: TransformExtensions.TranslateY<T>(T, Length)
+  fullName: CodeUI.Extensions.TransformExtensions.TranslateY<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T TranslateY<T>(this T element, Length y) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: y
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function TranslateY(Of T As VisualElement)(element As T, y As Length) As T
+  overload: CodeUI.Extensions.TransformExtensions.TranslateY*
+  nameWithType.vb: TransformExtensions.TranslateY(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.TranslateY(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: TranslateY(Of T)(T, Length)
+- uid: CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single)
+  commentId: M:CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single)
+  id: Scale``1(``0,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Scale<T>(T, float)
+  nameWithType: TransformExtensions.Scale<T>(T, float)
+  fullName: CodeUI.Extensions.TransformExtensions.Scale<T>(T, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Scale<T>(this T element, float scale) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: scale
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Scale(Of T As VisualElement)(element As T, scale As Single) As T
+  overload: CodeUI.Extensions.TransformExtensions.Scale*
+  nameWithType.vb: TransformExtensions.Scale(Of T)(T, Single)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Scale(Of T)(T, Single)
+  name.vb: Scale(Of T)(T, Single)
+- uid: CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single,System.Single)
+  commentId: M:CodeUI.Extensions.TransformExtensions.Scale``1(``0,System.Single,System.Single)
+  id: Scale``1(``0,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Scale<T>(T, float, float)
+  nameWithType: TransformExtensions.Scale<T>(T, float, float)
+  fullName: CodeUI.Extensions.TransformExtensions.Scale<T>(T, float, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Scale<T>(this T element, float x, float y) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Scale(Of T As VisualElement)(element As T, x As Single, y As Single) As T
+  overload: CodeUI.Extensions.TransformExtensions.Scale*
+  nameWithType.vb: TransformExtensions.Scale(Of T)(T, Single, Single)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Scale(Of T)(T, Single, Single)
+  name.vb: Scale(Of T)(T, Single, Single)
+- uid: CodeUI.Extensions.TransformExtensions.Scale``1(``0,UnityEngine.Vector2)
+  commentId: M:CodeUI.Extensions.TransformExtensions.Scale``1(``0,UnityEngine.Vector2)
+  id: Scale``1(``0,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Scale<T>(T, Vector2)
+  nameWithType: TransformExtensions.Scale<T>(T, Vector2)
+  fullName: CodeUI.Extensions.TransformExtensions.Scale<T>(T, UnityEngine.Vector2)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Scale<T>(this T element, Vector2 scale) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: scale
+      type: UnityEngine.Vector2
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Scale(Of T As VisualElement)(element As T, scale As Vector2) As T
+  overload: CodeUI.Extensions.TransformExtensions.Scale*
+  nameWithType.vb: TransformExtensions.Scale(Of T)(T, Vector2)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Scale(Of T)(T, UnityEngine.Vector2)
+  name.vb: Scale(Of T)(T, Vector2)
+- uid: CodeUI.Extensions.TransformExtensions.Rotate``1(``0,System.Single)
+  commentId: M:CodeUI.Extensions.TransformExtensions.Rotate``1(``0,System.Single)
+  id: Rotate``1(``0,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Rotate<T>(T, float)
+  nameWithType: TransformExtensions.Rotate<T>(T, float)
+  fullName: CodeUI.Extensions.TransformExtensions.Rotate<T>(T, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Rotate<T>(this T element, float degrees) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: degrees
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Rotate(Of T As VisualElement)(element As T, degrees As Single) As T
+  overload: CodeUI.Extensions.TransformExtensions.Rotate*
+  nameWithType.vb: TransformExtensions.Rotate(Of T)(T, Single)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Rotate(Of T)(T, Single)
+  name.vb: Rotate(Of T)(T, Single)
+- uid: CodeUI.Extensions.TransformExtensions.Rotate``1(``0,UnityEngine.UIElements.Angle)
+  commentId: M:CodeUI.Extensions.TransformExtensions.Rotate``1(``0,UnityEngine.UIElements.Angle)
+  id: Rotate``1(``0,UnityEngine.UIElements.Angle)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: Rotate<T>(T, Angle)
+  nameWithType: TransformExtensions.Rotate<T>(T, Angle)
+  fullName: CodeUI.Extensions.TransformExtensions.Rotate<T>(T, UnityEngine.UIElements.Angle)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Rotate<T>(this T element, Angle angle) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: angle
+      type: UnityEngine.UIElements.Angle
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Rotate(Of T As VisualElement)(element As T, angle As Angle) As T
+  overload: CodeUI.Extensions.TransformExtensions.Rotate*
+  nameWithType.vb: TransformExtensions.Rotate(Of T)(T, Angle)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.Rotate(Of T)(T, UnityEngine.UIElements.Angle)
+  name.vb: Rotate(Of T)(T, Angle)
+- uid: CodeUI.Extensions.TransformExtensions.TransformOrigin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.TransformExtensions.TransformOrigin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  id: TransformOrigin``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.TransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: TransformOrigin<T>(T, Length, Length)
+  nameWithType: TransformExtensions.TransformOrigin<T>(T, Length, Length)
+  fullName: CodeUI.Extensions.TransformExtensions.TransformOrigin<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T TransformOrigin<T>(this T element, Length x, Length y) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: x
+      type: UnityEngine.UIElements.Length
+    - id: y
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function TransformOrigin(Of T As VisualElement)(element As T, x As Length, y As Length) As T
+  overload: CodeUI.Extensions.TransformExtensions.TransformOrigin*
+  nameWithType.vb: TransformExtensions.TransformOrigin(Of T)(T, Length, Length)
+  fullName.vb: CodeUI.Extensions.TransformExtensions.TransformOrigin(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  name.vb: TransformOrigin(Of T)(T, Length, Length)
+references:
+- uid: CodeUI.Extensions
+  commentId: N:CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Extensions
+  nameWithType: CodeUI.Extensions
+  fullName: CodeUI.Extensions
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.Extensions.TransformExtensions.Translate*
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.Translate
+  isExternal: true
+  href: CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Translate__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  name: Translate
+  nameWithType: TransformExtensions.Translate
+  fullName: CodeUI.Extensions.TransformExtensions.Translate
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.UIElements.Length
+  isExternal: true
+  name: Length
+  nameWithType: Length
+  fullName: UnityEngine.UIElements.Length
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: CodeUI.Extensions.TransformExtensions.TranslateX*
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.TranslateX
+  isExternal: true
+  href: CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TranslateX__1___0_UnityEngine_UIElements_Length_
+  name: TranslateX
+  nameWithType: TransformExtensions.TranslateX
+  fullName: CodeUI.Extensions.TransformExtensions.TranslateX
+- uid: CodeUI.Extensions.TransformExtensions.TranslateY*
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.TranslateY
+  isExternal: true
+  href: CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TranslateY__1___0_UnityEngine_UIElements_Length_
+  name: TranslateY
+  nameWithType: TransformExtensions.TranslateY
+  fullName: CodeUI.Extensions.TransformExtensions.TranslateY
+- uid: CodeUI.Extensions.TransformExtensions.Scale*
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.Scale
+  isExternal: true
+  href: CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Scale__1___0_System_Single_
+  name: Scale
+  nameWithType: TransformExtensions.Scale
+  fullName: CodeUI.Extensions.TransformExtensions.Scale
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: CodeUI.Extensions.TransformExtensions.Rotate*
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.Rotate
+  isExternal: true
+  href: CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_Rotate__1___0_System_Single_
+  name: Rotate
+  nameWithType: TransformExtensions.Rotate
+  fullName: CodeUI.Extensions.TransformExtensions.Rotate
+- uid: UnityEngine.UIElements.Angle
+  commentId: '!:UnityEngine.UIElements.Angle'
+  isExternal: true
+  name: Angle
+  nameWithType: Angle
+  fullName: UnityEngine.UIElements.Angle
+- uid: CodeUI.Extensions.TransformExtensions.TransformOrigin*
+  commentId: Overload:CodeUI.Extensions.TransformExtensions.TransformOrigin
+  isExternal: true
+  href: CodeUI.Extensions.TransformExtensions.html#CodeUI_Extensions_TransformExtensions_TransformOrigin__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  name: TransformOrigin
+  nameWithType: TransformExtensions.TransformOrigin
+  fullName: CodeUI.Extensions.TransformExtensions.TransformOrigin

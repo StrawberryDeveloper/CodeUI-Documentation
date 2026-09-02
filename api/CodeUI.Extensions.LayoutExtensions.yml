@@ -1,0 +1,1609 @@
+### YamlMime:ManagedReference
+items:
+- uid: CodeUI.Extensions.LayoutExtensions
+  commentId: T:CodeUI.Extensions.LayoutExtensions
+  id: LayoutExtensions
+  parent: CodeUI.Extensions
+  children:
+  - CodeUI.Extensions.LayoutExtensions.Absolute``1(``0)
+  - CodeUI.Extensions.LayoutExtensions.AlignItems``1(``0,UnityEngine.UIElements.Align)
+  - CodeUI.Extensions.LayoutExtensions.AlignSelf``1(``0,UnityEngine.UIElements.Align)
+  - CodeUI.Extensions.LayoutExtensions.Bottom``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.Center``1(``0)
+  - CodeUI.Extensions.LayoutExtensions.Column``1(``0)
+  - CodeUI.Extensions.LayoutExtensions.FlexBasis``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.FlexDirection``1(``0,UnityEngine.UIElements.FlexDirection)
+  - CodeUI.Extensions.LayoutExtensions.FlexGrow``1(``0,System.Single)
+  - CodeUI.Extensions.LayoutExtensions.FlexShrink``1(``0,System.Single)
+  - CodeUI.Extensions.LayoutExtensions.FlexSize``1(``0,System.Single,System.Single,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.FlexWrap``1(``0,UnityEngine.UIElements.Wrap)
+  - CodeUI.Extensions.LayoutExtensions.Height``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.JustifyContent``1(``0,UnityEngine.UIElements.Justify)
+  - CodeUI.Extensions.LayoutExtensions.Left``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.MaxHeight``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.MaxWidth``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.MinHeight``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.MinMaxHeight``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.MinMaxWidth``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.MinWidth``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.Relative``1(``0)
+  - CodeUI.Extensions.LayoutExtensions.Right``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.Row``1(``0)
+  - CodeUI.Extensions.LayoutExtensions.SetDisplay``1(``0,UnityEngine.UIElements.DisplayStyle)
+  - CodeUI.Extensions.LayoutExtensions.SetPositionMode``1(``0,UnityEngine.UIElements.Position)
+  - CodeUI.Extensions.LayoutExtensions.SetPosition``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.SetVisibility``1(``0,UnityEngine.UIElements.Visibility)
+  - CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.Top``1(``0,UnityEngine.UIElements.Length)
+  - CodeUI.Extensions.LayoutExtensions.Width``1(``0,UnityEngine.UIElements.Length)
+  langs:
+  - csharp
+  - vb
+  name: LayoutExtensions
+  nameWithType: LayoutExtensions
+  fullName: CodeUI.Extensions.LayoutExtensions
+  type: Class
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: public static class LayoutExtensions
+    content.vb: Public Module LayoutExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+- uid: CodeUI.Extensions.LayoutExtensions.Width``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Width``1(``0,UnityEngine.UIElements.Length)
+  id: Width``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Width<T>(T, Length)
+  nameWithType: LayoutExtensions.Width<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Width<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Width<T>(this T element, Length width) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: width
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Width(Of T As VisualElement)(element As T, width As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Width*
+  nameWithType.vb: LayoutExtensions.Width(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Width(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: Width(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Height``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Height``1(``0,UnityEngine.UIElements.Length)
+  id: Height``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Height<T>(T, Length)
+  nameWithType: LayoutExtensions.Height<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Height<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Height<T>(this T element, Length height) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: height
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Height(Of T As VisualElement)(element As T, height As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Height*
+  nameWithType.vb: LayoutExtensions.Height(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Height(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: Height(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  id: Size``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Size<T>(T, Length, Length)
+  nameWithType: LayoutExtensions.Size<T>(T, Length, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Size<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Size<T>(this T element, Length width, Length height) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: width
+      type: UnityEngine.UIElements.Length
+    - id: height
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Size(Of T As VisualElement)(element As T, width As Length, height As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Size*
+  nameWithType.vb: LayoutExtensions.Size(Of T)(T, Length, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Size(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  name.vb: Size(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Size``1(``0,UnityEngine.UIElements.Length)
+  id: Size``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Size<T>(T, Length)
+  nameWithType: LayoutExtensions.Size<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Size<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Size<T>(this T element, Length squareSize) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: squareSize
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Size(Of T As VisualElement)(element As T, squareSize As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Size*
+  nameWithType.vb: LayoutExtensions.Size(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Size(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: Size(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MinWidth``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MinWidth``1(``0,UnityEngine.UIElements.Length)
+  id: MinWidth``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: MinWidth<T>(T, Length)
+  nameWithType: LayoutExtensions.MinWidth<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MinWidth<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T MinWidth<T>(this T element, Length width) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: width
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function MinWidth(Of T As VisualElement)(element As T, width As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.MinWidth*
+  nameWithType.vb: LayoutExtensions.MinWidth(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MinWidth(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: MinWidth(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MaxWidth``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MaxWidth``1(``0,UnityEngine.UIElements.Length)
+  id: MaxWidth``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaxWidth<T>(T, Length)
+  nameWithType: LayoutExtensions.MaxWidth<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MaxWidth<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T MaxWidth<T>(this T element, Length width) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: width
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function MaxWidth(Of T As VisualElement)(element As T, width As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.MaxWidth*
+  nameWithType.vb: LayoutExtensions.MaxWidth(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MaxWidth(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: MaxWidth(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MinHeight``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MinHeight``1(``0,UnityEngine.UIElements.Length)
+  id: MinHeight``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: MinHeight<T>(T, Length)
+  nameWithType: LayoutExtensions.MinHeight<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MinHeight<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T MinHeight<T>(this T element, Length height) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: height
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function MinHeight(Of T As VisualElement)(element As T, height As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.MinHeight*
+  nameWithType.vb: LayoutExtensions.MinHeight(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MinHeight(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: MinHeight(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MaxHeight``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MaxHeight``1(``0,UnityEngine.UIElements.Length)
+  id: MaxHeight``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaxHeight<T>(T, Length)
+  nameWithType: LayoutExtensions.MaxHeight<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MaxHeight<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T MaxHeight<T>(this T element, Length height) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: height
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function MaxHeight(Of T As VisualElement)(element As T, height As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.MaxHeight*
+  nameWithType.vb: LayoutExtensions.MaxHeight(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MaxHeight(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: MaxHeight(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MinMaxHeight``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MinMaxHeight``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  id: MinMaxHeight``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: MinMaxHeight<T>(T, Length, Length)
+  nameWithType: LayoutExtensions.MinMaxHeight<T>(T, Length, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MinMaxHeight<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T MinMaxHeight<T>(this T element, Length min, Length max) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: min
+      type: UnityEngine.UIElements.Length
+    - id: max
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function MinMaxHeight(Of T As VisualElement)(element As T, min As Length, max As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.MinMaxHeight*
+  nameWithType.vb: LayoutExtensions.MinMaxHeight(Of T)(T, Length, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MinMaxHeight(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  name.vb: MinMaxHeight(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.MinMaxWidth``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.MinMaxWidth``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  id: MinMaxWidth``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: MinMaxWidth<T>(T, Length, Length)
+  nameWithType: LayoutExtensions.MinMaxWidth<T>(T, Length, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.MinMaxWidth<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T MinMaxWidth<T>(this T element, Length min, Length max) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: min
+      type: UnityEngine.UIElements.Length
+    - id: max
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function MinMaxWidth(Of T As VisualElement)(element As T, min As Length, max As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.MinMaxWidth*
+  nameWithType.vb: LayoutExtensions.MinMaxWidth(Of T)(T, Length, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.MinMaxWidth(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  name.vb: MinMaxWidth(Of T)(T, Length, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexDirection``1(``0,UnityEngine.UIElements.FlexDirection)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexDirection``1(``0,UnityEngine.UIElements.FlexDirection)
+  id: FlexDirection``1(``0,UnityEngine.UIElements.FlexDirection)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlexDirection<T>(T, FlexDirection)
+  nameWithType: LayoutExtensions.FlexDirection<T>(T, FlexDirection)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexDirection<T>(T, UnityEngine.UIElements.FlexDirection)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T FlexDirection<T>(this T element, FlexDirection direction) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: direction
+      type: UnityEngine.UIElements.FlexDirection
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FlexDirection(Of T As VisualElement)(element As T, direction As FlexDirection) As T
+  overload: CodeUI.Extensions.LayoutExtensions.FlexDirection*
+  nameWithType.vb: LayoutExtensions.FlexDirection(Of T)(T, FlexDirection)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexDirection(Of T)(T, UnityEngine.UIElements.FlexDirection)
+  name.vb: FlexDirection(Of T)(T, FlexDirection)
+- uid: CodeUI.Extensions.LayoutExtensions.JustifyContent``1(``0,UnityEngine.UIElements.Justify)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.JustifyContent``1(``0,UnityEngine.UIElements.Justify)
+  id: JustifyContent``1(``0,UnityEngine.UIElements.Justify)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: JustifyContent<T>(T, Justify)
+  nameWithType: LayoutExtensions.JustifyContent<T>(T, Justify)
+  fullName: CodeUI.Extensions.LayoutExtensions.JustifyContent<T>(T, UnityEngine.UIElements.Justify)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T JustifyContent<T>(this T element, Justify justify) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: justify
+      type: UnityEngine.UIElements.Justify
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function JustifyContent(Of T As VisualElement)(element As T, justify As Justify) As T
+  overload: CodeUI.Extensions.LayoutExtensions.JustifyContent*
+  nameWithType.vb: LayoutExtensions.JustifyContent(Of T)(T, Justify)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.JustifyContent(Of T)(T, UnityEngine.UIElements.Justify)
+  name.vb: JustifyContent(Of T)(T, Justify)
+- uid: CodeUI.Extensions.LayoutExtensions.AlignItems``1(``0,UnityEngine.UIElements.Align)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.AlignItems``1(``0,UnityEngine.UIElements.Align)
+  id: AlignItems``1(``0,UnityEngine.UIElements.Align)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: AlignItems<T>(T, Align)
+  nameWithType: LayoutExtensions.AlignItems<T>(T, Align)
+  fullName: CodeUI.Extensions.LayoutExtensions.AlignItems<T>(T, UnityEngine.UIElements.Align)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T AlignItems<T>(this T element, Align align) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: align
+      type: UnityEngine.UIElements.Align
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function AlignItems(Of T As VisualElement)(element As T, align As Align) As T
+  overload: CodeUI.Extensions.LayoutExtensions.AlignItems*
+  nameWithType.vb: LayoutExtensions.AlignItems(Of T)(T, Align)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.AlignItems(Of T)(T, UnityEngine.UIElements.Align)
+  name.vb: AlignItems(Of T)(T, Align)
+- uid: CodeUI.Extensions.LayoutExtensions.AlignSelf``1(``0,UnityEngine.UIElements.Align)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.AlignSelf``1(``0,UnityEngine.UIElements.Align)
+  id: AlignSelf``1(``0,UnityEngine.UIElements.Align)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: AlignSelf<T>(T, Align)
+  nameWithType: LayoutExtensions.AlignSelf<T>(T, Align)
+  fullName: CodeUI.Extensions.LayoutExtensions.AlignSelf<T>(T, UnityEngine.UIElements.Align)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T AlignSelf<T>(this T element, Align align) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: align
+      type: UnityEngine.UIElements.Align
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function AlignSelf(Of T As VisualElement)(element As T, align As Align) As T
+  overload: CodeUI.Extensions.LayoutExtensions.AlignSelf*
+  nameWithType.vb: LayoutExtensions.AlignSelf(Of T)(T, Align)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.AlignSelf(Of T)(T, UnityEngine.UIElements.Align)
+  name.vb: AlignSelf(Of T)(T, Align)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexWrap``1(``0,UnityEngine.UIElements.Wrap)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexWrap``1(``0,UnityEngine.UIElements.Wrap)
+  id: FlexWrap``1(``0,UnityEngine.UIElements.Wrap)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlexWrap<T>(T, Wrap)
+  nameWithType: LayoutExtensions.FlexWrap<T>(T, Wrap)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexWrap<T>(T, UnityEngine.UIElements.Wrap)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T FlexWrap<T>(this T element, Wrap wrap) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: wrap
+      type: UnityEngine.UIElements.Wrap
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FlexWrap(Of T As VisualElement)(element As T, wrap As Wrap) As T
+  overload: CodeUI.Extensions.LayoutExtensions.FlexWrap*
+  nameWithType.vb: LayoutExtensions.FlexWrap(Of T)(T, Wrap)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexWrap(Of T)(T, UnityEngine.UIElements.Wrap)
+  name.vb: FlexWrap(Of T)(T, Wrap)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexGrow``1(``0,System.Single)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexGrow``1(``0,System.Single)
+  id: FlexGrow``1(``0,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlexGrow<T>(T, float)
+  nameWithType: LayoutExtensions.FlexGrow<T>(T, float)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexGrow<T>(T, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T FlexGrow<T>(this T element, float grow) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: grow
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FlexGrow(Of T As VisualElement)(element As T, grow As Single) As T
+  overload: CodeUI.Extensions.LayoutExtensions.FlexGrow*
+  nameWithType.vb: LayoutExtensions.FlexGrow(Of T)(T, Single)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexGrow(Of T)(T, Single)
+  name.vb: FlexGrow(Of T)(T, Single)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexShrink``1(``0,System.Single)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexShrink``1(``0,System.Single)
+  id: FlexShrink``1(``0,System.Single)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlexShrink<T>(T, float)
+  nameWithType: LayoutExtensions.FlexShrink<T>(T, float)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexShrink<T>(T, float)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T FlexShrink<T>(this T element, float shrink) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: shrink
+      type: System.Single
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FlexShrink(Of T As VisualElement)(element As T, shrink As Single) As T
+  overload: CodeUI.Extensions.LayoutExtensions.FlexShrink*
+  nameWithType.vb: LayoutExtensions.FlexShrink(Of T)(T, Single)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexShrink(Of T)(T, Single)
+  name.vb: FlexShrink(Of T)(T, Single)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexBasis``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexBasis``1(``0,UnityEngine.UIElements.Length)
+  id: FlexBasis``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlexBasis<T>(T, Length)
+  nameWithType: LayoutExtensions.FlexBasis<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexBasis<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T FlexBasis<T>(this T element, Length basis) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: basis
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FlexBasis(Of T As VisualElement)(element As T, basis As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.FlexBasis*
+  nameWithType.vb: LayoutExtensions.FlexBasis(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexBasis(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: FlexBasis(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.FlexSize``1(``0,System.Single,System.Single,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.FlexSize``1(``0,System.Single,System.Single,UnityEngine.UIElements.Length)
+  id: FlexSize``1(``0,System.Single,System.Single,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: FlexSize<T>(T, float, float, Length)
+  nameWithType: LayoutExtensions.FlexSize<T>(T, float, float, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexSize<T>(T, float, float, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T FlexSize<T>(this T element, float grow, float shrink, Length basis) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: grow
+      type: System.Single
+    - id: shrink
+      type: System.Single
+    - id: basis
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function FlexSize(Of T As VisualElement)(element As T, grow As Single, shrink As Single, basis As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.FlexSize*
+  nameWithType.vb: LayoutExtensions.FlexSize(Of T)(T, Single, Single, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.FlexSize(Of T)(T, Single, Single, UnityEngine.UIElements.Length)
+  name.vb: FlexSize(Of T)(T, Single, Single, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.SetDisplay``1(``0,UnityEngine.UIElements.DisplayStyle)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.SetDisplay``1(``0,UnityEngine.UIElements.DisplayStyle)
+  id: SetDisplay``1(``0,UnityEngine.UIElements.DisplayStyle)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetDisplay<T>(T, DisplayStyle)
+  nameWithType: LayoutExtensions.SetDisplay<T>(T, DisplayStyle)
+  fullName: CodeUI.Extensions.LayoutExtensions.SetDisplay<T>(T, UnityEngine.UIElements.DisplayStyle)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T SetDisplay<T>(this T element, DisplayStyle display) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: display
+      type: UnityEngine.UIElements.DisplayStyle
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetDisplay(Of T As VisualElement)(element As T, display As DisplayStyle) As T
+  overload: CodeUI.Extensions.LayoutExtensions.SetDisplay*
+  nameWithType.vb: LayoutExtensions.SetDisplay(Of T)(T, DisplayStyle)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.SetDisplay(Of T)(T, UnityEngine.UIElements.DisplayStyle)
+  name.vb: SetDisplay(Of T)(T, DisplayStyle)
+- uid: CodeUI.Extensions.LayoutExtensions.SetVisibility``1(``0,UnityEngine.UIElements.Visibility)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.SetVisibility``1(``0,UnityEngine.UIElements.Visibility)
+  id: SetVisibility``1(``0,UnityEngine.UIElements.Visibility)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetVisibility<T>(T, Visibility)
+  nameWithType: LayoutExtensions.SetVisibility<T>(T, Visibility)
+  fullName: CodeUI.Extensions.LayoutExtensions.SetVisibility<T>(T, UnityEngine.UIElements.Visibility)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T SetVisibility<T>(this T element, Visibility visibility) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: visibility
+      type: UnityEngine.UIElements.Visibility
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetVisibility(Of T As VisualElement)(element As T, visibility As Visibility) As T
+  overload: CodeUI.Extensions.LayoutExtensions.SetVisibility*
+  nameWithType.vb: LayoutExtensions.SetVisibility(Of T)(T, Visibility)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.SetVisibility(Of T)(T, UnityEngine.UIElements.Visibility)
+  name.vb: SetVisibility(Of T)(T, Visibility)
+- uid: CodeUI.Extensions.LayoutExtensions.SetPositionMode``1(``0,UnityEngine.UIElements.Position)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.SetPositionMode``1(``0,UnityEngine.UIElements.Position)
+  id: SetPositionMode``1(``0,UnityEngine.UIElements.Position)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetPositionMode<T>(T, Position)
+  nameWithType: LayoutExtensions.SetPositionMode<T>(T, Position)
+  fullName: CodeUI.Extensions.LayoutExtensions.SetPositionMode<T>(T, UnityEngine.UIElements.Position)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T SetPositionMode<T>(this T element, Position positionMode) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: positionMode
+      type: UnityEngine.UIElements.Position
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetPositionMode(Of T As VisualElement)(element As T, positionMode As Position) As T
+  overload: CodeUI.Extensions.LayoutExtensions.SetPositionMode*
+  nameWithType.vb: LayoutExtensions.SetPositionMode(Of T)(T, Position)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.SetPositionMode(Of T)(T, UnityEngine.UIElements.Position)
+  name.vb: SetPositionMode(Of T)(T, Position)
+- uid: CodeUI.Extensions.LayoutExtensions.SetPosition``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.SetPosition``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  id: SetPosition``1(``0,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetPosition<T>(T, Length, Length, Length, Length)
+  nameWithType: LayoutExtensions.SetPosition<T>(T, Length, Length, Length, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.SetPosition<T>(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T SetPosition<T>(this T element, Length top, Length right, Length bottom, Length left) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: top
+      type: UnityEngine.UIElements.Length
+    - id: right
+      type: UnityEngine.UIElements.Length
+    - id: bottom
+      type: UnityEngine.UIElements.Length
+    - id: left
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function SetPosition(Of T As VisualElement)(element As T, top As Length, right As Length, bottom As Length, left As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.SetPosition*
+  nameWithType.vb: LayoutExtensions.SetPosition(Of T)(T, Length, Length, Length, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.SetPosition(Of T)(T, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length, UnityEngine.UIElements.Length)
+  name.vb: SetPosition(Of T)(T, Length, Length, Length, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Top``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Top``1(``0,UnityEngine.UIElements.Length)
+  id: Top``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Top<T>(T, Length)
+  nameWithType: LayoutExtensions.Top<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Top<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Top<T>(this T element, Length top) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: top
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Top(Of T As VisualElement)(element As T, top As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Top*
+  nameWithType.vb: LayoutExtensions.Top(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Top(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: Top(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Right``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Right``1(``0,UnityEngine.UIElements.Length)
+  id: Right``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Right<T>(T, Length)
+  nameWithType: LayoutExtensions.Right<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Right<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Right<T>(this T element, Length right) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: right
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Right(Of T As VisualElement)(element As T, right As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Right*
+  nameWithType.vb: LayoutExtensions.Right(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Right(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: Right(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Bottom``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Bottom``1(``0,UnityEngine.UIElements.Length)
+  id: Bottom``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Bottom<T>(T, Length)
+  nameWithType: LayoutExtensions.Bottom<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Bottom<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Bottom<T>(this T element, Length bottom) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: bottom
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Bottom(Of T As VisualElement)(element As T, bottom As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Bottom*
+  nameWithType.vb: LayoutExtensions.Bottom(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Bottom(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: Bottom(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Left``1(``0,UnityEngine.UIElements.Length)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Left``1(``0,UnityEngine.UIElements.Length)
+  id: Left``1(``0,UnityEngine.UIElements.Length)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Left<T>(T, Length)
+  nameWithType: LayoutExtensions.Left<T>(T, Length)
+  fullName: CodeUI.Extensions.LayoutExtensions.Left<T>(T, UnityEngine.UIElements.Length)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Left<T>(this T element, Length left) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    - id: left
+      type: UnityEngine.UIElements.Length
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Left(Of T As VisualElement)(element As T, left As Length) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Left*
+  nameWithType.vb: LayoutExtensions.Left(Of T)(T, Length)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Left(Of T)(T, UnityEngine.UIElements.Length)
+  name.vb: Left(Of T)(T, Length)
+- uid: CodeUI.Extensions.LayoutExtensions.Row``1(``0)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Row``1(``0)
+  id: Row``1(``0)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Row<T>(T)
+  nameWithType: LayoutExtensions.Row<T>(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Row<T>(T)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Row<T>(this T element) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Row(Of T As VisualElement)(element As T) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Row*
+  nameWithType.vb: LayoutExtensions.Row(Of T)(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Row(Of T)(T)
+  name.vb: Row(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.Column``1(``0)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Column``1(``0)
+  id: Column``1(``0)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Column<T>(T)
+  nameWithType: LayoutExtensions.Column<T>(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Column<T>(T)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Column<T>(this T element) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Column(Of T As VisualElement)(element As T) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Column*
+  nameWithType.vb: LayoutExtensions.Column(Of T)(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Column(Of T)(T)
+  name.vb: Column(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.Center``1(``0)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Center``1(``0)
+  id: Center``1(``0)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Center<T>(T)
+  nameWithType: LayoutExtensions.Center<T>(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Center<T>(T)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Center<T>(this T element) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Center(Of T As VisualElement)(element As T) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Center*
+  nameWithType.vb: LayoutExtensions.Center(Of T)(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Center(Of T)(T)
+  name.vb: Center(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.Relative``1(``0)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Relative``1(``0)
+  id: Relative``1(``0)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Relative<T>(T)
+  nameWithType: LayoutExtensions.Relative<T>(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Relative<T>(T)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Relative<T>(this T element) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Relative(Of T As VisualElement)(element As T) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Relative*
+  nameWithType.vb: LayoutExtensions.Relative(Of T)(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Relative(Of T)(T)
+  name.vb: Relative(Of T)(T)
+- uid: CodeUI.Extensions.LayoutExtensions.Absolute``1(``0)
+  commentId: M:CodeUI.Extensions.LayoutExtensions.Absolute``1(``0)
+  id: Absolute``1(``0)
+  isExtensionMethod: true
+  parent: CodeUI.Extensions.LayoutExtensions
+  langs:
+  - csharp
+  - vb
+  name: Absolute<T>(T)
+  nameWithType: LayoutExtensions.Absolute<T>(T)
+  fullName: CodeUI.Extensions.LayoutExtensions.Absolute<T>(T)
+  type: Method
+  assemblies:
+  - CodeUI
+  namespace: CodeUI.Extensions
+  syntax:
+    content: 'public static T Absolute<T>(this T element) where T : VisualElement'
+    parameters:
+    - id: element
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function Absolute(Of T As VisualElement)(element As T) As T
+  overload: CodeUI.Extensions.LayoutExtensions.Absolute*
+  nameWithType.vb: LayoutExtensions.Absolute(Of T)(T)
+  fullName.vb: CodeUI.Extensions.LayoutExtensions.Absolute(Of T)(T)
+  name.vb: Absolute(Of T)(T)
+references:
+- uid: CodeUI.Extensions
+  commentId: N:CodeUI.Extensions
+  isExternal: true
+  href: CodeUI.html
+  name: CodeUI.Extensions
+  nameWithType: CodeUI.Extensions
+  fullName: CodeUI.Extensions
+  spec.csharp:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+  spec.vb:
+  - uid: CodeUI
+    name: CodeUI
+    isExternal: true
+    href: CodeUI.html
+  - name: .
+  - uid: CodeUI.Extensions
+    name: Extensions
+    isExternal: true
+    href: CodeUI.Extensions.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CodeUI.Extensions.LayoutExtensions.Width*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Width
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Width__1___0_UnityEngine_UIElements_Length_
+  name: Width
+  nameWithType: LayoutExtensions.Width
+  fullName: CodeUI.Extensions.LayoutExtensions.Width
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.UIElements.Length
+  isExternal: true
+  name: Length
+  nameWithType: Length
+  fullName: UnityEngine.UIElements.Length
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CodeUI.Extensions.LayoutExtensions.Height*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Height
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Height__1___0_UnityEngine_UIElements_Length_
+  name: Height
+  nameWithType: LayoutExtensions.Height
+  fullName: CodeUI.Extensions.LayoutExtensions.Height
+- uid: CodeUI.Extensions.LayoutExtensions.Size*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Size
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Size__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  name: Size
+  nameWithType: LayoutExtensions.Size
+  fullName: CodeUI.Extensions.LayoutExtensions.Size
+- uid: CodeUI.Extensions.LayoutExtensions.MinWidth*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MinWidth
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinWidth__1___0_UnityEngine_UIElements_Length_
+  name: MinWidth
+  nameWithType: LayoutExtensions.MinWidth
+  fullName: CodeUI.Extensions.LayoutExtensions.MinWidth
+- uid: CodeUI.Extensions.LayoutExtensions.MaxWidth*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MaxWidth
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MaxWidth__1___0_UnityEngine_UIElements_Length_
+  name: MaxWidth
+  nameWithType: LayoutExtensions.MaxWidth
+  fullName: CodeUI.Extensions.LayoutExtensions.MaxWidth
+- uid: CodeUI.Extensions.LayoutExtensions.MinHeight*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MinHeight
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinHeight__1___0_UnityEngine_UIElements_Length_
+  name: MinHeight
+  nameWithType: LayoutExtensions.MinHeight
+  fullName: CodeUI.Extensions.LayoutExtensions.MinHeight
+- uid: CodeUI.Extensions.LayoutExtensions.MaxHeight*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MaxHeight
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MaxHeight__1___0_UnityEngine_UIElements_Length_
+  name: MaxHeight
+  nameWithType: LayoutExtensions.MaxHeight
+  fullName: CodeUI.Extensions.LayoutExtensions.MaxHeight
+- uid: CodeUI.Extensions.LayoutExtensions.MinMaxHeight*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MinMaxHeight
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinMaxHeight__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  name: MinMaxHeight
+  nameWithType: LayoutExtensions.MinMaxHeight
+  fullName: CodeUI.Extensions.LayoutExtensions.MinMaxHeight
+- uid: CodeUI.Extensions.LayoutExtensions.MinMaxWidth*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.MinMaxWidth
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_MinMaxWidth__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  name: MinMaxWidth
+  nameWithType: LayoutExtensions.MinMaxWidth
+  fullName: CodeUI.Extensions.LayoutExtensions.MinMaxWidth
+- uid: CodeUI.Extensions.LayoutExtensions.FlexDirection*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexDirection
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexDirection__1___0_UnityEngine_UIElements_FlexDirection_
+  name: FlexDirection
+  nameWithType: LayoutExtensions.FlexDirection
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexDirection
+- uid: UnityEngine.UIElements.FlexDirection
+  commentId: '!:UnityEngine.UIElements.FlexDirection'
+  isExternal: true
+  name: FlexDirection
+  nameWithType: FlexDirection
+  fullName: UnityEngine.UIElements.FlexDirection
+- uid: CodeUI.Extensions.LayoutExtensions.JustifyContent*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.JustifyContent
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_JustifyContent__1___0_UnityEngine_UIElements_Justify_
+  name: JustifyContent
+  nameWithType: LayoutExtensions.JustifyContent
+  fullName: CodeUI.Extensions.LayoutExtensions.JustifyContent
+- uid: UnityEngine.UIElements.Justify
+  commentId: '!:UnityEngine.UIElements.Justify'
+  isExternal: true
+  name: Justify
+  nameWithType: Justify
+  fullName: UnityEngine.UIElements.Justify
+- uid: CodeUI.Extensions.LayoutExtensions.AlignItems*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.AlignItems
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_AlignItems__1___0_UnityEngine_UIElements_Align_
+  name: AlignItems
+  nameWithType: LayoutExtensions.AlignItems
+  fullName: CodeUI.Extensions.LayoutExtensions.AlignItems
+- uid: UnityEngine.UIElements.Align
+  isExternal: true
+  name: Align
+  nameWithType: Align
+  fullName: UnityEngine.UIElements.Align
+- uid: CodeUI.Extensions.LayoutExtensions.AlignSelf*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.AlignSelf
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_AlignSelf__1___0_UnityEngine_UIElements_Align_
+  name: AlignSelf
+  nameWithType: LayoutExtensions.AlignSelf
+  fullName: CodeUI.Extensions.LayoutExtensions.AlignSelf
+- uid: CodeUI.Extensions.LayoutExtensions.FlexWrap*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexWrap
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexWrap__1___0_UnityEngine_UIElements_Wrap_
+  name: FlexWrap
+  nameWithType: LayoutExtensions.FlexWrap
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexWrap
+- uid: UnityEngine.UIElements.Wrap
+  commentId: '!:UnityEngine.UIElements.Wrap'
+  isExternal: true
+  name: Wrap
+  nameWithType: Wrap
+  fullName: UnityEngine.UIElements.Wrap
+- uid: CodeUI.Extensions.LayoutExtensions.FlexGrow*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexGrow
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexGrow__1___0_System_Single_
+  name: FlexGrow
+  nameWithType: LayoutExtensions.FlexGrow
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexGrow
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: CodeUI.Extensions.LayoutExtensions.FlexShrink*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexShrink
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexShrink__1___0_System_Single_
+  name: FlexShrink
+  nameWithType: LayoutExtensions.FlexShrink
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexShrink
+- uid: CodeUI.Extensions.LayoutExtensions.FlexBasis*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexBasis
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexBasis__1___0_UnityEngine_UIElements_Length_
+  name: FlexBasis
+  nameWithType: LayoutExtensions.FlexBasis
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexBasis
+- uid: CodeUI.Extensions.LayoutExtensions.FlexSize*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.FlexSize
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_FlexSize__1___0_System_Single_System_Single_UnityEngine_UIElements_Length_
+  name: FlexSize
+  nameWithType: LayoutExtensions.FlexSize
+  fullName: CodeUI.Extensions.LayoutExtensions.FlexSize
+- uid: CodeUI.Extensions.LayoutExtensions.SetDisplay*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.SetDisplay
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetDisplay__1___0_UnityEngine_UIElements_DisplayStyle_
+  name: SetDisplay
+  nameWithType: LayoutExtensions.SetDisplay
+  fullName: CodeUI.Extensions.LayoutExtensions.SetDisplay
+- uid: UnityEngine.UIElements.DisplayStyle
+  commentId: '!:UnityEngine.UIElements.DisplayStyle'
+  isExternal: true
+  name: DisplayStyle
+  nameWithType: DisplayStyle
+  fullName: UnityEngine.UIElements.DisplayStyle
+- uid: CodeUI.Extensions.LayoutExtensions.SetVisibility*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.SetVisibility
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetVisibility__1___0_UnityEngine_UIElements_Visibility_
+  name: SetVisibility
+  nameWithType: LayoutExtensions.SetVisibility
+  fullName: CodeUI.Extensions.LayoutExtensions.SetVisibility
+- uid: UnityEngine.UIElements.Visibility
+  commentId: '!:UnityEngine.UIElements.Visibility'
+  isExternal: true
+  name: Visibility
+  nameWithType: Visibility
+  fullName: UnityEngine.UIElements.Visibility
+- uid: CodeUI.Extensions.LayoutExtensions.SetPositionMode*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.SetPositionMode
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetPositionMode__1___0_UnityEngine_UIElements_Position_
+  name: SetPositionMode
+  nameWithType: LayoutExtensions.SetPositionMode
+  fullName: CodeUI.Extensions.LayoutExtensions.SetPositionMode
+- uid: UnityEngine.UIElements.Position
+  commentId: '!:UnityEngine.UIElements.Position'
+  isExternal: true
+  name: Position
+  nameWithType: Position
+  fullName: UnityEngine.UIElements.Position
+- uid: CodeUI.Extensions.LayoutExtensions.SetPosition*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.SetPosition
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_SetPosition__1___0_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_UnityEngine_UIElements_Length_
+  name: SetPosition
+  nameWithType: LayoutExtensions.SetPosition
+  fullName: CodeUI.Extensions.LayoutExtensions.SetPosition
+- uid: CodeUI.Extensions.LayoutExtensions.Top*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Top
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Top__1___0_UnityEngine_UIElements_Length_
+  name: Top
+  nameWithType: LayoutExtensions.Top
+  fullName: CodeUI.Extensions.LayoutExtensions.Top
+- uid: CodeUI.Extensions.LayoutExtensions.Right*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Right
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Right__1___0_UnityEngine_UIElements_Length_
+  name: Right
+  nameWithType: LayoutExtensions.Right
+  fullName: CodeUI.Extensions.LayoutExtensions.Right
+- uid: CodeUI.Extensions.LayoutExtensions.Bottom*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Bottom
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Bottom__1___0_UnityEngine_UIElements_Length_
+  name: Bottom
+  nameWithType: LayoutExtensions.Bottom
+  fullName: CodeUI.Extensions.LayoutExtensions.Bottom
+- uid: CodeUI.Extensions.LayoutExtensions.Left*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Left
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Left__1___0_UnityEngine_UIElements_Length_
+  name: Left
+  nameWithType: LayoutExtensions.Left
+  fullName: CodeUI.Extensions.LayoutExtensions.Left
+- uid: CodeUI.Extensions.LayoutExtensions.Row*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Row
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Row__1___0_
+  name: Row
+  nameWithType: LayoutExtensions.Row
+  fullName: CodeUI.Extensions.LayoutExtensions.Row
+- uid: CodeUI.Extensions.LayoutExtensions.Column*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Column
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Column__1___0_
+  name: Column
+  nameWithType: LayoutExtensions.Column
+  fullName: CodeUI.Extensions.LayoutExtensions.Column
+- uid: CodeUI.Extensions.LayoutExtensions.Center*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Center
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Center__1___0_
+  name: Center
+  nameWithType: LayoutExtensions.Center
+  fullName: CodeUI.Extensions.LayoutExtensions.Center
+- uid: CodeUI.Extensions.LayoutExtensions.Relative*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Relative
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Relative__1___0_
+  name: Relative
+  nameWithType: LayoutExtensions.Relative
+  fullName: CodeUI.Extensions.LayoutExtensions.Relative
+- uid: CodeUI.Extensions.LayoutExtensions.Absolute*
+  commentId: Overload:CodeUI.Extensions.LayoutExtensions.Absolute
+  isExternal: true
+  href: CodeUI.Extensions.LayoutExtensions.html#CodeUI_Extensions_LayoutExtensions_Absolute__1___0_
+  name: Absolute
+  nameWithType: LayoutExtensions.Absolute
+  fullName: CodeUI.Extensions.LayoutExtensions.Absolute
