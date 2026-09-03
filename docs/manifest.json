@@ -345,6 +345,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/binding.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/binding.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/bindings.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/bindings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/getting-started.md",
       "output": {
         ".html": {
