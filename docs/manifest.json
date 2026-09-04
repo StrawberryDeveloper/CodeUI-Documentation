@@ -1,4 +1,9 @@
 {
+  "sitemap": {
+    "baseUrl": "https://strawberrydeveloper.github.io/CodeUI-Documentation/",
+    "changefreq": "weekly",
+    "priority": 0.8
+  },
   "source_base_path": "S:/Unity/CodeUIDoc",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -16,16 +21,6 @@
       "output": {
         ".html": {
           "relative_path": "README.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "Template/public/main.css",
-      "output": {
-        "resource": {
-          "relative_path": "Template/public/main.css"
         }
       },
       "version": ""
@@ -339,16 +334,6 @@
         },
         ".json": {
           "relative_path": "api/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/binding.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/binding.html"
         }
       },
       "version": ""
