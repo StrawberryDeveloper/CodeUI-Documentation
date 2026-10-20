@@ -50,7 +50,8 @@
       "_appFooter": "CodeUI — Fluent & Declarative Framework for Unity UI Toolkit",
       "_appLogoPath": "images/logo.png",
       "_appFaviconPath": "images/favicon.ico",
-      "_enableSearch": true
+      "_enableSearch": true,
+      "pdf": true
     },
     "template": [
       "default",

@@ -2,205 +2,205 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/README.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.BaseUI.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.BaseUIEditor.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Components.Divider.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Components.Spacer.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Components.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.ApplyExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.BackgroundExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.BorderExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.ClassExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.EventExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.GeneralExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.HierarchyExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.LayoutExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.LocalizationBindingExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.LoopExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.MarginExtension.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.PaddingExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.StyleExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.TextExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.TransformExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.TransitionExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.TransitionProperty.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.TransitionPropertyExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.UnityBindingExtensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Extensions.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Tokens.FontSize.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Tokens.Radius.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Tokens.Spacing.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.Tokens.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/api/CodeUI.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/articles/bindings.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/articles/getting-started.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://strawberrydeveloper.github.io/CodeUI-Documentation/index.html</loc>
-    <lastmod>2026-09-04T06:31:47+02:00</lastmod>
+    <lastmod>2026-10-15T04:29:50+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
